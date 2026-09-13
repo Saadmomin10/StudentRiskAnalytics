@@ -1,0 +1,501 @@
+student_id,name,age,gender,department,semester,attendance_percentage,study_hours_per_day,assignment_completion_percentage,internal_marks,previous_gpa,risk_level
+STU00001,Student_1,24,Female,Computer Science,6,94.66,4.34,45.29,46.54,5.9,High
+STU00002,Student_2,24,Male,Computer Science,8,97.16,3.83,61.29,56.28,9.71,Low
+STU00003,Student_3,23,Female,Electronics,5,75.58,4.2,83.96,54.3,6.97,Medium
+STU00004,Student_4,19,Female,Mechanical,2,66.7,3.92,86.23,52.99,5.34,High
+STU00005,Student_5,21,Male,Civil,2,88.88,5.68,80.88,68.84,5.64,Medium
+STU00006,Student_6,19,Male,Civil,4,99.31,6.35,92.48,74.14,7.17,Low
+STU00007,Student_7,22,Female,Civil,5,94.9,2.15,93.77,61.72,9.76,Low
+STU00008,Student_8,23,Male,Electronics,6,84.86,7.82,61.85,59.36,4.9,Medium
+STU00009,Student_9,22,Female,Information Technology,2,58.89,2.22,88.58,40.77,6.09,High
+STU00010,Student_10,18,Male,Mechanical,6,66.14,5.5,81.54,53.7,6.03,High
+STU00011,Student_11,18,Female,Civil,5,96.09,1.18,64.12,56.03,6.36,High
+STU00012,Student_12,21,Male,Computer Science,8,97.78,4.76,53.99,51.11,5.52,High
+STU00013,Student_13,22,Female,Electronics,7,70.12,2.35,47.14,53.02,9.21,High
+STU00014,Student_14,18,Male,Civil,8,59.1,5.02,41.76,56.48,9.46,Medium
+STU00015,Student_15,18,Male,Computer Science,2,87.42,3.47,50.83,53.79,5.13,High
+STU00016,Student_16,24,Female,Mechanical,3,57.49,2.06,77.32,54.02,7.42,High
+STU00017,Student_17,22,Male,Computer Science,3,70.39,1.16,57.89,34.67,5.8,High
+STU00018,Student_18,21,Male,Information Technology,2,66.56,7.04,90.91,71.05,8.96,Low
+STU00019,Student_19,20,Female,Electronics,3,58.58,2.9,75.5,61.29,9.95,Medium
+STU00020,Student_20,23,Female,Computer Science,7,81.31,3.81,94.86,60.3,8.92,Low
+STU00021,Student_21,21,Female,Electronics,3,85.03,7.67,97.24,78.06,4.78,Low
+STU00022,Student_22,20,Male,Civil,5,82.22,1.96,46.78,42.79,8.26,High
+STU00023,Student_23,24,Male,Mechanical,6,94.28,1.47,62.76,65.63,9.91,Medium
+STU00024,Student_24,19,Female,Mechanical,2,81.66,6.82,91.33,58.9,5.01,Medium
+STU00025,Student_25,24,Male,Computer Science,2,67.2,4.71,78.55,50.88,8.0,Medium
+STU00026,Student_26,22,Male,Information Technology,4,94.2,2.76,73.16,60.61,8.07,Medium
+STU00027,Student_27,20,Male,Civil,8,87.76,3.54,84.68,54.92,8.95,Medium
+STU00028,Student_28,21,Male,Civil,8,60.15,4.13,99.1,55.77,9.12,Medium
+STU00029,Student_29,18,Male,Civil,4,64.92,3.95,58.69,59.87,8.07,High
+STU00030,Student_30,21,Female,Computer Science,3,60.61,1.03,59.65,32.99,6.75,High
+STU00031,Student_31,18,Male,Mechanical,3,73.92,5.4,87.16,74.4,9.58,Low
+STU00032,Student_32,23,Female,Civil,1,55.77,3.31,94.08,52.98,6.23,High
+STU00033,Student_33,18,Male,Civil,6,62.67,3.93,64.11,47.27,8.05,High
+STU00034,Student_34,18,Male,Mechanical,2,78.33,1.09,62.31,36.04,6.87,High
+STU00035,Student_35,19,Female,Computer Science,2,78.04,6.93,81.95,64.28,7.0,Low
+STU00036,Student_36,24,Male,Electronics,1,75.81,1.82,42.98,44.46,8.77,High
+STU00037,Student_37,19,Female,Civil,6,94.88,4.15,92.56,62.78,9.33,Low
+STU00038,Student_38,19,Female,Information Technology,3,82.25,5.49,96.52,67.65,8.8,Low
+STU00039,Student_39,24,Female,Information Technology,1,90.05,4.83,85.59,62.6,8.54,Low
+STU00040,Student_40,23,Female,Electronics,6,88.83,4.8,60.24,67.82,8.97,Low
+STU00041,Student_41,18,Male,Mechanical,5,63.54,4.0,41.09,55.3,7.7,High
+STU00042,Student_42,20,Female,Information Technology,6,65.65,3.95,86.95,49.41,5.53,High
+STU00043,Student_43,21,Female,Mechanical,3,68.28,1.69,88.09,51.12,6.64,High
+STU00044,Student_44,18,Female,Mechanical,2,77.27,2.37,62.15,60.67,9.69,Medium
+STU00045,Student_45,18,Male,Mechanical,2,57.8,4.4,88.61,47.85,6.77,High
+STU00046,Student_46,19,Male,Computer Science,6,55.9,1.0,98.35,38.26,7.04,High
+STU00047,Student_47,19,Female,Computer Science,1,82.35,1.83,97.43,52.74,5.96,High
+STU00048,Student_48,24,Male,Civil,4,97.82,6.28,83.72,65.18,6.98,Low
+STU00049,Student_49,18,Male,Civil,4,82.65,3.88,98.34,71.5,7.56,Medium
+STU00050,Student_50,19,Female,Electronics,7,68.43,4.89,99.17,58.48,6.71,Medium
+STU00051,Student_51,21,Female,Mechanical,1,83.04,6.94,75.31,73.9,7.0,Low
+STU00052,Student_52,20,Male,Mechanical,2,90.08,3.4,75.92,51.33,6.54,Medium
+STU00053,Student_53,19,Male,Electronics,1,58.56,6.35,74.74,57.55,5.45,High
+STU00054,Student_54,22,Female,Civil,5,94.61,7.05,50.93,67.01,7.92,Low
+STU00055,Student_55,23,Male,Information Technology,7,84.83,6.87,42.86,59.83,7.03,Medium
+STU00056,Student_56,21,Male,Computer Science,2,86.28,3.77,44.46,44.98,8.43,Medium
+STU00057,Student_57,18,Male,Electronics,6,57.6,3.07,84.58,51.42,5.64,High
+STU00058,Student_58,19,Male,Civil,7,69.57,3.18,64.6,55.14,6.7,High
+STU00059,Student_59,23,Female,Computer Science,6,75.51,3.57,72.94,52.97,8.48,Medium
+STU00060,Student_60,24,Female,Electronics,7,73.36,4.55,57.4,53.79,5.19,High
+STU00061,Student_61,18,Female,Civil,6,55.88,3.23,77.51,47.01,5.4,High
+STU00062,Student_62,24,Male,Information Technology,5,93.96,3.95,84.14,58.15,7.52,Medium
+STU00063,Student_63,23,Male,Computer Science,1,92.13,6.26,86.4,75.8,7.59,Low
+STU00064,Student_64,20,Female,Mechanical,1,61.98,3.96,92.8,64.49,9.41,Medium
+STU00065,Student_65,19,Male,Electronics,3,64.5,7.69,62.96,59.72,6.52,Medium
+STU00066,Student_66,22,Female,Mechanical,3,90.98,2.53,74.44,46.35,6.61,High
+STU00067,Student_67,24,Male,Computer Science,3,56.02,1.63,42.98,32.19,5.81,High
+STU00068,Student_68,19,Male,Information Technology,5,68.26,3.41,52.15,43.32,7.24,High
+STU00069,Student_69,23,Male,Mechanical,3,58.47,2.93,47.48,43.46,6.28,High
+STU00070,Student_70,19,Female,Computer Science,2,74.33,3.32,74.34,57.78,8.96,Medium
+STU00071,Student_71,24,Female,Electronics,1,88.69,2.52,75.2,47.1,7.24,High
+STU00072,Student_72,22,Male,Information Technology,7,56.22,5.37,84.13,48.77,6.7,High
+STU00073,Student_73,18,Female,Electronics,1,79.02,3.77,85.35,49.36,5.7,High
+STU00074,Student_74,23,Female,Civil,6,64.36,7.86,76.82,80.75,9.65,Low
+STU00075,Student_75,18,Male,Electronics,1,59.81,3.41,89.48,64.0,7.35,High
+STU00076,Student_76,20,Female,Electronics,6,63.42,4.96,83.04,52.94,7.96,Medium
+STU00077,Student_77,22,Male,Mechanical,8,60.55,6.53,71.33,54.59,7.61,Medium
+STU00078,Student_78,20,Female,Mechanical,2,81.72,1.23,95.1,46.7,5.67,High
+STU00079,Student_79,22,Female,Civil,8,80.79,7.34,87.28,80.21,9.99,Low
+STU00080,Student_80,20,Male,Information Technology,4,89.82,2.76,76.01,63.24,7.57,Medium
+STU00081,Student_81,18,Female,Computer Science,2,58.7,1.79,54.87,32.84,4.92,High
+STU00082,Student_82,21,Male,Civil,2,88.99,7.31,47.32,56.83,6.5,Medium
+STU00083,Student_83,18,Male,Mechanical,8,87.11,2.27,43.99,43.54,9.98,Medium
+STU00084,Student_84,21,Female,Electronics,3,97.5,5.93,40.66,51.49,7.8,Medium
+STU00085,Student_85,21,Male,Computer Science,8,65.67,3.59,62.55,57.62,9.81,Medium
+STU00086,Student_86,19,Female,Electronics,8,94.57,4.33,66.32,60.63,4.88,High
+STU00087,Student_87,22,Female,Computer Science,6,59.19,5.23,75.46,59.08,5.91,High
+STU00088,Student_88,19,Male,Computer Science,5,64.5,2.71,65.62,54.49,6.77,High
+STU00089,Student_89,19,Male,Civil,1,74.07,1.02,72.39,35.44,4.91,High
+STU00090,Student_90,22,Male,Electronics,6,71.99,6.79,44.38,54.76,8.88,Medium
+STU00091,Student_91,24,Female,Mechanical,4,96.19,6.76,66.23,69.66,5.51,Medium
+STU00092,Student_92,23,Male,Mechanical,6,72.82,7.43,64.27,59.21,8.9,Low
+STU00093,Student_93,24,Female,Computer Science,2,75.04,7.56,71.66,69.41,6.42,Medium
+STU00094,Student_94,23,Female,Computer Science,1,98.98,6.87,57.1,76.97,9.52,Low
+STU00095,Student_95,19,Female,Mechanical,3,94.18,6.29,72.1,62.68,4.61,Medium
+STU00096,Student_96,21,Male,Computer Science,3,76.08,4.99,52.84,47.84,4.67,High
+STU00097,Student_97,22,Male,Information Technology,3,88.97,3.78,99.87,62.42,9.8,Low
+STU00098,Student_98,21,Female,Electronics,3,95.65,7.06,70.39,76.3,6.5,Low
+STU00099,Student_99,18,Female,Civil,8,95.84,7.6,84.0,75.26,5.47,Low
+STU00100,Student_100,21,Female,Information Technology,8,89.28,8.0,58.83,68.6,6.45,Low
+STU00101,Student_101,23,Male,Mechanical,4,90.46,7.0,63.08,68.57,8.92,Low
+STU00102,Student_102,18,Female,Information Technology,6,96.55,7.96,56.33,58.1,6.32,Low
+STU00103,Student_103,19,Female,Civil,3,76.68,6.55,97.1,75.81,7.84,Low
+STU00104,Student_104,23,Male,Civil,1,99.85,2.84,96.48,65.47,8.23,Low
+STU00105,Student_105,21,Female,Mechanical,8,63.21,4.85,85.11,55.41,6.05,High
+STU00106,Student_106,22,Male,Civil,5,86.0,6.88,98.83,76.4,4.96,Low
+STU00107,Student_107,22,Female,Electronics,6,88.36,6.9,91.52,66.47,5.24,Medium
+STU00108,Student_108,18,Male,Electronics,6,80.78,3.76,49.71,45.03,7.7,High
+STU00109,Student_109,23,Female,Electronics,7,91.83,1.42,93.39,45.59,5.05,High
+STU00110,Student_110,19,Female,Information Technology,3,68.52,6.53,69.94,60.79,9.55,Low
+STU00111,Student_111,20,Male,Electronics,8,99.66,1.39,87.13,52.82,6.37,High
+STU00112,Student_112,18,Female,Electronics,1,92.83,2.68,46.46,56.35,6.67,High
+STU00113,Student_113,23,Female,Civil,3,75.26,3.84,77.47,58.43,5.23,High
+STU00114,Student_114,24,Female,Computer Science,3,79.04,2.94,49.92,52.16,9.1,Medium
+STU00115,Student_115,23,Female,Information Technology,7,55.63,7.18,78.5,60.0,6.93,Medium
+STU00116,Student_116,21,Male,Computer Science,3,60.23,7.77,75.97,65.55,8.75,Low
+STU00117,Student_117,24,Female,Mechanical,6,83.07,6.29,43.2,61.55,9.54,Low
+STU00118,Student_118,18,Female,Mechanical,6,65.42,6.9,41.03,62.76,7.37,Medium
+STU00119,Student_119,19,Female,Information Technology,7,64.53,3.03,67.69,54.4,9.64,Medium
+STU00120,Student_120,22,Male,Computer Science,5,70.99,6.38,74.49,74.86,8.48,Low
+STU00121,Student_121,21,Male,Electronics,2,89.75,4.33,85.98,68.01,5.38,Medium
+STU00122,Student_122,23,Male,Information Technology,1,94.31,5.14,44.03,62.18,9.92,Low
+STU00123,Student_123,20,Male,Civil,6,78.61,6.97,89.75,61.03,8.08,Low
+STU00124,Student_124,24,Male,Mechanical,4,60.67,3.91,78.92,60.42,9.77,Medium
+STU00125,Student_125,23,Male,Information Technology,7,98.65,7.63,55.55,65.37,9.6,Low
+STU00126,Student_126,19,Female,Electronics,8,74.64,7.89,47.23,74.02,8.95,Low
+STU00127,Student_127,21,Male,Information Technology,7,63.8,4.48,49.52,39.64,6.74,High
+STU00128,Student_128,20,Female,Information Technology,5,92.7,4.98,89.65,64.02,8.99,Low
+STU00129,Student_129,20,Male,Electronics,4,87.21,1.71,77.19,51.93,8.01,Medium
+STU00130,Student_130,21,Male,Mechanical,1,95.75,7.75,78.26,69.47,7.96,Low
+STU00131,Student_131,24,Female,Electronics,7,77.35,4.24,70.84,51.8,6.76,High
+STU00132,Student_132,19,Male,Information Technology,8,61.45,5.3,72.43,67.74,8.1,Medium
+STU00133,Student_133,18,Male,Computer Science,1,55.95,6.79,62.94,62.14,8.16,Medium
+STU00134,Student_134,24,Female,Computer Science,6,76.82,1.22,75.02,52.07,7.5,High
+STU00135,Student_135,20,Female,Mechanical,6,76.49,5.15,86.64,59.14,8.55,Low
+STU00136,Student_136,20,Female,Civil,3,84.16,3.88,89.9,58.33,6.97,Medium
+STU00137,Student_137,20,Male,Electronics,2,72.16,4.53,43.8,50.82,8.5,High
+STU00138,Student_138,22,Female,Information Technology,6,87.83,6.16,74.26,74.95,8.61,Low
+STU00139,Student_139,23,Female,Electronics,2,82.59,2.84,51.75,53.16,4.52,High
+STU00140,Student_140,21,Male,Computer Science,4,79.74,5.49,61.35,62.19,5.16,High
+STU00141,Student_141,23,Male,Mechanical,4,90.6,7.84,90.98,71.42,8.9,Low
+STU00142,Student_142,21,Female,Computer Science,8,98.48,5.1,73.43,50.87,5.41,Medium
+STU00143,Student_143,19,Female,Mechanical,5,97.97,4.14,90.86,62.68,8.59,Low
+STU00144,Student_144,22,Male,Computer Science,6,57.59,6.49,63.21,58.32,8.0,Medium
+STU00145,Student_145,23,Female,Electronics,5,72.31,4.36,66.03,47.34,7.33,High
+STU00146,Student_146,21,Female,Information Technology,2,55.95,4.77,95.25,56.65,6.42,High
+STU00147,Student_147,22,Male,Mechanical,5,96.82,7.52,52.33,63.04,7.9,Low
+STU00148,Student_148,18,Female,Electronics,1,66.57,4.58,54.76,41.1,4.83,High
+STU00149,Student_149,23,Male,Mechanical,5,73.31,3.19,53.43,49.11,6.77,High
+STU00150,Student_150,21,Female,Computer Science,4,80.44,7.5,77.01,63.38,7.29,Low
+STU00151,Student_151,23,Male,Civil,3,62.42,6.37,78.43,62.87,8.28,Medium
+STU00152,Student_152,19,Female,Civil,7,67.45,4.28,82.09,46.2,5.59,High
+STU00153,Student_153,24,Female,Computer Science,4,58.26,5.4,49.57,42.19,4.59,High
+STU00154,Student_154,18,Female,Computer Science,7,98.72,2.09,67.58,46.6,6.48,High
+STU00155,Student_155,22,Male,Mechanical,7,73.91,7.82,68.68,64.27,7.95,Low
+STU00156,Student_156,20,Male,Electronics,3,73.91,3.95,94.81,49.13,5.22,High
+STU00157,Student_157,19,Female,Mechanical,3,99.11,6.41,45.98,49.12,4.92,High
+STU00158,Student_158,23,Male,Information Technology,2,95.35,5.19,72.47,65.1,8.58,Low
+STU00159,Student_159,24,Female,Civil,1,80.73,5.84,52.64,58.92,6.36,Medium
+STU00160,Student_160,22,Male,Mechanical,7,78.36,3.63,63.28,47.27,5.31,High
+STU00161,Student_161,24,Female,Information Technology,5,80.95,2.5,98.48,55.69,6.89,Medium
+STU00162,Student_162,23,Female,Electronics,6,81.7,7.92,75.63,68.73,9.05,Low
+STU00163,Student_163,21,Female,Computer Science,7,64.15,5.74,59.15,57.73,4.99,High
+STU00164,Student_164,23,Male,Information Technology,6,79.02,4.21,89.0,55.61,5.19,High
+STU00165,Student_165,18,Male,Civil,3,89.44,6.08,41.98,63.6,9.63,Low
+STU00166,Student_166,19,Female,Civil,5,59.16,4.9,93.12,70.28,8.53,Medium
+STU00167,Student_167,24,Female,Mechanical,2,61.89,4.13,65.04,57.81,7.08,High
+STU00168,Student_168,18,Male,Civil,3,56.32,5.86,92.2,59.46,6.09,Medium
+STU00169,Student_169,23,Male,Electronics,4,64.21,2.77,51.08,46.14,8.34,High
+STU00170,Student_170,19,Female,Computer Science,3,88.18,1.23,85.01,61.85,7.99,Medium
+STU00171,Student_171,22,Male,Information Technology,6,99.38,5.83,54.25,70.44,8.41,Low
+STU00172,Student_172,20,Female,Mechanical,8,64.16,7.67,50.75,59.79,6.96,Medium
+STU00173,Student_173,24,Male,Electronics,4,95.37,5.65,80.77,58.53,7.8,Low
+STU00174,Student_174,22,Male,Information Technology,2,66.02,6.0,84.31,67.33,5.57,Medium
+STU00175,Student_175,19,Male,Civil,1,61.39,4.03,61.18,55.94,8.74,Medium
+STU00176,Student_176,20,Female,Information Technology,8,78.24,7.95,44.76,76.26,9.24,Low
+STU00177,Student_177,19,Male,Computer Science,2,99.38,7.98,68.24,80.49,7.65,Low
+STU00178,Student_178,20,Male,Mechanical,7,67.29,3.53,98.14,61.58,5.04,High
+STU00179,Student_179,24,Female,Information Technology,8,96.79,4.7,58.2,52.59,4.86,High
+STU00180,Student_180,20,Male,Civil,7,55.0,2.58,49.54,50.62,8.6,High
+STU00181,Student_181,19,Female,Computer Science,5,83.5,6.33,57.09,60.03,6.18,Medium
+STU00182,Student_182,22,Female,Electronics,4,85.24,3.88,47.99,64.32,8.02,Medium
+STU00183,Student_183,20,Female,Electronics,1,95.91,6.25,82.95,77.28,7.25,Low
+STU00184,Student_184,19,Male,Electronics,8,61.12,4.01,42.25,56.66,9.23,High
+STU00185,Student_185,21,Male,Mechanical,6,73.9,5.6,55.04,62.17,6.99,Medium
+STU00186,Student_186,19,Female,Mechanical,4,64.03,5.53,92.44,64.36,8.22,Medium
+STU00187,Student_187,22,Female,Electronics,8,98.58,7.75,60.6,56.19,5.1,Medium
+STU00188,Student_188,21,Male,Electronics,5,82.92,6.1,99.41,59.17,6.35,Medium
+STU00189,Student_189,19,Female,Computer Science,7,71.9,4.89,52.12,55.75,8.31,Medium
+STU00190,Student_190,19,Male,Civil,8,76.64,2.88,84.45,61.46,9.49,Medium
+STU00191,Student_191,22,Female,Computer Science,8,69.21,3.08,84.79,43.5,5.45,High
+STU00192,Student_192,20,Female,Civil,2,89.67,5.47,42.38,46.27,5.54,High
+STU00193,Student_193,22,Female,Computer Science,2,72.68,3.98,51.96,55.11,4.73,High
+STU00194,Student_194,20,Male,Information Technology,4,77.47,3.39,53.51,46.44,5.72,High
+STU00195,Student_195,21,Male,Mechanical,1,78.66,2.06,79.78,64.71,8.77,Medium
+STU00196,Student_196,20,Male,Electronics,7,76.3,1.38,81.59,55.15,6.04,High
+STU00197,Student_197,23,Female,Civil,8,82.5,3.42,76.43,58.43,9.88,Low
+STU00198,Student_198,20,Male,Information Technology,7,59.28,3.81,64.0,56.48,5.9,High
+STU00199,Student_199,18,Female,Civil,3,77.39,3.83,94.55,74.46,9.95,Low
+STU00200,Student_200,23,Male,Information Technology,2,84.26,5.59,44.92,55.11,8.98,Medium
+STU00201,Student_201,21,Female,Electronics,5,76.38,5.67,50.71,55.81,5.39,High
+STU00202,Student_202,21,Female,Civil,6,58.11,4.86,53.49,48.46,8.65,High
+STU00203,Student_203,19,Female,Civil,4,87.71,6.91,65.53,58.83,6.37,Medium
+STU00204,Student_204,21,Male,Information Technology,5,59.83,5.75,95.82,72.37,9.94,Low
+STU00205,Student_205,19,Female,Mechanical,1,62.22,4.92,84.8,46.17,4.93,High
+STU00206,Student_206,21,Female,Electronics,2,84.04,2.4,73.13,59.85,8.52,Medium
+STU00207,Student_207,24,Male,Information Technology,3,59.81,4.21,40.13,55.66,7.19,High
+STU00208,Student_208,18,Male,Electronics,4,81.62,1.51,54.72,46.53,7.42,High
+STU00209,Student_209,19,Male,Information Technology,6,91.26,2.07,85.49,63.5,7.16,Medium
+STU00210,Student_210,23,Male,Mechanical,7,71.33,1.47,57.74,42.38,6.89,High
+STU00211,Student_211,24,Male,Civil,1,89.14,1.36,90.08,61.11,7.66,Medium
+STU00212,Student_212,18,Male,Mechanical,6,73.39,3.44,62.44,55.12,5.67,High
+STU00213,Student_213,18,Female,Computer Science,2,56.35,7.24,92.52,53.14,4.96,Medium
+STU00214,Student_214,21,Male,Electronics,7,89.03,6.4,91.55,65.18,8.12,Low
+STU00215,Student_215,23,Male,Civil,3,91.21,3.95,80.23,56.21,6.37,Medium
+STU00216,Student_216,19,Female,Mechanical,8,84.45,5.27,61.19,54.04,5.47,High
+STU00217,Student_217,19,Male,Information Technology,4,92.04,3.92,62.76,61.41,6.14,High
+STU00218,Student_218,21,Female,Electronics,7,98.04,2.93,59.32,48.45,6.56,High
+STU00219,Student_219,21,Male,Civil,1,55.01,4.1,96.62,60.69,5.93,High
+STU00220,Student_220,24,Female,Mechanical,2,75.63,1.04,84.37,50.71,9.69,Medium
+STU00221,Student_221,21,Female,Information Technology,1,87.4,2.43,75.22,44.51,5.88,High
+STU00222,Student_222,20,Female,Civil,1,93.08,5.93,93.39,65.38,6.85,Low
+STU00223,Student_223,19,Male,Mechanical,2,96.44,6.99,49.41,70.11,5.85,Medium
+STU00224,Student_224,18,Male,Computer Science,2,64.41,4.51,72.31,42.26,4.66,High
+STU00225,Student_225,22,Female,Civil,1,91.02,1.93,72.56,67.72,9.81,Medium
+STU00226,Student_226,18,Female,Computer Science,1,62.21,4.51,99.66,50.38,6.96,Medium
+STU00227,Student_227,23,Female,Electronics,3,91.78,5.98,58.3,67.05,8.95,Low
+STU00228,Student_228,19,Female,Civil,3,93.88,4.69,40.74,47.74,5.06,High
+STU00229,Student_229,18,Male,Civil,6,82.61,6.87,88.6,63.88,4.61,Medium
+STU00230,Student_230,20,Female,Electronics,5,95.22,3.03,83.46,55.69,9.67,Low
+STU00231,Student_231,24,Female,Mechanical,7,98.92,2.51,90.97,59.21,5.55,High
+STU00232,Student_232,22,Male,Electronics,6,63.44,2.46,73.95,50.57,5.49,High
+STU00233,Student_233,21,Female,Computer Science,1,76.65,6.7,67.91,68.35,9.7,Low
+STU00234,Student_234,24,Male,Information Technology,6,74.05,4.41,44.07,59.55,9.6,Medium
+STU00235,Student_235,22,Male,Information Technology,2,85.6,3.7,75.11,61.54,8.6,Medium
+STU00236,Student_236,21,Male,Electronics,2,92.22,6.31,84.35,60.71,6.48,Low
+STU00237,Student_237,24,Female,Information Technology,5,70.03,7.31,50.91,65.23,6.28,Medium
+STU00238,Student_238,20,Female,Mechanical,3,58.79,2.47,67.43,48.98,5.11,High
+STU00239,Student_239,22,Male,Civil,1,75.83,1.16,63.23,48.76,9.27,High
+STU00240,Student_240,22,Female,Civil,4,66.81,5.99,44.54,51.5,6.61,High
+STU00241,Student_241,22,Male,Information Technology,4,96.89,5.58,90.27,62.6,7.11,Low
+STU00242,Student_242,19,Female,Civil,3,64.47,5.42,57.81,62.22,7.9,Medium
+STU00243,Student_243,20,Female,Mechanical,8,87.6,3.74,84.56,64.67,9.83,Low
+STU00244,Student_244,21,Male,Computer Science,4,72.36,4.45,53.86,61.98,7.51,High
+STU00245,Student_245,19,Female,Information Technology,8,77.55,6.45,99.98,59.35,5.47,Medium
+STU00246,Student_246,23,Female,Electronics,4,94.07,7.13,58.96,62.98,5.8,Medium
+STU00247,Student_247,19,Male,Civil,4,87.86,6.32,85.56,70.94,4.91,Medium
+STU00248,Student_248,19,Male,Computer Science,3,88.62,4.47,91.63,69.03,7.24,Medium
+STU00249,Student_249,22,Male,Civil,3,91.46,3.93,76.28,65.33,9.6,Low
+STU00250,Student_250,21,Female,Mechanical,8,69.57,3.15,42.81,53.14,6.42,High
+STU00251,Student_251,22,Female,Electronics,5,68.51,3.08,68.51,46.53,5.12,High
+STU00252,Student_252,23,Female,Information Technology,1,69.41,5.68,66.53,57.54,6.14,High
+STU00253,Student_253,20,Male,Mechanical,2,73.62,3.68,98.55,73.62,9.57,Low
+STU00254,Student_254,22,Male,Information Technology,7,97.37,7.36,66.21,83.68,9.84,Low
+STU00255,Student_255,21,Female,Computer Science,1,85.55,4.27,51.22,60.46,8.86,Medium
+STU00256,Student_256,24,Female,Computer Science,8,78.33,2.6,55.35,42.58,6.69,High
+STU00257,Student_257,23,Male,Information Technology,7,77.73,3.27,43.85,49.31,8.38,High
+STU00258,Student_258,20,Male,Civil,6,56.36,6.13,88.82,65.94,7.03,Medium
+STU00259,Student_259,21,Male,Electronics,7,57.95,4.16,81.3,57.34,5.78,High
+STU00260,Student_260,21,Male,Electronics,1,84.62,3.72,40.08,58.04,9.07,Medium
+STU00261,Student_261,22,Male,Computer Science,5,66.02,2.64,47.94,50.57,8.85,High
+STU00262,Student_262,18,Male,Electronics,5,93.98,1.14,97.38,58.75,6.88,Medium
+STU00263,Student_263,23,Female,Electronics,3,56.73,2.77,92.6,56.09,8.84,Medium
+STU00264,Student_264,19,Female,Electronics,4,57.0,1.88,98.49,53.78,8.81,High
+STU00265,Student_265,21,Male,Civil,6,64.2,6.76,79.89,61.91,7.46,Medium
+STU00266,Student_266,22,Female,Computer Science,2,58.67,7.56,52.01,64.69,9.6,Low
+STU00267,Student_267,19,Female,Computer Science,5,96.56,6.29,92.9,70.07,7.1,Low
+STU00268,Student_268,18,Male,Electronics,2,57.75,5.83,47.06,49.42,5.47,High
+STU00269,Student_269,20,Female,Mechanical,7,61.68,6.58,46.66,56.11,6.14,High
+STU00270,Student_270,19,Female,Mechanical,4,75.69,3.45,82.72,53.73,5.94,High
+STU00271,Student_271,23,Female,Mechanical,6,63.96,5.55,48.14,57.4,8.54,Medium
+STU00272,Student_272,20,Male,Mechanical,5,82.63,3.37,86.77,63.94,9.38,Low
+STU00273,Student_273,19,Male,Electronics,5,96.86,3.47,44.52,52.15,8.37,Medium
+STU00274,Student_274,19,Male,Information Technology,7,96.12,4.24,81.44,57.98,8.21,Low
+STU00275,Student_275,19,Male,Information Technology,2,71.82,5.87,68.46,56.59,8.66,Medium
+STU00276,Student_276,21,Male,Mechanical,3,85.72,7.56,42.23,71.42,8.03,Low
+STU00277,Student_277,22,Female,Information Technology,7,75.02,6.56,73.71,57.58,6.43,Medium
+STU00278,Student_278,21,Female,Computer Science,6,100.0,2.28,87.55,61.81,9.09,Low
+STU00279,Student_279,19,Female,Computer Science,1,71.94,7.26,69.62,66.83,4.99,Medium
+STU00280,Student_280,20,Male,Information Technology,6,87.97,5.65,93.28,74.67,7.52,Low
+STU00281,Student_281,21,Male,Civil,5,73.46,1.35,87.98,42.35,7.96,High
+STU00282,Student_282,24,Female,Information Technology,5,90.19,6.38,95.2,78.72,8.22,Low
+STU00283,Student_283,20,Female,Mechanical,6,57.45,7.64,75.11,54.64,6.88,Medium
+STU00284,Student_284,22,Female,Civil,6,81.33,5.36,84.08,76.87,9.85,Low
+STU00285,Student_285,23,Female,Mechanical,8,91.94,7.04,59.67,74.38,7.06,Low
+STU00286,Student_286,22,Male,Mechanical,5,88.4,6.98,72.29,53.5,4.85,Medium
+STU00287,Student_287,23,Female,Electronics,3,59.14,5.07,40.76,54.64,7.83,High
+STU00288,Student_288,21,Male,Electronics,7,63.91,3.04,68.95,56.43,8.09,High
+STU00289,Student_289,22,Male,Mechanical,6,94.5,3.58,79.93,51.12,6.63,Medium
+STU00290,Student_290,22,Female,Information Technology,7,77.6,1.98,98.16,64.26,7.18,Medium
+STU00291,Student_291,23,Male,Civil,7,57.42,5.1,58.38,40.78,5.53,High
+STU00292,Student_292,19,Female,Information Technology,7,89.76,5.63,49.55,62.25,10.0,Low
+STU00293,Student_293,18,Female,Mechanical,1,66.73,2.42,89.21,61.86,9.77,Medium
+STU00294,Student_294,24,Female,Civil,8,77.52,5.07,75.63,55.58,5.02,High
+STU00295,Student_295,23,Male,Computer Science,2,66.01,1.98,49.81,41.88,6.84,High
+STU00296,Student_296,20,Male,Information Technology,2,70.46,6.06,97.03,58.07,8.11,Low
+STU00297,Student_297,20,Female,Information Technology,4,80.52,3.63,55.67,56.97,6.87,High
+STU00298,Student_298,23,Female,Electronics,5,94.34,4.76,82.62,71.65,9.61,Low
+STU00299,Student_299,22,Male,Computer Science,3,56.27,7.13,45.76,53.69,7.77,Medium
+STU00300,Student_300,24,Female,Electronics,7,67.72,3.63,46.42,46.2,6.23,High
+STU00301,Student_301,18,Male,Mechanical,8,60.83,3.4,60.01,52.33,8.12,High
+STU00302,Student_302,21,Male,Mechanical,2,78.39,7.58,96.98,80.31,9.03,Low
+STU00303,Student_303,20,Female,Computer Science,5,68.21,6.27,89.81,69.23,4.63,Medium
+STU00304,Student_304,21,Male,Information Technology,7,72.8,7.55,68.71,74.12,8.46,Low
+STU00305,Student_305,21,Female,Information Technology,7,85.29,4.04,94.24,60.8,5.61,Medium
+STU00306,Student_306,23,Female,Electronics,5,98.59,1.93,92.92,68.41,8.17,Medium
+STU00307,Student_307,23,Male,Electronics,1,93.07,5.66,50.59,55.33,9.14,Low
+STU00308,Student_308,24,Male,Computer Science,2,94.83,2.12,40.07,35.37,5.93,High
+STU00309,Student_309,20,Female,Mechanical,6,89.07,3.7,44.25,52.98,9.08,Medium
+STU00310,Student_310,20,Male,Civil,3,58.46,5.62,69.92,53.84,8.63,Medium
+STU00311,Student_311,22,Female,Computer Science,4,71.78,5.04,46.87,47.38,7.31,High
+STU00312,Student_312,19,Female,Electronics,7,87.59,5.41,74.92,72.04,7.03,Medium
+STU00313,Student_313,18,Male,Information Technology,6,99.25,4.5,52.39,67.95,8.61,Low
+STU00314,Student_314,24,Female,Electronics,4,76.64,6.63,86.85,74.8,7.81,Low
+STU00315,Student_315,19,Male,Civil,3,66.24,3.43,89.34,48.02,7.91,Medium
+STU00316,Student_316,18,Male,Civil,8,91.68,7.72,58.05,65.76,5.56,Medium
+STU00317,Student_317,19,Female,Computer Science,4,81.04,7.66,72.24,68.41,4.52,Medium
+STU00318,Student_318,22,Male,Civil,7,97.19,5.4,77.75,56.56,6.24,Medium
+STU00319,Student_319,20,Male,Civil,2,59.18,6.31,58.4,58.26,4.57,High
+STU00320,Student_320,24,Male,Mechanical,3,62.96,2.09,93.29,52.33,9.81,Medium
+STU00321,Student_321,18,Female,Information Technology,4,88.2,2.07,40.7,41.68,7.12,High
+STU00322,Student_322,20,Female,Computer Science,1,88.54,3.96,80.06,64.15,9.19,Low
+STU00323,Student_323,21,Female,Electronics,3,77.6,2.95,95.36,48.54,7.36,Medium
+STU00324,Student_324,24,Female,Electronics,5,97.4,7.96,94.02,77.53,9.54,Low
+STU00325,Student_325,21,Male,Information Technology,3,96.06,1.31,78.1,47.68,4.61,High
+STU00326,Student_326,22,Male,Computer Science,2,77.1,5.37,78.55,57.77,7.82,Medium
+STU00327,Student_327,24,Male,Civil,6,93.22,4.02,78.08,57.7,7.52,Medium
+STU00328,Student_328,22,Female,Information Technology,2,61.31,6.69,58.04,46.53,4.93,High
+STU00329,Student_329,19,Male,Mechanical,1,87.22,4.01,40.6,66.18,10.0,Medium
+STU00330,Student_330,24,Female,Computer Science,4,64.97,4.91,81.16,55.88,9.72,Low
+STU00331,Student_331,18,Female,Mechanical,3,87.43,6.59,97.56,60.67,6.29,Low
+STU00332,Student_332,19,Female,Electronics,4,96.43,5.6,46.57,63.15,7.81,Medium
+STU00333,Student_333,18,Female,Civil,7,76.06,5.74,92.85,62.96,7.13,Medium
+STU00334,Student_334,18,Male,Mechanical,3,94.48,3.49,54.58,58.32,6.37,High
+STU00335,Student_335,19,Female,Mechanical,5,90.09,7.83,63.27,66.81,9.55,Low
+STU00336,Student_336,19,Male,Mechanical,1,73.38,1.86,93.2,51.07,7.05,High
+STU00337,Student_337,19,Male,Electronics,4,95.19,4.99,61.28,53.14,7.96,Medium
+STU00338,Student_338,19,Male,Electronics,7,63.97,6.17,42.72,54.95,4.87,High
+STU00339,Student_339,21,Female,Civil,5,65.18,4.16,90.1,47.88,6.74,High
+STU00340,Student_340,22,Male,Civil,8,71.17,6.83,84.71,58.72,6.17,Medium
+STU00341,Student_341,21,Male,Computer Science,3,70.15,2.02,53.95,54.04,7.18,High
+STU00342,Student_342,18,Male,Computer Science,8,75.07,2.54,97.05,64.76,7.31,Medium
+STU00343,Student_343,19,Male,Computer Science,2,70.6,5.54,66.19,64.58,9.48,Low
+STU00344,Student_344,22,Male,Information Technology,6,83.01,6.04,63.36,63.15,6.46,Medium
+STU00345,Student_345,20,Male,Information Technology,7,67.13,5.94,61.97,68.29,9.34,Low
+STU00346,Student_346,19,Female,Computer Science,3,79.81,4.28,65.25,63.87,9.95,Low
+STU00347,Student_347,23,Male,Civil,2,65.73,7.54,61.05,70.13,9.3,Low
+STU00348,Student_348,19,Female,Mechanical,3,82.43,1.11,74.15,42.31,6.34,High
+STU00349,Student_349,23,Male,Computer Science,4,57.32,3.85,70.13,52.81,7.3,High
+STU00350,Student_350,20,Female,Electronics,7,84.06,2.2,84.07,55.25,8.74,Medium
+STU00351,Student_351,22,Male,Information Technology,7,55.63,2.79,84.59,64.32,9.77,Medium
+STU00352,Student_352,20,Male,Civil,8,90.52,2.93,68.83,66.06,9.61,Medium
+STU00353,Student_353,24,Male,Mechanical,8,64.99,3.04,83.72,56.52,8.2,Medium
+STU00354,Student_354,20,Female,Mechanical,4,84.82,1.57,55.11,51.0,7.61,High
+STU00355,Student_355,22,Male,Mechanical,4,83.03,2.94,87.69,53.22,6.95,Medium
+STU00356,Student_356,21,Female,Electronics,6,77.28,7.37,53.38,60.16,9.3,Low
+STU00357,Student_357,19,Male,Information Technology,1,92.61,7.34,94.7,69.58,7.38,Low
+STU00358,Student_358,20,Male,Computer Science,1,60.71,1.17,76.72,40.78,7.76,High
+STU00359,Student_359,20,Male,Mechanical,4,71.16,3.15,52.3,34.17,4.89,High
+STU00360,Student_360,24,Female,Electronics,4,78.48,2.82,63.34,62.8,8.65,Medium
+STU00361,Student_361,23,Female,Civil,3,81.35,4.29,98.91,58.05,5.25,Medium
+STU00362,Student_362,23,Male,Electronics,5,73.47,3.19,60.29,45.39,6.5,High
+STU00363,Student_363,22,Male,Information Technology,5,76.27,7.65,53.78,61.58,4.85,Medium
+STU00364,Student_364,18,Male,Information Technology,3,65.1,3.72,73.84,48.18,8.22,High
+STU00365,Student_365,23,Female,Computer Science,4,87.29,7.35,83.43,74.54,5.4,Low
+STU00366,Student_366,24,Male,Mechanical,5,69.37,6.3,48.75,52.73,6.82,High
+STU00367,Student_367,22,Male,Computer Science,6,96.82,2.24,53.15,46.6,9.23,Medium
+STU00368,Student_368,24,Male,Mechanical,2,80.02,3.52,44.54,52.51,5.91,High
+STU00369,Student_369,21,Male,Electronics,4,69.79,6.74,86.87,79.63,9.22,Low
+STU00370,Student_370,20,Male,Computer Science,4,91.54,5.04,57.47,58.01,9.51,Low
+STU00371,Student_371,20,Female,Electronics,2,96.52,2.42,75.8,43.42,5.49,High
+STU00372,Student_372,23,Male,Civil,4,83.74,5.3,63.37,54.04,6.32,Medium
+STU00373,Student_373,20,Male,Computer Science,6,67.99,7.07,43.75,55.5,6.99,Medium
+STU00374,Student_374,19,Female,Information Technology,4,94.6,6.53,59.32,58.41,4.84,Medium
+STU00375,Student_375,23,Female,Mechanical,2,80.62,2.4,77.49,52.96,7.12,High
+STU00376,Student_376,21,Male,Civil,7,55.57,6.03,49.39,47.14,5.51,High
+STU00377,Student_377,18,Male,Information Technology,4,56.99,3.24,79.14,50.19,8.04,High
+STU00378,Student_378,19,Male,Mechanical,6,98.07,5.3,69.01,57.43,7.16,Medium
+STU00379,Student_379,21,Male,Information Technology,3,84.96,3.82,74.7,66.55,6.79,Medium
+STU00380,Student_380,23,Female,Information Technology,7,76.61,4.93,75.75,65.14,7.77,Medium
+STU00381,Student_381,22,Male,Civil,3,96.36,2.82,92.05,63.9,6.02,Medium
+STU00382,Student_382,21,Female,Electronics,1,91.64,5.64,83.56,55.71,6.27,Medium
+STU00383,Student_383,21,Female,Electronics,5,87.31,5.12,89.53,79.34,9.54,Low
+STU00384,Student_384,23,Female,Electronics,2,86.28,2.14,50.9,50.93,5.66,High
+STU00385,Student_385,24,Female,Information Technology,7,69.99,6.17,95.86,74.24,6.52,Medium
+STU00386,Student_386,24,Female,Mechanical,1,84.69,2.16,91.41,51.84,4.63,High
+STU00387,Student_387,24,Male,Electronics,1,67.45,7.69,69.3,59.75,4.83,Medium
+STU00388,Student_388,23,Female,Computer Science,8,98.68,7.39,93.78,80.81,6.93,Low
+STU00389,Student_389,23,Male,Mechanical,8,78.35,4.96,72.23,48.7,5.68,High
+STU00390,Student_390,18,Female,Mechanical,1,64.89,6.8,54.26,68.65,8.26,Medium
+STU00391,Student_391,22,Male,Electronics,5,74.53,4.38,64.08,45.24,4.75,High
+STU00392,Student_392,22,Female,Information Technology,7,69.47,6.74,94.54,78.51,9.62,Low
+STU00393,Student_393,18,Male,Civil,3,88.7,7.06,81.07,74.26,6.67,Low
+STU00394,Student_394,22,Male,Information Technology,4,80.37,6.76,49.43,71.59,7.78,Medium
+STU00395,Student_395,23,Female,Electronics,7,85.81,6.03,70.33,59.21,8.54,Low
+STU00396,Student_396,23,Male,Civil,3,95.53,4.08,42.16,46.68,6.03,High
+STU00397,Student_397,19,Male,Information Technology,3,70.86,6.59,67.37,49.77,4.94,High
+STU00398,Student_398,19,Male,Computer Science,7,75.07,5.09,56.95,67.27,9.37,Medium
+STU00399,Student_399,23,Female,Computer Science,3,82.34,4.44,92.96,62.28,9.46,Low
+STU00400,Student_400,18,Female,Information Technology,1,89.68,3.61,93.2,65.79,5.13,Medium
+STU00401,Student_401,20,Female,Electronics,5,93.58,4.14,53.68,58.1,4.98,High
+STU00402,Student_402,19,Female,Information Technology,6,63.28,5.9,51.61,66.28,8.65,Medium
+STU00403,Student_403,24,Female,Electronics,4,93.3,2.37,52.0,42.69,5.39,High
+STU00404,Student_404,19,Male,Electronics,5,83.63,4.03,90.88,65.86,6.88,Medium
+STU00405,Student_405,18,Male,Mechanical,7,60.29,5.14,81.24,59.98,7.01,Medium
+STU00406,Student_406,23,Male,Electronics,4,74.16,4.46,79.98,52.9,8.58,Medium
+STU00407,Student_407,20,Female,Information Technology,3,63.78,1.61,48.92,34.35,6.96,High
+STU00408,Student_408,22,Female,Information Technology,1,84.72,5.53,95.66,72.1,9.07,Low
+STU00409,Student_409,18,Female,Information Technology,3,95.87,5.44,79.89,58.56,6.13,Medium
+STU00410,Student_410,20,Female,Information Technology,1,66.1,6.65,84.57,58.92,8.64,Low
+STU00411,Student_411,20,Male,Electronics,4,67.86,4.85,88.43,61.85,6.91,Medium
+STU00412,Student_412,23,Male,Electronics,5,62.99,4.81,57.01,52.67,9.28,Medium
+STU00413,Student_413,23,Female,Civil,3,82.87,7.3,52.99,58.91,6.27,Medium
+STU00414,Student_414,18,Male,Civil,1,93.08,3.52,80.35,57.33,4.78,High
+STU00415,Student_415,22,Male,Computer Science,5,84.13,7.96,58.83,62.34,4.59,Medium
+STU00416,Student_416,22,Female,Information Technology,3,84.86,1.31,72.82,56.72,5.8,High
+STU00417,Student_417,23,Male,Civil,6,94.87,2.31,98.19,59.03,7.24,Medium
+STU00418,Student_418,18,Male,Civil,3,86.7,6.21,94.17,75.23,6.04,Low
+STU00419,Student_419,19,Female,Information Technology,4,55.89,5.88,40.35,51.37,7.57,High
+STU00420,Student_420,18,Male,Electronics,2,95.94,2.29,94.41,55.6,6.64,Medium
+STU00421,Student_421,24,Female,Computer Science,1,74.55,3.98,73.41,52.37,9.33,Medium
+STU00422,Student_422,19,Male,Civil,6,83.72,5.74,77.92,56.88,5.74,Medium
+STU00423,Student_423,22,Male,Computer Science,5,90.18,4.4,57.2,55.45,8.95,Medium
+STU00424,Student_424,23,Female,Electronics,1,92.8,1.34,44.19,39.88,5.63,High
+STU00425,Student_425,18,Female,Electronics,5,87.41,3.64,60.46,52.53,8.68,Medium
+STU00426,Student_426,21,Female,Mechanical,2,92.96,2.06,63.14,47.09,9.78,Medium
+STU00427,Student_427,19,Male,Computer Science,6,58.41,3.29,76.71,50.21,9.81,Medium
+STU00428,Student_428,19,Female,Mechanical,5,74.51,6.69,89.59,54.54,5.09,Medium
+STU00429,Student_429,20,Male,Electronics,6,55.1,5.35,96.94,69.59,8.59,Medium
+STU00430,Student_430,18,Female,Computer Science,3,70.4,1.49,80.84,54.83,6.51,High
+STU00431,Student_431,21,Male,Civil,8,82.19,6.28,62.43,69.34,6.85,Medium
+STU00432,Student_432,22,Male,Information Technology,3,67.99,5.4,82.93,74.41,9.26,Low
+STU00433,Student_433,20,Female,Civil,7,64.7,2.48,76.55,60.81,8.84,Medium
+STU00434,Student_434,18,Male,Electronics,6,87.01,3.87,86.5,68.14,6.9,Medium
+STU00435,Student_435,22,Male,Information Technology,7,79.98,6.97,60.42,57.14,8.04,Low
+STU00436,Student_436,21,Male,Computer Science,7,58.19,7.43,95.6,82.92,9.99,Low
+STU00437,Student_437,22,Female,Mechanical,3,88.78,5.94,78.7,73.98,9.44,Low
+STU00438,Student_438,20,Female,Information Technology,2,59.13,2.51,51.55,43.31,9.33,High
+STU00439,Student_439,19,Female,Information Technology,6,92.73,5.69,66.38,52.95,4.54,High
+STU00440,Student_440,21,Female,Civil,8,84.26,3.64,99.31,64.45,5.27,Medium
+STU00441,Student_441,20,Male,Electronics,4,67.69,7.42,86.92,79.18,8.91,Low
+STU00442,Student_442,22,Female,Civil,5,95.32,4.6,79.24,58.65,8.66,Low
+STU00443,Student_443,23,Male,Electronics,7,57.43,1.17,54.89,29.2,5.01,High
+STU00444,Student_444,20,Male,Computer Science,4,82.32,7.58,58.18,63.23,9.51,Low
+STU00445,Student_445,20,Male,Civil,5,78.56,1.57,94.76,57.65,4.67,High
+STU00446,Student_446,19,Male,Civil,4,80.01,1.04,66.02,52.0,5.97,High
+STU00447,Student_447,20,Male,Information Technology,5,91.54,6.63,92.12,70.01,9.88,Low
+STU00448,Student_448,20,Male,Computer Science,1,60.64,4.54,68.68,63.29,9.58,Medium
+STU00449,Student_449,18,Male,Mechanical,2,88.18,7.6,62.43,77.63,7.76,Low
+STU00450,Student_450,18,Male,Information Technology,7,96.58,3.81,88.04,56.8,5.84,Medium
+STU00451,Student_451,22,Male,Civil,2,92.11,3.6,68.25,52.98,5.93,High
+STU00452,Student_452,24,Female,Information Technology,2,96.47,4.97,47.15,61.66,9.5,Low
+STU00453,Student_453,24,Male,Computer Science,2,88.09,6.76,90.12,79.06,7.87,Low
+STU00454,Student_454,24,Female,Computer Science,2,58.37,5.21,75.88,45.53,5.91,High
+STU00455,Student_455,21,Male,Civil,1,95.22,5.57,55.83,60.3,6.97,Medium
+STU00456,Student_456,24,Female,Mechanical,3,92.53,4.88,92.64,61.29,8.02,Low
+STU00457,Student_457,22,Female,Mechanical,6,73.79,4.76,74.44,61.44,4.69,High
+STU00458,Student_458,21,Female,Information Technology,2,87.79,3.56,77.69,54.97,7.84,Medium
+STU00459,Student_459,19,Male,Information Technology,2,93.9,4.83,99.65,69.77,5.2,Medium
+STU00460,Student_460,20,Male,Information Technology,1,56.34,1.59,52.51,34.13,6.05,High
+STU00461,Student_461,24,Male,Electronics,4,89.39,4.14,67.95,67.03,7.64,Medium
+STU00462,Student_462,19,Female,Mechanical,8,98.52,6.74,98.72,84.21,9.34,Low
+STU00463,Student_463,22,Female,Electronics,1,67.05,7.7,93.48,80.28,9.61,Low
+STU00464,Student_464,24,Male,Computer Science,5,93.07,2.62,82.46,57.66,9.2,Medium
+STU00465,Student_465,18,Male,Civil,4,55.46,4.92,40.18,55.54,7.82,High
+STU00466,Student_466,23,Male,Computer Science,4,84.98,3.16,86.92,56.06,9.8,Low
+STU00467,Student_467,18,Male,Computer Science,7,75.04,2.9,60.33,37.07,5.15,High
+STU00468,Student_468,21,Male,Electronics,1,79.68,3.98,77.28,51.59,8.57,Medium
+STU00469,Student_469,21,Male,Civil,7,70.63,1.58,89.5,48.2,6.86,High
+STU00470,Student_470,21,Female,Computer Science,2,60.69,3.38,48.33,54.05,9.58,High
+STU00471,Student_471,24,Male,Computer Science,2,81.28,2.35,44.12,40.94,6.5,High
+STU00472,Student_472,24,Female,Mechanical,6,99.4,7.73,92.39,64.72,5.3,Low
+STU00473,Student_473,21,Male,Mechanical,8,85.3,4.2,60.4,62.99,8.98,Medium
+STU00474,Student_474,18,Female,Electronics,6,73.47,3.24,63.16,42.16,5.15,High
+STU00475,Student_475,22,Male,Information Technology,1,68.95,7.88,54.96,57.08,6.46,Medium
+STU00476,Student_476,23,Male,Information Technology,8,81.88,4.29,72.18,62.09,4.61,High
+STU00477,Student_477,22,Female,Civil,5,59.31,4.21,43.75,54.7,8.66,High
+STU00478,Student_478,23,Male,Electronics,8,68.59,3.92,72.49,46.33,6.05,High
+STU00479,Student_479,18,Female,Information Technology,4,84.83,7.63,53.15,74.69,8.59,Low
+STU00480,Student_480,24,Male,Civil,8,94.8,2.54,84.52,55.93,7.97,Medium
+STU00481,Student_481,20,Male,Mechanical,7,73.34,1.49,66.68,57.94,8.62,High
+STU00482,Student_482,21,Female,Electronics,6,79.35,5.15,66.65,69.15,8.12,Medium
+STU00483,Student_483,23,Female,Electronics,1,77.6,7.13,81.02,68.7,7.26,Low
+STU00484,Student_484,23,Female,Computer Science,5,62.42,6.82,47.14,62.68,7.29,Medium
+STU00485,Student_485,19,Female,Computer Science,7,93.24,2.15,83.09,56.65,7.88,Medium
+STU00486,Student_486,21,Male,Mechanical,7,55.46,7.89,94.1,62.66,8.69,Low
+STU00487,Student_487,23,Female,Civil,3,97.97,1.45,46.48,41.3,7.99,High
+STU00488,Student_488,24,Female,Electronics,7,58.28,6.4,66.7,73.68,9.82,Low
+STU00489,Student_489,23,Male,Mechanical,2,88.51,7.66,74.3,71.23,7.43,Low
+STU00490,Student_490,19,Male,Mechanical,2,91.42,5.35,79.27,59.62,5.13,Medium
+STU00491,Student_491,22,Female,Computer Science,8,97.47,7.55,56.57,55.16,5.31,Medium
+STU00492,Student_492,24,Male,Computer Science,7,86.9,4.64,75.76,52.76,5.06,High
+STU00493,Student_493,23,Male,Mechanical,5,67.69,3.85,82.94,56.33,6.64,High
+STU00494,Student_494,20,Male,Civil,4,72.1,1.37,41.39,44.68,7.57,High
+STU00495,Student_495,19,Male,Civil,5,70.27,2.93,42.15,58.43,9.01,High
+STU00496,Student_496,23,Female,Electronics,1,82.92,2.57,75.77,48.14,6.57,High
+STU00497,Student_497,24,Male,Information Technology,6,62.52,1.96,72.51,42.58,8.2,High
+STU00498,Student_498,20,Male,Information Technology,7,70.03,6.74,76.84,56.4,6.5,Medium
+STU00499,Student_499,21,Female,Electronics,8,84.41,1.03,43.48,41.16,8.79,High
+STU00500,Student_500,24,Male,Civil,4,59.78,2.11,55.13,34.36,4.82,High

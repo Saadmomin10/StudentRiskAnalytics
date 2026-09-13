@@ -1,0 +1,2501 @@
+student_id,subject,total_classes,attended_classes,attendance_percentage
+STU00001,Big Data Analytics,46,25,54.35
+STU00001,Computer Networks,39,26,66.67
+STU00001,Database Management,44,33,75.0
+STU00001,Machine Learning,44,44,100.0
+STU00001,Operating Systems,39,36,92.31
+STU00002,Big Data Analytics,50,42,84.0
+STU00002,Computer Networks,38,23,60.53
+STU00002,Database Management,38,23,60.53
+STU00002,Machine Learning,36,26,72.22
+STU00002,Operating Systems,37,25,67.57
+STU00003,Big Data Analytics,37,25,67.57
+STU00003,Computer Networks,37,28,75.68
+STU00003,Database Management,38,33,86.84
+STU00003,Machine Learning,50,28,56.0
+STU00003,Operating Systems,38,32,84.21
+STU00004,Big Data Analytics,37,18,48.65
+STU00004,Computer Networks,35,29,82.86
+STU00004,Database Management,49,34,69.39
+STU00004,Machine Learning,49,40,81.63
+STU00004,Operating Systems,44,38,86.36
+STU00005,Big Data Analytics,42,38,90.48
+STU00005,Computer Networks,49,24,48.98
+STU00005,Database Management,42,37,88.1
+STU00005,Machine Learning,47,25,53.19
+STU00005,Operating Systems,45,34,75.56
+STU00006,Big Data Analytics,47,38,80.85
+STU00006,Computer Networks,36,26,72.22
+STU00006,Database Management,50,47,94.0
+STU00006,Machine Learning,36,28,77.78
+STU00006,Operating Systems,44,36,81.82
+STU00007,Big Data Analytics,42,39,92.86
+STU00007,Computer Networks,37,18,48.65
+STU00007,Database Management,38,32,84.21
+STU00007,Machine Learning,43,40,93.02
+STU00007,Operating Systems,41,40,97.56
+STU00008,Big Data Analytics,42,26,61.9
+STU00008,Computer Networks,49,33,67.35
+STU00008,Database Management,43,41,95.35
+STU00008,Machine Learning,45,33,73.33
+STU00008,Operating Systems,45,44,97.78
+STU00009,Big Data Analytics,37,30,81.08
+STU00009,Computer Networks,36,32,88.89
+STU00009,Database Management,46,37,80.43
+STU00009,Machine Learning,47,44,93.62
+STU00009,Operating Systems,36,28,77.78
+STU00010,Big Data Analytics,46,44,95.65
+STU00010,Computer Networks,47,38,80.85
+STU00010,Database Management,40,37,92.5
+STU00010,Machine Learning,46,38,82.61
+STU00010,Operating Systems,45,45,100.0
+STU00011,Big Data Analytics,40,33,82.5
+STU00011,Computer Networks,47,28,59.57
+STU00011,Database Management,39,31,79.49
+STU00011,Machine Learning,37,36,97.3
+STU00011,Operating Systems,41,30,73.17
+STU00012,Big Data Analytics,36,22,61.11
+STU00012,Computer Networks,43,33,76.74
+STU00012,Database Management,46,34,73.91
+STU00012,Machine Learning,37,32,86.49
+STU00012,Operating Systems,39,38,97.44
+STU00013,Big Data Analytics,41,24,58.54
+STU00013,Computer Networks,40,25,62.5
+STU00013,Database Management,49,25,51.02
+STU00013,Machine Learning,46,35,76.09
+STU00013,Operating Systems,44,44,100.0
+STU00014,Big Data Analytics,40,20,50.0
+STU00014,Computer Networks,43,30,69.77
+STU00014,Database Management,44,29,65.91
+STU00014,Machine Learning,40,39,97.5
+STU00014,Operating Systems,39,24,61.54
+STU00015,Big Data Analytics,45,39,86.67
+STU00015,Computer Networks,41,23,56.1
+STU00015,Database Management,37,27,72.97
+STU00015,Machine Learning,40,22,55.0
+STU00015,Operating Systems,45,30,66.67
+STU00016,Big Data Analytics,41,41,100.0
+STU00016,Computer Networks,42,42,100.0
+STU00016,Database Management,46,26,56.52
+STU00016,Machine Learning,38,33,86.84
+STU00016,Operating Systems,40,28,70.0
+STU00017,Big Data Analytics,47,35,74.47
+STU00017,Computer Networks,45,28,62.22
+STU00017,Database Management,47,37,78.72
+STU00017,Machine Learning,35,19,54.29
+STU00017,Operating Systems,44,22,50.0
+STU00018,Big Data Analytics,40,31,77.5
+STU00018,Computer Networks,50,33,66.0
+STU00018,Database Management,36,35,97.22
+STU00018,Machine Learning,46,33,71.74
+STU00018,Operating Systems,46,28,60.87
+STU00019,Big Data Analytics,40,35,87.5
+STU00019,Computer Networks,38,34,89.47
+STU00019,Database Management,39,26,66.67
+STU00019,Machine Learning,49,31,63.27
+STU00019,Operating Systems,42,34,80.95
+STU00020,Big Data Analytics,39,24,61.54
+STU00020,Computer Networks,42,34,80.95
+STU00020,Database Management,40,24,60.0
+STU00020,Machine Learning,37,35,94.59
+STU00020,Operating Systems,44,28,63.64
+STU00021,Big Data Analytics,40,34,85.0
+STU00021,Computer Networks,47,29,61.7
+STU00021,Database Management,49,41,83.67
+STU00021,Machine Learning,37,21,56.76
+STU00021,Operating Systems,36,24,66.67
+STU00022,Big Data Analytics,40,40,100.0
+STU00022,Computer Networks,35,25,71.43
+STU00022,Database Management,46,30,65.22
+STU00022,Machine Learning,40,25,62.5
+STU00022,Operating Systems,50,39,78.0
+STU00023,Big Data Analytics,39,38,97.44
+STU00023,Computer Networks,49,37,75.51
+STU00023,Database Management,38,38,100.0
+STU00023,Machine Learning,37,30,81.08
+STU00023,Operating Systems,40,28,70.0
+STU00024,Big Data Analytics,43,22,51.16
+STU00024,Computer Networks,49,24,48.98
+STU00024,Database Management,45,38,84.44
+STU00024,Machine Learning,46,37,80.43
+STU00024,Operating Systems,39,30,76.92
+STU00025,Big Data Analytics,44,35,79.55
+STU00025,Computer Networks,42,26,61.9
+STU00025,Database Management,37,27,72.97
+STU00025,Machine Learning,46,24,52.17
+STU00025,Operating Systems,48,32,66.67
+STU00026,Big Data Analytics,46,34,73.91
+STU00026,Computer Networks,41,35,85.37
+STU00026,Database Management,45,42,93.33
+STU00026,Machine Learning,46,43,93.48
+STU00026,Operating Systems,41,22,53.66
+STU00027,Big Data Analytics,42,35,83.33
+STU00027,Computer Networks,43,43,100.0
+STU00027,Database Management,43,36,83.72
+STU00027,Machine Learning,37,22,59.46
+STU00027,Operating Systems,47,40,85.11
+STU00028,Big Data Analytics,50,28,56.0
+STU00028,Computer Networks,35,33,94.29
+STU00028,Database Management,48,27,56.25
+STU00028,Machine Learning,37,34,91.89
+STU00028,Operating Systems,38,29,76.32
+STU00029,Big Data Analytics,40,27,67.5
+STU00029,Computer Networks,49,24,48.98
+STU00029,Database Management,42,41,97.62
+STU00029,Machine Learning,35,27,77.14
+STU00029,Operating Systems,46,37,80.43
+STU00030,Big Data Analytics,49,25,51.02
+STU00030,Computer Networks,38,35,92.11
+STU00030,Database Management,38,28,73.68
+STU00030,Machine Learning,35,27,77.14
+STU00030,Operating Systems,42,28,66.67
+STU00031,Big Data Analytics,48,35,72.92
+STU00031,Computer Networks,40,31,77.5
+STU00031,Database Management,48,25,52.08
+STU00031,Machine Learning,41,24,58.54
+STU00031,Operating Systems,40,38,95.0
+STU00032,Big Data Analytics,42,38,90.48
+STU00032,Computer Networks,50,40,80.0
+STU00032,Database Management,41,26,63.41
+STU00032,Machine Learning,49,31,63.27
+STU00032,Operating Systems,40,40,100.0
+STU00033,Big Data Analytics,41,38,92.68
+STU00033,Computer Networks,40,22,55.0
+STU00033,Database Management,48,29,60.42
+STU00033,Machine Learning,39,27,69.23
+STU00033,Operating Systems,38,28,73.68
+STU00034,Big Data Analytics,40,38,95.0
+STU00034,Computer Networks,41,38,92.68
+STU00034,Database Management,46,29,63.04
+STU00034,Machine Learning,43,26,60.47
+STU00034,Operating Systems,41,30,73.17
+STU00035,Big Data Analytics,42,37,88.1
+STU00035,Computer Networks,45,31,68.89
+STU00035,Database Management,40,26,65.0
+STU00035,Machine Learning,50,50,100.0
+STU00035,Operating Systems,40,28,70.0
+STU00036,Big Data Analytics,42,42,100.0
+STU00036,Computer Networks,39,36,92.31
+STU00036,Database Management,39,32,82.05
+STU00036,Machine Learning,40,39,97.5
+STU00036,Operating Systems,35,18,51.43
+STU00037,Big Data Analytics,43,29,67.44
+STU00037,Computer Networks,38,20,52.63
+STU00037,Database Management,45,26,57.78
+STU00037,Machine Learning,42,25,59.52
+STU00037,Operating Systems,42,39,92.86
+STU00038,Big Data Analytics,36,35,97.22
+STU00038,Computer Networks,42,36,85.71
+STU00038,Database Management,45,29,64.44
+STU00038,Machine Learning,47,35,74.47
+STU00038,Operating Systems,38,29,76.32
+STU00039,Big Data Analytics,36,23,63.89
+STU00039,Computer Networks,42,34,80.95
+STU00039,Database Management,45,34,75.56
+STU00039,Machine Learning,39,26,66.67
+STU00039,Operating Systems,37,25,67.57
+STU00040,Big Data Analytics,36,28,77.78
+STU00040,Computer Networks,47,32,68.09
+STU00040,Database Management,45,23,51.11
+STU00040,Machine Learning,47,31,65.96
+STU00040,Operating Systems,50,38,76.0
+STU00041,Big Data Analytics,40,22,55.0
+STU00041,Computer Networks,44,28,63.64
+STU00041,Database Management,39,27,69.23
+STU00041,Machine Learning,43,34,79.07
+STU00041,Operating Systems,41,21,51.22
+STU00042,Big Data Analytics,47,42,89.36
+STU00042,Computer Networks,38,36,94.74
+STU00042,Database Management,50,41,82.0
+STU00042,Machine Learning,42,29,69.05
+STU00042,Operating Systems,47,38,80.85
+STU00043,Big Data Analytics,48,31,64.58
+STU00043,Computer Networks,40,29,72.5
+STU00043,Database Management,44,37,84.09
+STU00043,Machine Learning,37,21,56.76
+STU00043,Operating Systems,48,43,89.58
+STU00044,Big Data Analytics,50,32,64.0
+STU00044,Computer Networks,42,41,97.62
+STU00044,Database Management,46,29,63.04
+STU00044,Machine Learning,39,20,51.28
+STU00044,Operating Systems,46,40,86.96
+STU00045,Big Data Analytics,42,25,59.52
+STU00045,Computer Networks,44,28,63.64
+STU00045,Database Management,41,22,53.66
+STU00045,Machine Learning,41,32,78.05
+STU00045,Operating Systems,44,27,61.36
+STU00046,Big Data Analytics,42,41,97.62
+STU00046,Computer Networks,49,24,48.98
+STU00046,Database Management,35,35,100.0
+STU00046,Machine Learning,41,27,65.85
+STU00046,Operating Systems,35,19,54.29
+STU00047,Big Data Analytics,47,35,74.47
+STU00047,Computer Networks,50,42,84.0
+STU00047,Database Management,38,32,84.21
+STU00047,Machine Learning,42,29,69.05
+STU00047,Operating Systems,41,35,85.37
+STU00048,Big Data Analytics,42,41,97.62
+STU00048,Computer Networks,43,24,55.81
+STU00048,Database Management,48,47,97.92
+STU00048,Machine Learning,39,22,56.41
+STU00048,Operating Systems,49,36,73.47
+STU00049,Big Data Analytics,35,29,82.86
+STU00049,Computer Networks,42,42,100.0
+STU00049,Database Management,45,38,84.44
+STU00049,Machine Learning,35,20,57.14
+STU00049,Operating Systems,50,49,98.0
+STU00050,Big Data Analytics,46,35,76.09
+STU00050,Computer Networks,36,23,63.89
+STU00050,Database Management,49,36,73.47
+STU00050,Machine Learning,44,33,75.0
+STU00050,Operating Systems,42,22,52.38
+STU00051,Big Data Analytics,36,19,52.78
+STU00051,Computer Networks,43,25,58.14
+STU00051,Database Management,38,27,71.05
+STU00051,Machine Learning,46,28,60.87
+STU00051,Operating Systems,46,37,80.43
+STU00052,Big Data Analytics,36,23,63.89
+STU00052,Computer Networks,40,28,70.0
+STU00052,Database Management,36,28,77.78
+STU00052,Machine Learning,43,33,76.74
+STU00052,Operating Systems,42,39,92.86
+STU00053,Big Data Analytics,35,34,97.14
+STU00053,Computer Networks,47,24,51.06
+STU00053,Database Management,43,34,79.07
+STU00053,Machine Learning,42,39,92.86
+STU00053,Operating Systems,39,29,74.36
+STU00054,Big Data Analytics,43,29,67.44
+STU00054,Computer Networks,47,44,93.62
+STU00054,Database Management,42,21,50.0
+STU00054,Machine Learning,37,37,100.0
+STU00054,Operating Systems,46,43,93.48
+STU00055,Big Data Analytics,35,31,88.57
+STU00055,Computer Networks,42,41,97.62
+STU00055,Database Management,39,32,82.05
+STU00055,Machine Learning,49,37,75.51
+STU00055,Operating Systems,42,32,76.19
+STU00056,Big Data Analytics,48,28,58.33
+STU00056,Computer Networks,45,37,82.22
+STU00056,Database Management,50,46,92.0
+STU00056,Machine Learning,47,46,97.87
+STU00056,Operating Systems,44,23,52.27
+STU00057,Big Data Analytics,41,25,60.98
+STU00057,Computer Networks,41,40,97.56
+STU00057,Database Management,39,29,74.36
+STU00057,Machine Learning,38,27,71.05
+STU00057,Operating Systems,36,18,50.0
+STU00058,Big Data Analytics,40,38,95.0
+STU00058,Computer Networks,47,41,87.23
+STU00058,Database Management,46,43,93.48
+STU00058,Machine Learning,43,37,86.05
+STU00058,Operating Systems,42,33,78.57
+STU00059,Big Data Analytics,44,44,100.0
+STU00059,Computer Networks,38,30,78.95
+STU00059,Database Management,38,27,71.05
+STU00059,Machine Learning,49,49,100.0
+STU00059,Operating Systems,40,29,72.5
+STU00060,Big Data Analytics,42,21,50.0
+STU00060,Computer Networks,35,27,77.14
+STU00060,Database Management,43,31,72.09
+STU00060,Machine Learning,44,30,68.18
+STU00060,Operating Systems,45,37,82.22
+STU00061,Big Data Analytics,49,26,53.06
+STU00061,Computer Networks,43,23,53.49
+STU00061,Database Management,46,43,93.48
+STU00061,Machine Learning,38,33,86.84
+STU00061,Operating Systems,35,33,94.29
+STU00062,Big Data Analytics,48,42,87.5
+STU00062,Computer Networks,37,24,64.86
+STU00062,Database Management,43,32,74.42
+STU00062,Machine Learning,42,26,61.9
+STU00062,Operating Systems,35,22,62.86
+STU00063,Big Data Analytics,50,26,52.0
+STU00063,Computer Networks,36,33,91.67
+STU00063,Database Management,46,28,60.87
+STU00063,Machine Learning,42,33,78.57
+STU00063,Operating Systems,50,33,66.0
+STU00064,Big Data Analytics,50,47,94.0
+STU00064,Computer Networks,49,47,95.92
+STU00064,Database Management,41,22,53.66
+STU00064,Machine Learning,47,29,61.7
+STU00064,Operating Systems,43,23,53.49
+STU00065,Big Data Analytics,48,29,60.42
+STU00065,Computer Networks,39,30,76.92
+STU00065,Database Management,37,27,72.97
+STU00065,Machine Learning,46,23,50.0
+STU00065,Operating Systems,38,28,73.68
+STU00066,Big Data Analytics,41,28,68.29
+STU00066,Computer Networks,35,22,62.86
+STU00066,Database Management,47,42,89.36
+STU00066,Machine Learning,36,25,69.44
+STU00066,Operating Systems,46,38,82.61
+STU00067,Big Data Analytics,49,41,83.67
+STU00067,Computer Networks,46,30,65.22
+STU00067,Database Management,38,25,65.79
+STU00067,Machine Learning,50,43,86.0
+STU00067,Operating Systems,40,34,85.0
+STU00068,Big Data Analytics,49,44,89.8
+STU00068,Computer Networks,44,37,84.09
+STU00068,Database Management,46,34,73.91
+STU00068,Machine Learning,45,27,60.0
+STU00068,Operating Systems,42,25,59.52
+STU00069,Big Data Analytics,41,39,95.12
+STU00069,Computer Networks,38,38,100.0
+STU00069,Database Management,41,32,78.05
+STU00069,Machine Learning,39,37,94.87
+STU00069,Operating Systems,42,38,90.48
+STU00070,Big Data Analytics,37,36,97.3
+STU00070,Computer Networks,39,26,66.67
+STU00070,Database Management,39,35,89.74
+STU00070,Machine Learning,50,37,74.0
+STU00070,Operating Systems,40,31,77.5
+STU00071,Big Data Analytics,43,38,88.37
+STU00071,Computer Networks,45,30,66.67
+STU00071,Database Management,38,38,100.0
+STU00071,Machine Learning,48,28,58.33
+STU00071,Operating Systems,39,38,97.44
+STU00072,Big Data Analytics,50,37,74.0
+STU00072,Computer Networks,49,31,63.27
+STU00072,Database Management,36,35,97.22
+STU00072,Machine Learning,43,25,58.14
+STU00072,Operating Systems,50,27,54.0
+STU00073,Big Data Analytics,37,36,97.3
+STU00073,Computer Networks,40,22,55.0
+STU00073,Database Management,48,31,64.58
+STU00073,Machine Learning,46,45,97.83
+STU00073,Operating Systems,40,31,77.5
+STU00074,Big Data Analytics,35,33,94.29
+STU00074,Computer Networks,38,25,65.79
+STU00074,Database Management,41,33,80.49
+STU00074,Machine Learning,41,39,95.12
+STU00074,Operating Systems,45,25,55.56
+STU00075,Big Data Analytics,49,38,77.55
+STU00075,Computer Networks,46,26,56.52
+STU00075,Database Management,35,22,62.86
+STU00075,Machine Learning,46,40,86.96
+STU00075,Operating Systems,38,21,55.26
+STU00076,Big Data Analytics,41,30,73.17
+STU00076,Computer Networks,47,38,80.85
+STU00076,Database Management,39,29,74.36
+STU00076,Machine Learning,46,41,89.13
+STU00076,Operating Systems,41,20,48.78
+STU00077,Big Data Analytics,43,24,55.81
+STU00077,Computer Networks,38,36,94.74
+STU00077,Database Management,42,40,95.24
+STU00077,Machine Learning,46,28,60.87
+STU00077,Operating Systems,42,40,95.24
+STU00078,Big Data Analytics,42,26,61.9
+STU00078,Computer Networks,38,26,68.42
+STU00078,Database Management,40,34,85.0
+STU00078,Machine Learning,35,18,51.43
+STU00078,Operating Systems,45,40,88.89
+STU00079,Big Data Analytics,44,27,61.36
+STU00079,Computer Networks,46,30,65.22
+STU00079,Database Management,37,35,94.59
+STU00079,Machine Learning,46,33,71.74
+STU00079,Operating Systems,37,24,64.86
+STU00080,Big Data Analytics,37,37,100.0
+STU00080,Computer Networks,36,30,83.33
+STU00080,Database Management,37,21,56.76
+STU00080,Machine Learning,36,29,80.56
+STU00080,Operating Systems,36,26,72.22
+STU00081,Big Data Analytics,41,36,87.8
+STU00081,Computer Networks,39,35,89.74
+STU00081,Database Management,38,33,86.84
+STU00081,Machine Learning,44,39,88.64
+STU00081,Operating Systems,45,39,86.67
+STU00082,Big Data Analytics,35,34,97.14
+STU00082,Computer Networks,37,31,83.78
+STU00082,Database Management,40,31,77.5
+STU00082,Machine Learning,42,39,92.86
+STU00082,Operating Systems,50,35,70.0
+STU00083,Big Data Analytics,36,22,61.11
+STU00083,Computer Networks,48,38,79.17
+STU00083,Database Management,44,28,63.64
+STU00083,Machine Learning,41,39,95.12
+STU00083,Operating Systems,37,31,83.78
+STU00084,Big Data Analytics,48,34,70.83
+STU00084,Computer Networks,38,22,57.89
+STU00084,Database Management,38,33,86.84
+STU00084,Machine Learning,50,36,72.0
+STU00084,Operating Systems,37,24,64.86
+STU00085,Big Data Analytics,43,30,69.77
+STU00085,Computer Networks,46,44,95.65
+STU00085,Database Management,40,21,52.5
+STU00085,Machine Learning,40,24,60.0
+STU00085,Operating Systems,45,34,75.56
+STU00086,Big Data Analytics,42,37,88.1
+STU00086,Computer Networks,37,24,64.86
+STU00086,Database Management,42,27,64.29
+STU00086,Machine Learning,43,42,97.67
+STU00086,Operating Systems,36,35,97.22
+STU00087,Big Data Analytics,40,38,95.0
+STU00087,Computer Networks,46,42,91.3
+STU00087,Database Management,40,20,50.0
+STU00087,Machine Learning,36,29,80.56
+STU00087,Operating Systems,43,30,69.77
+STU00088,Big Data Analytics,35,33,94.29
+STU00088,Computer Networks,42,23,54.76
+STU00088,Database Management,40,31,77.5
+STU00088,Machine Learning,44,42,95.45
+STU00088,Operating Systems,50,33,66.0
+STU00089,Big Data Analytics,35,34,97.14
+STU00089,Computer Networks,46,34,73.91
+STU00089,Database Management,46,44,95.65
+STU00089,Machine Learning,35,33,94.29
+STU00089,Operating Systems,42,34,80.95
+STU00090,Big Data Analytics,37,23,62.16
+STU00090,Computer Networks,47,37,78.72
+STU00090,Database Management,35,34,97.14
+STU00090,Machine Learning,35,34,97.14
+STU00090,Operating Systems,46,32,69.57
+STU00091,Big Data Analytics,46,44,95.65
+STU00091,Computer Networks,41,41,100.0
+STU00091,Database Management,41,34,82.93
+STU00091,Machine Learning,45,29,64.44
+STU00091,Operating Systems,36,28,77.78
+STU00092,Big Data Analytics,39,23,58.97
+STU00092,Computer Networks,46,32,69.57
+STU00092,Database Management,35,32,91.43
+STU00092,Machine Learning,37,20,54.05
+STU00092,Operating Systems,46,43,93.48
+STU00093,Big Data Analytics,50,26,52.0
+STU00093,Computer Networks,38,23,60.53
+STU00093,Database Management,46,24,52.17
+STU00093,Machine Learning,43,43,100.0
+STU00093,Operating Systems,35,33,94.29
+STU00094,Big Data Analytics,41,32,78.05
+STU00094,Computer Networks,37,29,78.38
+STU00094,Database Management,46,35,76.09
+STU00094,Machine Learning,42,29,69.05
+STU00094,Operating Systems,41,29,70.73
+STU00095,Big Data Analytics,35,29,82.86
+STU00095,Computer Networks,35,34,97.14
+STU00095,Database Management,46,34,73.91
+STU00095,Machine Learning,50,32,64.0
+STU00095,Operating Systems,50,36,72.0
+STU00096,Big Data Analytics,35,26,74.29
+STU00096,Computer Networks,41,38,92.68
+STU00096,Database Management,37,22,59.46
+STU00096,Machine Learning,43,30,69.77
+STU00096,Operating Systems,39,26,66.67
+STU00097,Big Data Analytics,35,33,94.29
+STU00097,Computer Networks,50,48,96.0
+STU00097,Database Management,49,33,67.35
+STU00097,Machine Learning,35,25,71.43
+STU00097,Operating Systems,46,26,56.52
+STU00098,Big Data Analytics,36,19,52.78
+STU00098,Computer Networks,43,36,83.72
+STU00098,Database Management,42,23,54.76
+STU00098,Machine Learning,44,26,59.09
+STU00098,Operating Systems,47,43,91.49
+STU00099,Big Data Analytics,43,41,95.35
+STU00099,Computer Networks,40,35,87.5
+STU00099,Database Management,49,30,61.22
+STU00099,Machine Learning,50,45,90.0
+STU00099,Operating Systems,36,29,80.56
+STU00100,Big Data Analytics,38,21,55.26
+STU00100,Computer Networks,46,23,50.0
+STU00100,Database Management,41,37,90.24
+STU00100,Machine Learning,49,43,87.76
+STU00100,Operating Systems,45,38,84.44
+STU00101,Big Data Analytics,39,36,92.31
+STU00101,Computer Networks,40,39,97.5
+STU00101,Database Management,41,35,85.37
+STU00101,Machine Learning,38,34,89.47
+STU00101,Operating Systems,39,35,89.74
+STU00102,Big Data Analytics,42,39,92.86
+STU00102,Computer Networks,47,44,93.62
+STU00102,Database Management,35,18,51.43
+STU00102,Machine Learning,35,33,94.29
+STU00102,Operating Systems,44,37,84.09
+STU00103,Big Data Analytics,36,30,83.33
+STU00103,Computer Networks,45,42,93.33
+STU00103,Database Management,36,29,80.56
+STU00103,Machine Learning,46,44,95.65
+STU00103,Operating Systems,41,40,97.56
+STU00104,Big Data Analytics,38,36,94.74
+STU00104,Computer Networks,37,36,97.3
+STU00104,Database Management,50,42,84.0
+STU00104,Machine Learning,35,17,48.57
+STU00104,Operating Systems,37,34,91.89
+STU00105,Big Data Analytics,45,31,68.89
+STU00105,Computer Networks,49,43,87.76
+STU00105,Database Management,50,30,60.0
+STU00105,Machine Learning,38,38,100.0
+STU00105,Operating Systems,45,39,86.67
+STU00106,Big Data Analytics,47,30,63.83
+STU00106,Computer Networks,37,35,94.59
+STU00106,Database Management,37,23,62.16
+STU00106,Machine Learning,37,25,67.57
+STU00106,Operating Systems,41,27,65.85
+STU00107,Big Data Analytics,50,35,70.0
+STU00107,Computer Networks,41,37,90.24
+STU00107,Database Management,35,24,68.57
+STU00107,Machine Learning,49,44,89.8
+STU00107,Operating Systems,47,34,72.34
+STU00108,Big Data Analytics,36,33,91.67
+STU00108,Computer Networks,37,21,56.76
+STU00108,Database Management,37,31,83.78
+STU00108,Machine Learning,50,41,82.0
+STU00108,Operating Systems,35,24,68.57
+STU00109,Big Data Analytics,38,36,94.74
+STU00109,Computer Networks,38,23,60.53
+STU00109,Database Management,41,39,95.12
+STU00109,Machine Learning,35,19,54.29
+STU00109,Operating Systems,38,34,89.47
+STU00110,Big Data Analytics,50,25,50.0
+STU00110,Computer Networks,48,24,50.0
+STU00110,Database Management,48,40,83.33
+STU00110,Machine Learning,39,19,48.72
+STU00110,Operating Systems,46,24,52.17
+STU00111,Big Data Analytics,41,29,70.73
+STU00111,Computer Networks,37,32,86.49
+STU00111,Database Management,36,18,50.0
+STU00111,Machine Learning,37,36,97.3
+STU00111,Operating Systems,44,28,63.64
+STU00112,Big Data Analytics,46,39,84.78
+STU00112,Computer Networks,40,36,90.0
+STU00112,Database Management,50,26,52.0
+STU00112,Machine Learning,38,37,97.37
+STU00112,Operating Systems,44,26,59.09
+STU00113,Big Data Analytics,41,33,80.49
+STU00113,Computer Networks,49,49,100.0
+STU00113,Database Management,48,42,87.5
+STU00113,Machine Learning,40,28,70.0
+STU00113,Operating Systems,43,27,62.79
+STU00114,Big Data Analytics,46,25,54.35
+STU00114,Computer Networks,37,29,78.38
+STU00114,Database Management,41,41,100.0
+STU00114,Machine Learning,35,31,88.57
+STU00114,Operating Systems,50,46,92.0
+STU00115,Big Data Analytics,46,45,97.83
+STU00115,Computer Networks,36,25,69.44
+STU00115,Database Management,44,39,88.64
+STU00115,Machine Learning,36,28,77.78
+STU00115,Operating Systems,49,49,100.0
+STU00116,Big Data Analytics,48,26,54.17
+STU00116,Computer Networks,37,32,86.49
+STU00116,Database Management,49,39,79.59
+STU00116,Machine Learning,49,26,53.06
+STU00116,Operating Systems,49,35,71.43
+STU00117,Big Data Analytics,39,39,100.0
+STU00117,Computer Networks,35,35,100.0
+STU00117,Database Management,35,23,65.71
+STU00117,Machine Learning,46,37,80.43
+STU00117,Operating Systems,36,29,80.56
+STU00118,Big Data Analytics,35,25,71.43
+STU00118,Computer Networks,42,40,95.24
+STU00118,Database Management,43,25,58.14
+STU00118,Machine Learning,47,42,89.36
+STU00118,Operating Systems,42,21,50.0
+STU00119,Big Data Analytics,40,20,50.0
+STU00119,Computer Networks,36,29,80.56
+STU00119,Database Management,47,25,53.19
+STU00119,Machine Learning,49,30,61.22
+STU00119,Operating Systems,44,24,54.55
+STU00120,Big Data Analytics,46,45,97.83
+STU00120,Computer Networks,50,31,62.0
+STU00120,Database Management,50,39,78.0
+STU00120,Machine Learning,45,22,48.89
+STU00120,Operating Systems,46,28,60.87
+STU00121,Big Data Analytics,41,22,53.66
+STU00121,Computer Networks,41,40,97.56
+STU00121,Database Management,43,30,69.77
+STU00121,Machine Learning,47,33,70.21
+STU00121,Operating Systems,37,31,83.78
+STU00122,Big Data Analytics,42,35,83.33
+STU00122,Computer Networks,41,24,58.54
+STU00122,Database Management,47,42,89.36
+STU00122,Machine Learning,47,25,53.19
+STU00122,Operating Systems,43,27,62.79
+STU00123,Big Data Analytics,48,41,85.42
+STU00123,Computer Networks,45,34,75.56
+STU00123,Database Management,43,22,51.16
+STU00123,Machine Learning,35,35,100.0
+STU00123,Operating Systems,44,41,93.18
+STU00124,Big Data Analytics,39,19,48.72
+STU00124,Computer Networks,50,32,64.0
+STU00124,Database Management,39,29,74.36
+STU00124,Machine Learning,45,35,77.78
+STU00124,Operating Systems,46,43,93.48
+STU00125,Big Data Analytics,47,34,72.34
+STU00125,Computer Networks,40,38,95.0
+STU00125,Database Management,42,24,57.14
+STU00125,Machine Learning,35,33,94.29
+STU00125,Operating Systems,35,33,94.29
+STU00126,Big Data Analytics,43,41,95.35
+STU00126,Computer Networks,42,38,90.48
+STU00126,Database Management,46,27,58.7
+STU00126,Machine Learning,44,38,86.36
+STU00126,Operating Systems,46,43,93.48
+STU00127,Big Data Analytics,39,19,48.72
+STU00127,Computer Networks,43,32,74.42
+STU00127,Database Management,35,18,51.43
+STU00127,Machine Learning,42,35,83.33
+STU00127,Operating Systems,42,34,80.95
+STU00128,Big Data Analytics,47,40,85.11
+STU00128,Computer Networks,40,21,52.5
+STU00128,Database Management,36,21,58.33
+STU00128,Machine Learning,44,32,72.73
+STU00128,Operating Systems,37,37,100.0
+STU00129,Big Data Analytics,42,31,73.81
+STU00129,Computer Networks,46,45,97.83
+STU00129,Database Management,46,28,60.87
+STU00129,Machine Learning,40,30,75.0
+STU00129,Operating Systems,38,29,76.32
+STU00130,Big Data Analytics,43,37,86.05
+STU00130,Computer Networks,40,27,67.5
+STU00130,Database Management,46,39,84.78
+STU00130,Machine Learning,42,30,71.43
+STU00130,Operating Systems,36,18,50.0
+STU00131,Big Data Analytics,41,24,58.54
+STU00131,Computer Networks,45,38,84.44
+STU00131,Database Management,50,41,82.0
+STU00131,Machine Learning,35,29,82.86
+STU00131,Operating Systems,48,29,60.42
+STU00132,Big Data Analytics,43,25,58.14
+STU00132,Computer Networks,36,32,88.89
+STU00132,Database Management,35,32,91.43
+STU00132,Machine Learning,46,38,82.61
+STU00132,Operating Systems,47,26,55.32
+STU00133,Big Data Analytics,38,24,63.16
+STU00133,Computer Networks,46,30,65.22
+STU00133,Database Management,40,23,57.5
+STU00133,Machine Learning,36,33,91.67
+STU00133,Operating Systems,38,23,60.53
+STU00134,Big Data Analytics,46,42,91.3
+STU00134,Computer Networks,43,30,69.77
+STU00134,Database Management,40,38,95.0
+STU00134,Machine Learning,42,26,61.9
+STU00134,Operating Systems,50,33,66.0
+STU00135,Big Data Analytics,42,23,54.76
+STU00135,Computer Networks,36,19,52.78
+STU00135,Database Management,41,36,87.8
+STU00135,Machine Learning,41,29,70.73
+STU00135,Operating Systems,46,26,56.52
+STU00136,Big Data Analytics,49,45,91.84
+STU00136,Computer Networks,48,47,97.92
+STU00136,Database Management,42,36,85.71
+STU00136,Machine Learning,47,33,70.21
+STU00136,Operating Systems,37,34,91.89
+STU00137,Big Data Analytics,43,36,83.72
+STU00137,Computer Networks,49,30,61.22
+STU00137,Database Management,47,29,61.7
+STU00137,Machine Learning,39,25,64.1
+STU00137,Operating Systems,44,30,68.18
+STU00138,Big Data Analytics,36,35,97.22
+STU00138,Computer Networks,39,35,89.74
+STU00138,Database Management,38,32,84.21
+STU00138,Machine Learning,36,20,55.56
+STU00138,Operating Systems,44,40,90.91
+STU00139,Big Data Analytics,43,31,72.09
+STU00139,Computer Networks,41,29,70.73
+STU00139,Database Management,42,42,100.0
+STU00139,Machine Learning,49,29,59.18
+STU00139,Operating Systems,46,40,86.96
+STU00140,Big Data Analytics,43,21,48.84
+STU00140,Computer Networks,47,37,78.72
+STU00140,Database Management,40,33,82.5
+STU00140,Machine Learning,43,36,83.72
+STU00140,Operating Systems,48,47,97.92
+STU00141,Big Data Analytics,41,35,85.37
+STU00141,Computer Networks,42,32,76.19
+STU00141,Database Management,47,33,70.21
+STU00141,Machine Learning,38,22,57.89
+STU00141,Operating Systems,49,39,79.59
+STU00142,Big Data Analytics,49,35,71.43
+STU00142,Computer Networks,40,25,62.5
+STU00142,Database Management,39,27,69.23
+STU00142,Machine Learning,42,30,71.43
+STU00142,Operating Systems,39,28,71.79
+STU00143,Big Data Analytics,44,37,84.09
+STU00143,Computer Networks,48,39,81.25
+STU00143,Database Management,41,22,53.66
+STU00143,Machine Learning,35,33,94.29
+STU00143,Operating Systems,41,25,60.98
+STU00144,Big Data Analytics,35,30,85.71
+STU00144,Computer Networks,48,47,97.92
+STU00144,Database Management,49,47,95.92
+STU00144,Machine Learning,45,40,88.89
+STU00144,Operating Systems,39,26,66.67
+STU00145,Big Data Analytics,46,43,93.48
+STU00145,Computer Networks,49,36,73.47
+STU00145,Database Management,42,26,61.9
+STU00145,Machine Learning,36,31,86.11
+STU00145,Operating Systems,43,25,58.14
+STU00146,Big Data Analytics,41,35,85.37
+STU00146,Computer Networks,44,29,65.91
+STU00146,Database Management,50,28,56.0
+STU00146,Machine Learning,36,18,50.0
+STU00146,Operating Systems,40,37,92.5
+STU00147,Big Data Analytics,39,39,100.0
+STU00147,Computer Networks,42,41,97.62
+STU00147,Database Management,35,22,62.86
+STU00147,Machine Learning,42,34,80.95
+STU00147,Operating Systems,35,23,65.71
+STU00148,Big Data Analytics,38,32,84.21
+STU00148,Computer Networks,40,40,100.0
+STU00148,Database Management,45,22,48.89
+STU00148,Machine Learning,50,49,98.0
+STU00148,Operating Systems,40,30,75.0
+STU00149,Big Data Analytics,47,29,61.7
+STU00149,Computer Networks,48,42,87.5
+STU00149,Database Management,49,30,61.22
+STU00149,Machine Learning,47,24,51.06
+STU00149,Operating Systems,43,23,53.49
+STU00150,Big Data Analytics,47,23,48.94
+STU00150,Computer Networks,50,44,88.0
+STU00150,Database Management,49,40,81.63
+STU00150,Machine Learning,44,32,72.73
+STU00150,Operating Systems,45,42,93.33
+STU00151,Big Data Analytics,40,35,87.5
+STU00151,Computer Networks,46,26,56.52
+STU00151,Database Management,40,23,57.5
+STU00151,Machine Learning,42,39,92.86
+STU00151,Operating Systems,41,38,92.68
+STU00152,Big Data Analytics,36,20,55.56
+STU00152,Computer Networks,47,41,87.23
+STU00152,Database Management,36,18,50.0
+STU00152,Machine Learning,48,39,81.25
+STU00152,Operating Systems,39,29,74.36
+STU00153,Big Data Analytics,45,35,77.78
+STU00153,Computer Networks,43,40,93.02
+STU00153,Database Management,50,27,54.0
+STU00153,Machine Learning,50,38,76.0
+STU00153,Operating Systems,49,37,75.51
+STU00154,Big Data Analytics,44,28,63.64
+STU00154,Computer Networks,40,36,90.0
+STU00154,Database Management,46,37,80.43
+STU00154,Machine Learning,42,21,50.0
+STU00154,Operating Systems,47,28,59.57
+STU00155,Big Data Analytics,49,38,77.55
+STU00155,Computer Networks,50,44,88.0
+STU00155,Database Management,47,35,74.47
+STU00155,Machine Learning,37,27,72.97
+STU00155,Operating Systems,43,38,88.37
+STU00156,Big Data Analytics,42,22,52.38
+STU00156,Computer Networks,50,44,88.0
+STU00156,Database Management,35,27,77.14
+STU00156,Machine Learning,38,22,57.89
+STU00156,Operating Systems,39,27,69.23
+STU00157,Big Data Analytics,35,29,82.86
+STU00157,Computer Networks,41,41,100.0
+STU00157,Database Management,47,34,72.34
+STU00157,Machine Learning,42,41,97.62
+STU00157,Operating Systems,50,35,70.0
+STU00158,Big Data Analytics,45,23,51.11
+STU00158,Computer Networks,39,25,64.1
+STU00158,Database Management,49,46,93.88
+STU00158,Machine Learning,38,33,86.84
+STU00158,Operating Systems,38,28,73.68
+STU00159,Big Data Analytics,40,39,97.5
+STU00159,Computer Networks,44,39,88.64
+STU00159,Database Management,40,40,100.0
+STU00159,Machine Learning,35,34,97.14
+STU00159,Operating Systems,36,36,100.0
+STU00160,Big Data Analytics,42,34,80.95
+STU00160,Computer Networks,41,20,48.78
+STU00160,Database Management,35,18,51.43
+STU00160,Machine Learning,40,29,72.5
+STU00160,Operating Systems,43,31,72.09
+STU00161,Big Data Analytics,50,31,62.0
+STU00161,Computer Networks,50,25,50.0
+STU00161,Database Management,49,29,59.18
+STU00161,Machine Learning,37,20,54.05
+STU00161,Operating Systems,39,31,79.49
+STU00162,Big Data Analytics,39,39,100.0
+STU00162,Computer Networks,42,40,95.24
+STU00162,Database Management,48,41,85.42
+STU00162,Machine Learning,40,34,85.0
+STU00162,Operating Systems,45,30,66.67
+STU00163,Big Data Analytics,46,35,76.09
+STU00163,Computer Networks,49,24,48.98
+STU00163,Database Management,46,44,95.65
+STU00163,Machine Learning,37,36,97.3
+STU00163,Operating Systems,41,37,90.24
+STU00164,Big Data Analytics,48,38,79.17
+STU00164,Computer Networks,46,38,82.61
+STU00164,Database Management,39,21,53.85
+STU00164,Machine Learning,48,36,75.0
+STU00164,Operating Systems,44,35,79.55
+STU00165,Big Data Analytics,38,19,50.0
+STU00165,Computer Networks,45,36,80.0
+STU00165,Database Management,38,37,97.37
+STU00165,Machine Learning,40,28,70.0
+STU00165,Operating Systems,42,40,95.24
+STU00166,Big Data Analytics,47,33,70.21
+STU00166,Computer Networks,48,31,64.58
+STU00166,Database Management,46,33,71.74
+STU00166,Machine Learning,44,30,68.18
+STU00166,Operating Systems,37,31,83.78
+STU00167,Big Data Analytics,40,21,52.5
+STU00167,Computer Networks,44,28,63.64
+STU00167,Database Management,44,23,52.27
+STU00167,Machine Learning,45,40,88.89
+STU00167,Operating Systems,46,40,86.96
+STU00168,Big Data Analytics,48,30,62.5
+STU00168,Computer Networks,46,45,97.83
+STU00168,Database Management,50,46,92.0
+STU00168,Machine Learning,39,35,89.74
+STU00168,Operating Systems,38,21,55.26
+STU00169,Big Data Analytics,46,29,63.04
+STU00169,Computer Networks,48,46,95.83
+STU00169,Database Management,48,26,54.17
+STU00169,Machine Learning,44,28,63.64
+STU00169,Operating Systems,48,25,52.08
+STU00170,Big Data Analytics,35,29,82.86
+STU00170,Computer Networks,49,47,95.92
+STU00170,Database Management,46,23,50.0
+STU00170,Machine Learning,50,37,74.0
+STU00170,Operating Systems,48,24,50.0
+STU00171,Big Data Analytics,35,25,71.43
+STU00171,Computer Networks,40,20,50.0
+STU00171,Database Management,39,23,58.97
+STU00171,Machine Learning,42,21,50.0
+STU00171,Operating Systems,46,28,60.87
+STU00172,Big Data Analytics,50,39,78.0
+STU00172,Computer Networks,46,40,86.96
+STU00172,Database Management,41,20,48.78
+STU00172,Machine Learning,41,31,75.61
+STU00172,Operating Systems,35,29,82.86
+STU00173,Big Data Analytics,35,24,68.57
+STU00173,Computer Networks,43,42,97.67
+STU00173,Database Management,50,32,64.0
+STU00173,Machine Learning,50,40,80.0
+STU00173,Operating Systems,43,36,83.72
+STU00174,Big Data Analytics,47,39,82.98
+STU00174,Computer Networks,45,34,75.56
+STU00174,Database Management,45,34,75.56
+STU00174,Machine Learning,42,28,66.67
+STU00174,Operating Systems,50,31,62.0
+STU00175,Big Data Analytics,37,19,51.35
+STU00175,Computer Networks,48,39,81.25
+STU00175,Database Management,40,31,77.5
+STU00175,Machine Learning,41,29,70.73
+STU00175,Operating Systems,35,17,48.57
+STU00176,Big Data Analytics,38,33,86.84
+STU00176,Computer Networks,41,31,75.61
+STU00176,Database Management,43,24,55.81
+STU00176,Machine Learning,44,28,63.64
+STU00176,Operating Systems,36,22,61.11
+STU00177,Big Data Analytics,40,28,70.0
+STU00177,Computer Networks,39,36,92.31
+STU00177,Database Management,38,28,73.68
+STU00177,Machine Learning,47,38,80.85
+STU00177,Operating Systems,42,25,59.52
+STU00178,Big Data Analytics,37,36,97.3
+STU00178,Computer Networks,43,40,93.02
+STU00178,Database Management,47,44,93.62
+STU00178,Machine Learning,42,26,61.9
+STU00178,Operating Systems,37,29,78.38
+STU00179,Big Data Analytics,40,38,95.0
+STU00179,Computer Networks,38,27,71.05
+STU00179,Database Management,48,36,75.0
+STU00179,Machine Learning,50,31,62.0
+STU00179,Operating Systems,46,30,65.22
+STU00180,Big Data Analytics,45,25,55.56
+STU00180,Computer Networks,45,22,48.89
+STU00180,Database Management,35,19,54.29
+STU00180,Machine Learning,41,32,78.05
+STU00180,Operating Systems,40,29,72.5
+STU00181,Big Data Analytics,44,35,79.55
+STU00181,Computer Networks,35,32,91.43
+STU00181,Database Management,39,30,76.92
+STU00181,Machine Learning,50,38,76.0
+STU00181,Operating Systems,40,26,65.0
+STU00182,Big Data Analytics,37,32,86.49
+STU00182,Computer Networks,41,39,95.12
+STU00182,Database Management,40,21,52.5
+STU00182,Machine Learning,37,27,72.97
+STU00182,Operating Systems,49,39,79.59
+STU00183,Big Data Analytics,38,33,86.84
+STU00183,Computer Networks,37,31,83.78
+STU00183,Database Management,44,33,75.0
+STU00183,Machine Learning,48,46,95.83
+STU00183,Operating Systems,45,41,91.11
+STU00184,Big Data Analytics,38,37,97.37
+STU00184,Computer Networks,48,47,97.92
+STU00184,Database Management,45,28,62.22
+STU00184,Machine Learning,42,24,57.14
+STU00184,Operating Systems,50,25,50.0
+STU00185,Big Data Analytics,43,35,81.4
+STU00185,Computer Networks,40,29,72.5
+STU00185,Database Management,48,41,85.42
+STU00185,Machine Learning,44,24,54.55
+STU00185,Operating Systems,36,23,63.89
+STU00186,Big Data Analytics,39,28,71.79
+STU00186,Computer Networks,37,37,100.0
+STU00186,Database Management,49,37,75.51
+STU00186,Machine Learning,49,24,48.98
+STU00186,Operating Systems,36,20,55.56
+STU00187,Big Data Analytics,35,31,88.57
+STU00187,Computer Networks,38,30,78.95
+STU00187,Database Management,41,24,58.54
+STU00187,Machine Learning,47,45,95.74
+STU00187,Operating Systems,42,36,85.71
+STU00188,Big Data Analytics,50,30,60.0
+STU00188,Computer Networks,47,24,51.06
+STU00188,Database Management,35,20,57.14
+STU00188,Machine Learning,48,32,66.67
+STU00188,Operating Systems,45,32,71.11
+STU00189,Big Data Analytics,41,26,63.41
+STU00189,Computer Networks,35,30,85.71
+STU00189,Database Management,44,42,95.45
+STU00189,Machine Learning,40,30,75.0
+STU00189,Operating Systems,38,23,60.53
+STU00190,Big Data Analytics,37,18,48.65
+STU00190,Computer Networks,37,18,48.65
+STU00190,Database Management,35,21,60.0
+STU00190,Machine Learning,50,35,70.0
+STU00190,Operating Systems,50,28,56.0
+STU00191,Big Data Analytics,40,40,100.0
+STU00191,Computer Networks,42,38,90.48
+STU00191,Database Management,45,34,75.56
+STU00191,Machine Learning,39,39,100.0
+STU00191,Operating Systems,40,23,57.5
+STU00192,Big Data Analytics,48,37,77.08
+STU00192,Computer Networks,35,22,62.86
+STU00192,Database Management,38,37,97.37
+STU00192,Machine Learning,37,18,48.65
+STU00192,Operating Systems,47,39,82.98
+STU00193,Big Data Analytics,41,36,87.8
+STU00193,Computer Networks,44,39,88.64
+STU00193,Database Management,35,25,71.43
+STU00193,Machine Learning,49,24,48.98
+STU00193,Operating Systems,44,22,50.0
+STU00194,Big Data Analytics,45,35,77.78
+STU00194,Computer Networks,44,37,84.09
+STU00194,Database Management,41,23,56.1
+STU00194,Machine Learning,46,46,100.0
+STU00194,Operating Systems,47,40,85.11
+STU00195,Big Data Analytics,41,23,56.1
+STU00195,Computer Networks,42,24,57.14
+STU00195,Database Management,35,24,68.57
+STU00195,Machine Learning,49,24,48.98
+STU00195,Operating Systems,50,31,62.0
+STU00196,Big Data Analytics,44,31,70.45
+STU00196,Computer Networks,44,31,70.45
+STU00196,Database Management,48,48,100.0
+STU00196,Machine Learning,46,40,86.96
+STU00196,Operating Systems,45,25,55.56
+STU00197,Big Data Analytics,35,21,60.0
+STU00197,Computer Networks,49,30,61.22
+STU00197,Database Management,39,31,79.49
+STU00197,Machine Learning,46,28,60.87
+STU00197,Operating Systems,46,44,95.65
+STU00198,Big Data Analytics,44,36,81.82
+STU00198,Computer Networks,45,39,86.67
+STU00198,Database Management,41,40,97.56
+STU00198,Machine Learning,50,25,50.0
+STU00198,Operating Systems,46,43,93.48
+STU00199,Big Data Analytics,35,25,71.43
+STU00199,Computer Networks,49,37,75.51
+STU00199,Database Management,50,26,52.0
+STU00199,Machine Learning,47,28,59.57
+STU00199,Operating Systems,47,46,97.87
+STU00200,Big Data Analytics,37,33,89.19
+STU00200,Computer Networks,46,43,93.48
+STU00200,Database Management,35,28,80.0
+STU00200,Machine Learning,36,27,75.0
+STU00200,Operating Systems,50,32,64.0
+STU00201,Big Data Analytics,45,45,100.0
+STU00201,Computer Networks,35,19,54.29
+STU00201,Database Management,45,33,73.33
+STU00201,Machine Learning,50,25,50.0
+STU00201,Operating Systems,48,37,77.08
+STU00202,Big Data Analytics,37,29,78.38
+STU00202,Computer Networks,47,40,85.11
+STU00202,Database Management,49,28,57.14
+STU00202,Machine Learning,46,24,52.17
+STU00202,Operating Systems,50,39,78.0
+STU00203,Big Data Analytics,41,28,68.29
+STU00203,Computer Networks,39,25,64.1
+STU00203,Database Management,36,34,94.44
+STU00203,Machine Learning,44,24,54.55
+STU00203,Operating Systems,37,21,56.76
+STU00204,Big Data Analytics,45,43,95.56
+STU00204,Computer Networks,38,30,78.95
+STU00204,Database Management,46,40,86.96
+STU00204,Machine Learning,47,42,89.36
+STU00204,Operating Systems,37,22,59.46
+STU00205,Big Data Analytics,37,19,51.35
+STU00205,Computer Networks,41,27,65.85
+STU00205,Database Management,46,24,52.17
+STU00205,Machine Learning,50,45,90.0
+STU00205,Operating Systems,42,36,85.71
+STU00206,Big Data Analytics,39,34,87.18
+STU00206,Computer Networks,48,40,83.33
+STU00206,Database Management,35,19,54.29
+STU00206,Machine Learning,48,41,85.42
+STU00206,Operating Systems,37,34,91.89
+STU00207,Big Data Analytics,45,40,88.89
+STU00207,Computer Networks,50,44,88.0
+STU00207,Database Management,43,32,74.42
+STU00207,Machine Learning,42,22,52.38
+STU00207,Operating Systems,36,23,63.89
+STU00208,Big Data Analytics,37,29,78.38
+STU00208,Computer Networks,37,20,54.05
+STU00208,Database Management,48,33,68.75
+STU00208,Machine Learning,43,36,83.72
+STU00208,Operating Systems,49,26,53.06
+STU00209,Big Data Analytics,42,29,69.05
+STU00209,Computer Networks,37,32,86.49
+STU00209,Database Management,37,26,70.27
+STU00209,Machine Learning,43,30,69.77
+STU00209,Operating Systems,46,24,52.17
+STU00210,Big Data Analytics,44,37,84.09
+STU00210,Computer Networks,38,30,78.95
+STU00210,Database Management,36,21,58.33
+STU00210,Machine Learning,45,28,62.22
+STU00210,Operating Systems,41,26,63.41
+STU00211,Big Data Analytics,46,32,69.57
+STU00211,Computer Networks,45,44,97.78
+STU00211,Database Management,49,24,48.98
+STU00211,Machine Learning,46,34,73.91
+STU00211,Operating Systems,40,30,75.0
+STU00212,Big Data Analytics,44,33,75.0
+STU00212,Computer Networks,36,33,91.67
+STU00212,Database Management,43,28,65.12
+STU00212,Machine Learning,50,48,96.0
+STU00212,Operating Systems,50,29,58.0
+STU00213,Big Data Analytics,46,34,73.91
+STU00213,Computer Networks,41,30,73.17
+STU00213,Database Management,42,42,100.0
+STU00213,Machine Learning,36,35,97.22
+STU00213,Operating Systems,41,34,82.93
+STU00214,Big Data Analytics,35,33,94.29
+STU00214,Computer Networks,36,25,69.44
+STU00214,Database Management,49,35,71.43
+STU00214,Machine Learning,41,41,100.0
+STU00214,Operating Systems,35,21,60.0
+STU00215,Big Data Analytics,43,25,58.14
+STU00215,Computer Networks,43,22,51.16
+STU00215,Database Management,49,37,75.51
+STU00215,Machine Learning,43,37,86.05
+STU00215,Operating Systems,42,24,57.14
+STU00216,Big Data Analytics,48,31,64.58
+STU00216,Computer Networks,40,40,100.0
+STU00216,Database Management,46,23,50.0
+STU00216,Machine Learning,45,42,93.33
+STU00216,Operating Systems,35,27,77.14
+STU00217,Big Data Analytics,45,34,75.56
+STU00217,Computer Networks,42,42,100.0
+STU00217,Database Management,40,34,85.0
+STU00217,Machine Learning,43,41,95.35
+STU00217,Operating Systems,48,33,68.75
+STU00218,Big Data Analytics,35,33,94.29
+STU00218,Computer Networks,37,37,100.0
+STU00218,Database Management,43,41,95.35
+STU00218,Machine Learning,39,23,58.97
+STU00218,Operating Systems,46,45,97.83
+STU00219,Big Data Analytics,40,23,57.5
+STU00219,Computer Networks,44,32,72.73
+STU00219,Database Management,41,32,78.05
+STU00219,Machine Learning,35,18,51.43
+STU00219,Operating Systems,37,22,59.46
+STU00220,Big Data Analytics,49,42,85.71
+STU00220,Computer Networks,38,34,89.47
+STU00220,Database Management,41,32,78.05
+STU00220,Machine Learning,49,41,83.67
+STU00220,Operating Systems,48,43,89.58
+STU00221,Big Data Analytics,38,32,84.21
+STU00221,Computer Networks,37,37,100.0
+STU00221,Database Management,50,36,72.0
+STU00221,Machine Learning,49,28,57.14
+STU00221,Operating Systems,39,34,87.18
+STU00222,Big Data Analytics,43,31,72.09
+STU00222,Computer Networks,44,35,79.55
+STU00222,Database Management,50,42,84.0
+STU00222,Machine Learning,41,26,63.41
+STU00222,Operating Systems,41,24,58.54
+STU00223,Big Data Analytics,39,38,97.44
+STU00223,Computer Networks,43,35,81.4
+STU00223,Database Management,43,33,76.74
+STU00223,Machine Learning,41,22,53.66
+STU00223,Operating Systems,40,21,52.5
+STU00224,Big Data Analytics,44,39,88.64
+STU00224,Computer Networks,36,22,61.11
+STU00224,Database Management,49,24,48.98
+STU00224,Machine Learning,44,33,75.0
+STU00224,Operating Systems,37,27,72.97
+STU00225,Big Data Analytics,47,31,65.96
+STU00225,Computer Networks,45,31,68.89
+STU00225,Database Management,37,32,86.49
+STU00225,Machine Learning,42,24,57.14
+STU00225,Operating Systems,46,26,56.52
+STU00226,Big Data Analytics,40,33,82.5
+STU00226,Computer Networks,50,43,86.0
+STU00226,Database Management,43,28,65.12
+STU00226,Machine Learning,44,29,65.91
+STU00226,Operating Systems,42,35,83.33
+STU00227,Big Data Analytics,39,26,66.67
+STU00227,Computer Networks,49,37,75.51
+STU00227,Database Management,40,35,87.5
+STU00227,Machine Learning,37,36,97.3
+STU00227,Operating Systems,41,39,95.12
+STU00228,Big Data Analytics,43,38,88.37
+STU00228,Computer Networks,43,39,90.7
+STU00228,Database Management,36,29,80.56
+STU00228,Machine Learning,43,43,100.0
+STU00228,Operating Systems,49,31,63.27
+STU00229,Big Data Analytics,42,38,90.48
+STU00229,Computer Networks,39,23,58.97
+STU00229,Database Management,36,20,55.56
+STU00229,Machine Learning,48,37,77.08
+STU00229,Operating Systems,36,21,58.33
+STU00230,Big Data Analytics,37,37,100.0
+STU00230,Computer Networks,46,26,56.52
+STU00230,Database Management,39,34,87.18
+STU00230,Machine Learning,45,32,71.11
+STU00230,Operating Systems,44,23,52.27
+STU00231,Big Data Analytics,46,35,76.09
+STU00231,Computer Networks,38,25,65.79
+STU00231,Database Management,37,22,59.46
+STU00231,Machine Learning,48,31,64.58
+STU00231,Operating Systems,44,29,65.91
+STU00232,Big Data Analytics,43,41,95.35
+STU00232,Computer Networks,42,25,59.52
+STU00232,Database Management,36,25,69.44
+STU00232,Machine Learning,49,42,85.71
+STU00232,Operating Systems,45,41,91.11
+STU00233,Big Data Analytics,35,27,77.14
+STU00233,Computer Networks,48,45,93.75
+STU00233,Database Management,45,29,64.44
+STU00233,Machine Learning,50,49,98.0
+STU00233,Operating Systems,40,32,80.0
+STU00234,Big Data Analytics,35,34,97.14
+STU00234,Computer Networks,49,35,71.43
+STU00234,Database Management,43,30,69.77
+STU00234,Machine Learning,47,37,78.72
+STU00234,Operating Systems,37,21,56.76
+STU00235,Big Data Analytics,41,28,68.29
+STU00235,Computer Networks,39,30,76.92
+STU00235,Database Management,41,32,78.05
+STU00235,Machine Learning,46,41,89.13
+STU00235,Operating Systems,38,34,89.47
+STU00236,Big Data Analytics,44,37,84.09
+STU00236,Computer Networks,41,36,87.8
+STU00236,Database Management,39,37,94.87
+STU00236,Machine Learning,49,26,53.06
+STU00236,Operating Systems,37,35,94.59
+STU00237,Big Data Analytics,40,30,75.0
+STU00237,Computer Networks,43,25,58.14
+STU00237,Database Management,35,33,94.29
+STU00237,Machine Learning,41,39,95.12
+STU00237,Operating Systems,50,35,70.0
+STU00238,Big Data Analytics,40,21,52.5
+STU00238,Computer Networks,44,31,70.45
+STU00238,Database Management,38,28,73.68
+STU00238,Machine Learning,46,43,93.48
+STU00238,Operating Systems,38,34,89.47
+STU00239,Big Data Analytics,35,25,71.43
+STU00239,Computer Networks,48,27,56.25
+STU00239,Database Management,49,27,55.1
+STU00239,Machine Learning,35,21,60.0
+STU00239,Operating Systems,39,34,87.18
+STU00240,Big Data Analytics,43,31,72.09
+STU00240,Computer Networks,35,27,77.14
+STU00240,Database Management,49,33,67.35
+STU00240,Machine Learning,36,36,100.0
+STU00240,Operating Systems,47,38,80.85
+STU00241,Big Data Analytics,37,26,70.27
+STU00241,Computer Networks,40,26,65.0
+STU00241,Database Management,46,26,56.52
+STU00241,Machine Learning,41,20,48.78
+STU00241,Operating Systems,50,45,90.0
+STU00242,Big Data Analytics,43,21,48.84
+STU00242,Computer Networks,48,25,52.08
+STU00242,Database Management,50,45,90.0
+STU00242,Machine Learning,41,39,95.12
+STU00242,Operating Systems,43,31,72.09
+STU00243,Big Data Analytics,40,37,92.5
+STU00243,Computer Networks,48,38,79.17
+STU00243,Database Management,37,37,100.0
+STU00243,Machine Learning,44,23,52.27
+STU00243,Operating Systems,47,38,80.85
+STU00244,Big Data Analytics,44,31,70.45
+STU00244,Computer Networks,50,37,74.0
+STU00244,Database Management,44,40,90.91
+STU00244,Machine Learning,47,42,89.36
+STU00244,Operating Systems,37,34,91.89
+STU00245,Big Data Analytics,41,39,95.12
+STU00245,Computer Networks,41,24,58.54
+STU00245,Database Management,41,35,85.37
+STU00245,Machine Learning,38,30,78.95
+STU00245,Operating Systems,36,24,66.67
+STU00246,Big Data Analytics,37,22,59.46
+STU00246,Computer Networks,45,23,51.11
+STU00246,Database Management,38,36,94.74
+STU00246,Machine Learning,47,32,68.09
+STU00246,Operating Systems,40,37,92.5
+STU00247,Big Data Analytics,48,26,54.17
+STU00247,Computer Networks,39,25,64.1
+STU00247,Database Management,41,29,70.73
+STU00247,Machine Learning,48,45,93.75
+STU00247,Operating Systems,38,25,65.79
+STU00248,Big Data Analytics,42,37,88.1
+STU00248,Computer Networks,39,22,56.41
+STU00248,Database Management,50,38,76.0
+STU00248,Machine Learning,48,37,77.08
+STU00248,Operating Systems,48,37,77.08
+STU00249,Big Data Analytics,44,34,77.27
+STU00249,Computer Networks,47,30,63.83
+STU00249,Database Management,44,41,93.18
+STU00249,Machine Learning,42,25,59.52
+STU00249,Operating Systems,40,29,72.5
+STU00250,Big Data Analytics,48,46,95.83
+STU00250,Computer Networks,48,33,68.75
+STU00250,Database Management,46,46,100.0
+STU00250,Machine Learning,36,32,88.89
+STU00250,Operating Systems,42,41,97.62
+STU00251,Big Data Analytics,35,19,54.29
+STU00251,Computer Networks,49,32,65.31
+STU00251,Database Management,37,32,86.49
+STU00251,Machine Learning,43,39,90.7
+STU00251,Operating Systems,41,26,63.41
+STU00252,Big Data Analytics,41,30,73.17
+STU00252,Computer Networks,41,20,48.78
+STU00252,Database Management,49,38,77.55
+STU00252,Machine Learning,41,39,95.12
+STU00252,Operating Systems,40,23,57.5
+STU00253,Big Data Analytics,42,22,52.38
+STU00253,Computer Networks,45,23,51.11
+STU00253,Database Management,50,42,84.0
+STU00253,Machine Learning,46,26,56.52
+STU00253,Operating Systems,40,40,100.0
+STU00254,Big Data Analytics,49,42,85.71
+STU00254,Computer Networks,44,39,88.64
+STU00254,Database Management,43,33,76.74
+STU00254,Machine Learning,41,21,51.22
+STU00254,Operating Systems,43,24,55.81
+STU00255,Big Data Analytics,39,21,53.85
+STU00255,Computer Networks,39,22,56.41
+STU00255,Database Management,44,24,54.55
+STU00255,Machine Learning,35,25,71.43
+STU00255,Operating Systems,45,35,77.78
+STU00256,Big Data Analytics,41,40,97.56
+STU00256,Computer Networks,41,38,92.68
+STU00256,Database Management,39,24,61.54
+STU00256,Machine Learning,44,39,88.64
+STU00256,Operating Systems,44,37,84.09
+STU00257,Big Data Analytics,40,30,75.0
+STU00257,Computer Networks,41,28,68.29
+STU00257,Database Management,41,21,51.22
+STU00257,Machine Learning,37,30,81.08
+STU00257,Operating Systems,38,29,76.32
+STU00258,Big Data Analytics,47,27,57.45
+STU00258,Computer Networks,38,37,97.37
+STU00258,Database Management,39,34,87.18
+STU00258,Machine Learning,39,31,79.49
+STU00258,Operating Systems,41,20,48.78
+STU00259,Big Data Analytics,39,36,92.31
+STU00259,Computer Networks,40,20,50.0
+STU00259,Database Management,44,24,54.55
+STU00259,Machine Learning,44,36,81.82
+STU00259,Operating Systems,39,23,58.97
+STU00260,Big Data Analytics,37,30,81.08
+STU00260,Computer Networks,40,39,97.5
+STU00260,Database Management,49,47,95.92
+STU00260,Machine Learning,41,26,63.41
+STU00260,Operating Systems,44,37,84.09
+STU00261,Big Data Analytics,41,29,70.73
+STU00261,Computer Networks,49,47,95.92
+STU00261,Database Management,44,36,81.82
+STU00261,Machine Learning,39,24,61.54
+STU00261,Operating Systems,39,33,84.62
+STU00262,Big Data Analytics,37,25,67.57
+STU00262,Computer Networks,44,34,77.27
+STU00262,Database Management,38,33,86.84
+STU00262,Machine Learning,50,35,70.0
+STU00262,Operating Systems,44,33,75.0
+STU00263,Big Data Analytics,49,45,91.84
+STU00263,Computer Networks,35,31,88.57
+STU00263,Database Management,41,21,51.22
+STU00263,Machine Learning,40,25,62.5
+STU00263,Operating Systems,45,44,97.78
+STU00264,Big Data Analytics,49,44,89.8
+STU00264,Computer Networks,39,19,48.72
+STU00264,Database Management,36,35,97.22
+STU00264,Machine Learning,39,32,82.05
+STU00264,Operating Systems,48,38,79.17
+STU00265,Big Data Analytics,47,29,61.7
+STU00265,Computer Networks,49,25,51.02
+STU00265,Database Management,45,28,62.22
+STU00265,Machine Learning,41,38,92.68
+STU00265,Operating Systems,42,40,95.24
+STU00266,Big Data Analytics,46,28,60.87
+STU00266,Computer Networks,39,38,97.44
+STU00266,Database Management,50,28,56.0
+STU00266,Machine Learning,41,27,65.85
+STU00266,Operating Systems,40,40,100.0
+STU00267,Big Data Analytics,36,25,69.44
+STU00267,Computer Networks,37,36,97.3
+STU00267,Database Management,36,19,52.78
+STU00267,Machine Learning,39,22,56.41
+STU00267,Operating Systems,44,29,65.91
+STU00268,Big Data Analytics,38,20,52.63
+STU00268,Computer Networks,38,34,89.47
+STU00268,Database Management,49,31,63.27
+STU00268,Machine Learning,36,22,61.11
+STU00268,Operating Systems,50,25,50.0
+STU00269,Big Data Analytics,41,32,78.05
+STU00269,Computer Networks,50,50,100.0
+STU00269,Database Management,48,39,81.25
+STU00269,Machine Learning,45,29,64.44
+STU00269,Operating Systems,36,21,58.33
+STU00270,Big Data Analytics,36,27,75.0
+STU00270,Computer Networks,43,25,58.14
+STU00270,Database Management,44,28,63.64
+STU00270,Machine Learning,41,24,58.54
+STU00270,Operating Systems,41,32,78.05
+STU00271,Big Data Analytics,36,25,69.44
+STU00271,Computer Networks,40,23,57.5
+STU00271,Database Management,46,23,50.0
+STU00271,Machine Learning,40,36,90.0
+STU00271,Operating Systems,45,36,80.0
+STU00272,Big Data Analytics,49,42,85.71
+STU00272,Computer Networks,49,45,91.84
+STU00272,Database Management,41,30,73.17
+STU00272,Machine Learning,38,20,52.63
+STU00272,Operating Systems,41,31,75.61
+STU00273,Big Data Analytics,35,21,60.0
+STU00273,Computer Networks,45,36,80.0
+STU00273,Database Management,38,21,55.26
+STU00273,Machine Learning,42,39,92.86
+STU00273,Operating Systems,45,26,57.78
+STU00274,Big Data Analytics,48,48,100.0
+STU00274,Computer Networks,42,27,64.29
+STU00274,Database Management,47,43,91.49
+STU00274,Machine Learning,46,24,52.17
+STU00274,Operating Systems,37,20,54.05
+STU00275,Big Data Analytics,44,22,50.0
+STU00275,Computer Networks,40,27,67.5
+STU00275,Database Management,37,23,62.16
+STU00275,Machine Learning,40,39,97.5
+STU00275,Operating Systems,40,38,95.0
+STU00276,Big Data Analytics,43,33,76.74
+STU00276,Computer Networks,41,27,65.85
+STU00276,Database Management,42,31,73.81
+STU00276,Machine Learning,37,21,56.76
+STU00276,Operating Systems,47,36,76.6
+STU00277,Big Data Analytics,45,31,68.89
+STU00277,Computer Networks,50,47,94.0
+STU00277,Database Management,39,19,48.72
+STU00277,Machine Learning,41,41,100.0
+STU00277,Operating Systems,44,23,52.27
+STU00278,Big Data Analytics,35,23,65.71
+STU00278,Computer Networks,49,24,48.98
+STU00278,Database Management,50,39,78.0
+STU00278,Machine Learning,36,18,50.0
+STU00278,Operating Systems,42,36,85.71
+STU00279,Big Data Analytics,50,27,54.0
+STU00279,Computer Networks,40,25,62.5
+STU00279,Database Management,48,39,81.25
+STU00279,Machine Learning,49,38,77.55
+STU00279,Operating Systems,49,32,65.31
+STU00280,Big Data Analytics,43,37,86.05
+STU00280,Computer Networks,36,36,100.0
+STU00280,Database Management,38,21,55.26
+STU00280,Machine Learning,42,26,61.9
+STU00280,Operating Systems,47,25,53.19
+STU00281,Big Data Analytics,43,41,95.35
+STU00281,Computer Networks,47,42,89.36
+STU00281,Database Management,36,26,72.22
+STU00281,Machine Learning,39,25,64.1
+STU00281,Operating Systems,41,24,58.54
+STU00282,Big Data Analytics,37,37,100.0
+STU00282,Computer Networks,48,24,50.0
+STU00282,Database Management,46,35,76.09
+STU00282,Machine Learning,44,31,70.45
+STU00282,Operating Systems,43,37,86.05
+STU00283,Big Data Analytics,42,36,85.71
+STU00283,Computer Networks,44,32,72.73
+STU00283,Database Management,37,31,83.78
+STU00283,Machine Learning,41,37,90.24
+STU00283,Operating Systems,43,22,51.16
+STU00284,Big Data Analytics,46,35,76.09
+STU00284,Computer Networks,46,26,56.52
+STU00284,Database Management,37,25,67.57
+STU00284,Machine Learning,46,45,97.83
+STU00284,Operating Systems,45,44,97.78
+STU00285,Big Data Analytics,40,30,75.0
+STU00285,Computer Networks,47,33,70.21
+STU00285,Database Management,45,32,71.11
+STU00285,Machine Learning,35,20,57.14
+STU00285,Operating Systems,46,27,58.7
+STU00286,Big Data Analytics,38,29,76.32
+STU00286,Computer Networks,46,33,71.74
+STU00286,Database Management,37,31,83.78
+STU00286,Machine Learning,44,34,77.27
+STU00286,Operating Systems,36,21,58.33
+STU00287,Big Data Analytics,47,25,53.19
+STU00287,Computer Networks,44,40,90.91
+STU00287,Database Management,36,29,80.56
+STU00287,Machine Learning,42,24,57.14
+STU00287,Operating Systems,43,22,51.16
+STU00288,Big Data Analytics,49,34,69.39
+STU00288,Computer Networks,41,36,87.8
+STU00288,Database Management,47,36,76.6
+STU00288,Machine Learning,44,30,68.18
+STU00288,Operating Systems,45,25,55.56
+STU00289,Big Data Analytics,48,24,50.0
+STU00289,Computer Networks,48,41,85.42
+STU00289,Database Management,45,26,57.78
+STU00289,Machine Learning,39,21,53.85
+STU00289,Operating Systems,50,26,52.0
+STU00290,Big Data Analytics,42,29,69.05
+STU00290,Computer Networks,50,28,56.0
+STU00290,Database Management,38,37,97.37
+STU00290,Machine Learning,48,29,60.42
+STU00290,Operating Systems,44,40,90.91
+STU00291,Big Data Analytics,38,23,60.53
+STU00291,Computer Networks,37,33,89.19
+STU00291,Database Management,49,43,87.76
+STU00291,Machine Learning,37,28,75.68
+STU00291,Operating Systems,44,25,56.82
+STU00292,Big Data Analytics,39,26,66.67
+STU00292,Computer Networks,41,28,68.29
+STU00292,Database Management,49,45,91.84
+STU00292,Machine Learning,48,36,75.0
+STU00292,Operating Systems,50,38,76.0
+STU00293,Big Data Analytics,44,27,61.36
+STU00293,Computer Networks,37,34,91.89
+STU00293,Database Management,48,36,75.0
+STU00293,Machine Learning,35,17,48.57
+STU00293,Operating Systems,39,26,66.67
+STU00294,Big Data Analytics,45,42,93.33
+STU00294,Computer Networks,50,25,50.0
+STU00294,Database Management,41,26,63.41
+STU00294,Machine Learning,46,25,54.35
+STU00294,Operating Systems,42,23,54.76
+STU00295,Big Data Analytics,40,23,57.5
+STU00295,Computer Networks,35,20,57.14
+STU00295,Database Management,50,42,84.0
+STU00295,Machine Learning,35,20,57.14
+STU00295,Operating Systems,43,42,97.67
+STU00296,Big Data Analytics,48,35,72.92
+STU00296,Computer Networks,49,26,53.06
+STU00296,Database Management,47,27,57.45
+STU00296,Machine Learning,37,36,97.3
+STU00296,Operating Systems,50,26,52.0
+STU00297,Big Data Analytics,48,26,54.17
+STU00297,Computer Networks,45,41,91.11
+STU00297,Database Management,35,27,77.14
+STU00297,Machine Learning,44,44,100.0
+STU00297,Operating Systems,47,34,72.34
+STU00298,Big Data Analytics,47,33,70.21
+STU00298,Computer Networks,36,23,63.89
+STU00298,Database Management,44,40,90.91
+STU00298,Machine Learning,38,25,65.79
+STU00298,Operating Systems,50,46,92.0
+STU00299,Big Data Analytics,44,30,68.18
+STU00299,Computer Networks,45,37,82.22
+STU00299,Database Management,39,21,53.85
+STU00299,Machine Learning,45,35,77.78
+STU00299,Operating Systems,45,27,60.0
+STU00300,Big Data Analytics,46,29,63.04
+STU00300,Computer Networks,47,44,93.62
+STU00300,Database Management,40,35,87.5
+STU00300,Machine Learning,35,27,77.14
+STU00300,Operating Systems,48,24,50.0
+STU00301,Big Data Analytics,39,32,82.05
+STU00301,Computer Networks,44,24,54.55
+STU00301,Database Management,47,29,61.7
+STU00301,Machine Learning,40,25,62.5
+STU00301,Operating Systems,43,26,60.47
+STU00302,Big Data Analytics,44,29,65.91
+STU00302,Computer Networks,41,39,95.12
+STU00302,Database Management,49,28,57.14
+STU00302,Machine Learning,42,39,92.86
+STU00302,Operating Systems,37,29,78.38
+STU00303,Big Data Analytics,43,40,93.02
+STU00303,Computer Networks,39,33,84.62
+STU00303,Database Management,48,44,91.67
+STU00303,Machine Learning,47,27,57.45
+STU00303,Operating Systems,50,45,90.0
+STU00304,Big Data Analytics,47,25,53.19
+STU00304,Computer Networks,47,41,87.23
+STU00304,Database Management,42,29,69.05
+STU00304,Machine Learning,37,27,72.97
+STU00304,Operating Systems,36,36,100.0
+STU00305,Big Data Analytics,48,25,52.08
+STU00305,Computer Networks,40,38,95.0
+STU00305,Database Management,37,29,78.38
+STU00305,Machine Learning,44,43,97.73
+STU00305,Operating Systems,38,33,86.84
+STU00306,Big Data Analytics,43,27,62.79
+STU00306,Computer Networks,45,27,60.0
+STU00306,Database Management,49,39,79.59
+STU00306,Machine Learning,41,35,85.37
+STU00306,Operating Systems,50,26,52.0
+STU00307,Big Data Analytics,46,30,65.22
+STU00307,Computer Networks,50,42,84.0
+STU00307,Database Management,37,18,48.65
+STU00307,Machine Learning,45,23,51.11
+STU00307,Operating Systems,46,40,86.96
+STU00308,Big Data Analytics,44,37,84.09
+STU00308,Computer Networks,38,35,92.11
+STU00308,Database Management,42,40,95.24
+STU00308,Machine Learning,37,29,78.38
+STU00308,Operating Systems,50,49,98.0
+STU00309,Big Data Analytics,48,26,54.17
+STU00309,Computer Networks,50,32,64.0
+STU00309,Database Management,38,35,92.11
+STU00309,Machine Learning,50,45,90.0
+STU00309,Operating Systems,37,18,48.65
+STU00310,Big Data Analytics,45,41,91.11
+STU00310,Computer Networks,45,40,88.89
+STU00310,Database Management,44,37,84.09
+STU00310,Machine Learning,40,25,62.5
+STU00310,Operating Systems,42,35,83.33
+STU00311,Big Data Analytics,40,28,70.0
+STU00311,Computer Networks,47,40,85.11
+STU00311,Database Management,49,34,69.39
+STU00311,Machine Learning,44,30,68.18
+STU00311,Operating Systems,44,26,59.09
+STU00312,Big Data Analytics,47,29,61.7
+STU00312,Computer Networks,45,39,86.67
+STU00312,Database Management,50,42,84.0
+STU00312,Machine Learning,45,41,91.11
+STU00312,Operating Systems,43,24,55.81
+STU00313,Big Data Analytics,35,32,91.43
+STU00313,Computer Networks,42,39,92.86
+STU00313,Database Management,37,18,48.65
+STU00313,Machine Learning,46,37,80.43
+STU00313,Operating Systems,49,28,57.14
+STU00314,Big Data Analytics,47,40,85.11
+STU00314,Computer Networks,42,27,64.29
+STU00314,Database Management,39,29,74.36
+STU00314,Machine Learning,42,26,61.9
+STU00314,Operating Systems,36,23,63.89
+STU00315,Big Data Analytics,49,25,51.02
+STU00315,Computer Networks,40,37,92.5
+STU00315,Database Management,47,41,87.23
+STU00315,Machine Learning,50,46,92.0
+STU00315,Operating Systems,42,36,85.71
+STU00316,Big Data Analytics,50,37,74.0
+STU00316,Computer Networks,46,45,97.83
+STU00316,Database Management,43,35,81.4
+STU00316,Machine Learning,47,47,100.0
+STU00316,Operating Systems,50,42,84.0
+STU00317,Big Data Analytics,50,38,76.0
+STU00317,Computer Networks,42,21,50.0
+STU00317,Database Management,41,41,100.0
+STU00317,Machine Learning,50,33,66.0
+STU00317,Operating Systems,49,42,85.71
+STU00318,Big Data Analytics,45,33,73.33
+STU00318,Computer Networks,35,19,54.29
+STU00318,Database Management,37,22,59.46
+STU00318,Machine Learning,38,26,68.42
+STU00318,Operating Systems,50,33,66.0
+STU00319,Big Data Analytics,41,27,65.85
+STU00319,Computer Networks,48,37,77.08
+STU00319,Database Management,41,34,82.93
+STU00319,Machine Learning,44,32,72.73
+STU00319,Operating Systems,38,36,94.74
+STU00320,Big Data Analytics,38,25,65.79
+STU00320,Computer Networks,36,31,86.11
+STU00320,Database Management,42,42,100.0
+STU00320,Machine Learning,36,21,58.33
+STU00320,Operating Systems,38,29,76.32
+STU00321,Big Data Analytics,44,41,93.18
+STU00321,Computer Networks,42,34,80.95
+STU00321,Database Management,47,23,48.94
+STU00321,Machine Learning,45,38,84.44
+STU00321,Operating Systems,36,29,80.56
+STU00322,Big Data Analytics,45,28,62.22
+STU00322,Computer Networks,40,40,100.0
+STU00322,Database Management,45,41,91.11
+STU00322,Machine Learning,40,21,52.5
+STU00322,Operating Systems,44,24,54.55
+STU00323,Big Data Analytics,40,40,100.0
+STU00323,Computer Networks,38,21,55.26
+STU00323,Database Management,49,25,51.02
+STU00323,Machine Learning,39,19,48.72
+STU00323,Operating Systems,38,26,68.42
+STU00324,Big Data Analytics,49,28,57.14
+STU00324,Computer Networks,40,35,87.5
+STU00324,Database Management,41,33,80.49
+STU00324,Machine Learning,41,27,65.85
+STU00324,Operating Systems,41,25,60.98
+STU00325,Big Data Analytics,40,40,100.0
+STU00325,Computer Networks,48,48,100.0
+STU00325,Database Management,36,20,55.56
+STU00325,Machine Learning,38,29,76.32
+STU00325,Operating Systems,35,34,97.14
+STU00326,Big Data Analytics,40,21,52.5
+STU00326,Computer Networks,41,20,48.78
+STU00326,Database Management,35,22,62.86
+STU00326,Machine Learning,49,43,87.76
+STU00326,Operating Systems,35,17,48.57
+STU00327,Big Data Analytics,49,30,61.22
+STU00327,Computer Networks,48,28,58.33
+STU00327,Database Management,38,33,86.84
+STU00327,Machine Learning,37,33,89.19
+STU00327,Operating Systems,40,21,52.5
+STU00328,Big Data Analytics,41,38,92.68
+STU00328,Computer Networks,47,25,53.19
+STU00328,Database Management,47,42,89.36
+STU00328,Machine Learning,36,22,61.11
+STU00328,Operating Systems,50,33,66.0
+STU00329,Big Data Analytics,44,27,61.36
+STU00329,Computer Networks,36,29,80.56
+STU00329,Database Management,42,41,97.62
+STU00329,Machine Learning,42,34,80.95
+STU00329,Operating Systems,42,40,95.24
+STU00330,Big Data Analytics,36,24,66.67
+STU00330,Computer Networks,39,24,61.54
+STU00330,Database Management,45,39,86.67
+STU00330,Machine Learning,40,32,80.0
+STU00330,Operating Systems,50,36,72.0
+STU00331,Big Data Analytics,46,40,86.96
+STU00331,Computer Networks,45,27,60.0
+STU00331,Database Management,39,34,87.18
+STU00331,Machine Learning,44,37,84.09
+STU00331,Operating Systems,42,41,97.62
+STU00332,Big Data Analytics,42,39,92.86
+STU00332,Computer Networks,43,29,67.44
+STU00332,Database Management,44,31,70.45
+STU00332,Machine Learning,50,30,60.0
+STU00332,Operating Systems,36,30,83.33
+STU00333,Big Data Analytics,49,29,59.18
+STU00333,Computer Networks,35,18,51.43
+STU00333,Database Management,41,34,82.93
+STU00333,Machine Learning,45,27,60.0
+STU00333,Operating Systems,39,31,79.49
+STU00334,Big Data Analytics,37,37,100.0
+STU00334,Computer Networks,47,32,68.09
+STU00334,Database Management,35,21,60.0
+STU00334,Machine Learning,39,37,94.87
+STU00334,Operating Systems,39,21,53.85
+STU00335,Big Data Analytics,40,20,50.0
+STU00335,Computer Networks,41,35,85.37
+STU00335,Database Management,49,24,48.98
+STU00335,Machine Learning,48,25,52.08
+STU00335,Operating Systems,47,43,91.49
+STU00336,Big Data Analytics,35,21,60.0
+STU00336,Computer Networks,46,24,52.17
+STU00336,Database Management,39,24,61.54
+STU00336,Machine Learning,36,27,75.0
+STU00336,Operating Systems,44,37,84.09
+STU00337,Big Data Analytics,38,19,50.0
+STU00337,Computer Networks,42,26,61.9
+STU00337,Database Management,47,39,82.98
+STU00337,Machine Learning,42,30,71.43
+STU00337,Operating Systems,40,23,57.5
+STU00338,Big Data Analytics,39,21,53.85
+STU00338,Computer Networks,41,25,60.98
+STU00338,Database Management,47,39,82.98
+STU00338,Machine Learning,43,23,53.49
+STU00338,Operating Systems,48,27,56.25
+STU00339,Big Data Analytics,50,39,78.0
+STU00339,Computer Networks,46,23,50.0
+STU00339,Database Management,41,28,68.29
+STU00339,Machine Learning,48,26,54.17
+STU00339,Operating Systems,37,34,91.89
+STU00340,Big Data Analytics,47,40,85.11
+STU00340,Computer Networks,41,35,85.37
+STU00340,Database Management,41,40,97.56
+STU00340,Machine Learning,40,23,57.5
+STU00340,Operating Systems,44,32,72.73
+STU00341,Big Data Analytics,39,37,94.87
+STU00341,Computer Networks,44,22,50.0
+STU00341,Database Management,46,29,63.04
+STU00341,Machine Learning,47,23,48.94
+STU00341,Operating Systems,37,30,81.08
+STU00342,Big Data Analytics,47,37,78.72
+STU00342,Computer Networks,42,42,100.0
+STU00342,Database Management,49,39,79.59
+STU00342,Machine Learning,48,42,87.5
+STU00342,Operating Systems,43,43,100.0
+STU00343,Big Data Analytics,43,39,90.7
+STU00343,Computer Networks,47,42,89.36
+STU00343,Database Management,37,37,100.0
+STU00343,Machine Learning,35,32,91.43
+STU00343,Operating Systems,37,29,78.38
+STU00344,Big Data Analytics,49,32,65.31
+STU00344,Computer Networks,45,30,66.67
+STU00344,Database Management,40,20,50.0
+STU00344,Machine Learning,47,38,80.85
+STU00344,Operating Systems,47,41,87.23
+STU00345,Big Data Analytics,46,41,89.13
+STU00345,Computer Networks,45,23,51.11
+STU00345,Database Management,48,47,97.92
+STU00345,Machine Learning,50,39,78.0
+STU00345,Operating Systems,42,37,88.1
+STU00346,Big Data Analytics,43,33,76.74
+STU00346,Computer Networks,38,31,81.58
+STU00346,Database Management,43,33,76.74
+STU00346,Machine Learning,38,27,71.05
+STU00346,Operating Systems,42,40,95.24
+STU00347,Big Data Analytics,42,41,97.62
+STU00347,Computer Networks,37,19,51.35
+STU00347,Database Management,40,31,77.5
+STU00347,Machine Learning,38,32,84.21
+STU00347,Operating Systems,40,39,97.5
+STU00348,Big Data Analytics,41,28,68.29
+STU00348,Computer Networks,41,29,70.73
+STU00348,Database Management,49,29,59.18
+STU00348,Machine Learning,44,28,63.64
+STU00348,Operating Systems,42,30,71.43
+STU00349,Big Data Analytics,42,23,54.76
+STU00349,Computer Networks,39,21,53.85
+STU00349,Database Management,47,44,93.62
+STU00349,Machine Learning,42,39,92.86
+STU00349,Operating Systems,45,42,93.33
+STU00350,Big Data Analytics,46,25,54.35
+STU00350,Computer Networks,46,44,95.65
+STU00350,Database Management,49,47,95.92
+STU00350,Machine Learning,40,22,55.0
+STU00350,Operating Systems,48,29,60.42
+STU00351,Big Data Analytics,43,36,83.72
+STU00351,Computer Networks,36,33,91.67
+STU00351,Database Management,37,33,89.19
+STU00351,Machine Learning,45,44,97.78
+STU00351,Operating Systems,49,31,63.27
+STU00352,Big Data Analytics,48,44,91.67
+STU00352,Computer Networks,48,46,95.83
+STU00352,Database Management,44,44,100.0
+STU00352,Machine Learning,49,30,61.22
+STU00352,Operating Systems,49,32,65.31
+STU00353,Big Data Analytics,38,22,57.89
+STU00353,Computer Networks,36,18,50.0
+STU00353,Database Management,37,18,48.65
+STU00353,Machine Learning,46,24,52.17
+STU00353,Operating Systems,39,30,76.92
+STU00354,Big Data Analytics,41,39,95.12
+STU00354,Computer Networks,38,20,52.63
+STU00354,Database Management,43,27,62.79
+STU00354,Machine Learning,47,34,72.34
+STU00354,Operating Systems,41,32,78.05
+STU00355,Big Data Analytics,38,34,89.47
+STU00355,Computer Networks,39,29,74.36
+STU00355,Database Management,43,24,55.81
+STU00355,Machine Learning,49,46,93.88
+STU00355,Operating Systems,35,25,71.43
+STU00356,Big Data Analytics,36,29,80.56
+STU00356,Computer Networks,50,50,100.0
+STU00356,Database Management,50,43,86.0
+STU00356,Machine Learning,48,31,64.58
+STU00356,Operating Systems,43,22,51.16
+STU00357,Big Data Analytics,48,31,64.58
+STU00357,Computer Networks,35,30,85.71
+STU00357,Database Management,35,17,48.57
+STU00357,Machine Learning,40,23,57.5
+STU00357,Operating Systems,37,37,100.0
+STU00358,Big Data Analytics,50,47,94.0
+STU00358,Computer Networks,35,31,88.57
+STU00358,Database Management,42,37,88.1
+STU00358,Machine Learning,44,35,79.55
+STU00358,Operating Systems,49,31,63.27
+STU00359,Big Data Analytics,45,40,88.89
+STU00359,Computer Networks,47,36,76.6
+STU00359,Database Management,48,25,52.08
+STU00359,Machine Learning,41,24,58.54
+STU00359,Operating Systems,35,26,74.29
+STU00360,Big Data Analytics,37,34,91.89
+STU00360,Computer Networks,49,35,71.43
+STU00360,Database Management,39,25,64.1
+STU00360,Machine Learning,47,40,85.11
+STU00360,Operating Systems,38,28,73.68
+STU00361,Big Data Analytics,50,34,68.0
+STU00361,Computer Networks,50,46,92.0
+STU00361,Database Management,48,28,58.33
+STU00361,Machine Learning,39,26,66.67
+STU00361,Operating Systems,42,27,64.29
+STU00362,Big Data Analytics,40,38,95.0
+STU00362,Computer Networks,35,26,74.29
+STU00362,Database Management,38,24,63.16
+STU00362,Machine Learning,45,22,48.89
+STU00362,Operating Systems,49,40,81.63
+STU00363,Big Data Analytics,38,20,52.63
+STU00363,Computer Networks,39,31,79.49
+STU00363,Database Management,49,27,55.1
+STU00363,Machine Learning,45,22,48.89
+STU00363,Operating Systems,41,33,80.49
+STU00364,Big Data Analytics,44,35,79.55
+STU00364,Computer Networks,45,22,48.89
+STU00364,Database Management,44,30,68.18
+STU00364,Machine Learning,46,30,65.22
+STU00364,Operating Systems,36,32,88.89
+STU00365,Big Data Analytics,35,19,54.29
+STU00365,Computer Networks,48,25,52.08
+STU00365,Database Management,45,28,62.22
+STU00365,Machine Learning,47,32,68.09
+STU00365,Operating Systems,47,47,100.0
+STU00366,Big Data Analytics,46,32,69.57
+STU00366,Computer Networks,47,35,74.47
+STU00366,Database Management,40,40,100.0
+STU00366,Machine Learning,44,28,63.64
+STU00366,Operating Systems,44,37,84.09
+STU00367,Big Data Analytics,36,27,75.0
+STU00367,Computer Networks,40,21,52.5
+STU00367,Database Management,44,23,52.27
+STU00367,Machine Learning,47,44,93.62
+STU00367,Operating Systems,47,30,63.83
+STU00368,Big Data Analytics,43,36,83.72
+STU00368,Computer Networks,39,39,100.0
+STU00368,Database Management,41,25,60.98
+STU00368,Machine Learning,37,22,59.46
+STU00368,Operating Systems,39,33,84.62
+STU00369,Big Data Analytics,50,47,94.0
+STU00369,Computer Networks,36,31,86.11
+STU00369,Database Management,36,31,86.11
+STU00369,Machine Learning,36,29,80.56
+STU00369,Operating Systems,45,35,77.78
+STU00370,Big Data Analytics,39,24,61.54
+STU00370,Computer Networks,39,22,56.41
+STU00370,Database Management,48,34,70.83
+STU00370,Machine Learning,36,35,97.22
+STU00370,Operating Systems,37,23,62.16
+STU00371,Big Data Analytics,35,35,100.0
+STU00371,Computer Networks,50,36,72.0
+STU00371,Database Management,43,42,97.67
+STU00371,Machine Learning,42,25,59.52
+STU00371,Operating Systems,44,40,90.91
+STU00372,Big Data Analytics,46,40,86.96
+STU00372,Computer Networks,38,27,71.05
+STU00372,Database Management,38,31,81.58
+STU00372,Machine Learning,50,28,56.0
+STU00372,Operating Systems,36,35,97.22
+STU00373,Big Data Analytics,49,46,93.88
+STU00373,Computer Networks,41,35,85.37
+STU00373,Database Management,49,42,85.71
+STU00373,Machine Learning,37,19,51.35
+STU00373,Operating Systems,44,32,72.73
+STU00374,Big Data Analytics,37,32,86.49
+STU00374,Computer Networks,40,24,60.0
+STU00374,Database Management,47,25,53.19
+STU00374,Machine Learning,36,31,86.11
+STU00374,Operating Systems,39,39,100.0
+STU00375,Big Data Analytics,50,47,94.0
+STU00375,Computer Networks,50,43,86.0
+STU00375,Database Management,48,36,75.0
+STU00375,Machine Learning,36,31,86.11
+STU00375,Operating Systems,37,22,59.46
+STU00376,Big Data Analytics,39,23,58.97
+STU00376,Computer Networks,50,38,76.0
+STU00376,Database Management,46,38,82.61
+STU00376,Machine Learning,35,26,74.29
+STU00376,Operating Systems,50,34,68.0
+STU00377,Big Data Analytics,45,33,73.33
+STU00377,Computer Networks,46,30,65.22
+STU00377,Database Management,43,40,93.02
+STU00377,Machine Learning,42,25,59.52
+STU00377,Operating Systems,42,24,57.14
+STU00378,Big Data Analytics,40,20,50.0
+STU00378,Computer Networks,41,38,92.68
+STU00378,Database Management,45,26,57.78
+STU00378,Machine Learning,37,18,48.65
+STU00378,Operating Systems,43,27,62.79
+STU00379,Big Data Analytics,36,36,100.0
+STU00379,Computer Networks,38,29,76.32
+STU00379,Database Management,38,20,52.63
+STU00379,Machine Learning,45,44,97.78
+STU00379,Operating Systems,41,35,85.37
+STU00380,Big Data Analytics,42,41,97.62
+STU00380,Computer Networks,37,34,91.89
+STU00380,Database Management,35,17,48.57
+STU00380,Machine Learning,50,33,66.0
+STU00380,Operating Systems,42,24,57.14
+STU00381,Big Data Analytics,47,35,74.47
+STU00381,Computer Networks,38,37,97.37
+STU00381,Database Management,46,37,80.43
+STU00381,Machine Learning,46,39,84.78
+STU00381,Operating Systems,36,36,100.0
+STU00382,Big Data Analytics,37,23,62.16
+STU00382,Computer Networks,42,37,88.1
+STU00382,Database Management,46,36,78.26
+STU00382,Machine Learning,37,34,91.89
+STU00382,Operating Systems,46,42,91.3
+STU00383,Big Data Analytics,40,24,60.0
+STU00383,Computer Networks,47,46,97.87
+STU00383,Database Management,48,24,50.0
+STU00383,Machine Learning,46,28,60.87
+STU00383,Operating Systems,50,43,86.0
+STU00384,Big Data Analytics,41,35,85.37
+STU00384,Computer Networks,36,24,66.67
+STU00384,Database Management,49,29,59.18
+STU00384,Machine Learning,38,22,57.89
+STU00384,Operating Systems,43,24,55.81
+STU00385,Big Data Analytics,38,25,65.79
+STU00385,Computer Networks,47,28,59.57
+STU00385,Database Management,41,23,56.1
+STU00385,Machine Learning,43,42,97.67
+STU00385,Operating Systems,36,26,72.22
+STU00386,Big Data Analytics,38,37,97.37
+STU00386,Computer Networks,37,32,86.49
+STU00386,Database Management,35,19,54.29
+STU00386,Machine Learning,45,22,48.89
+STU00386,Operating Systems,50,40,80.0
+STU00387,Big Data Analytics,47,40,85.11
+STU00387,Computer Networks,42,36,85.71
+STU00387,Database Management,48,36,75.0
+STU00387,Machine Learning,38,23,60.53
+STU00387,Operating Systems,48,37,77.08
+STU00388,Big Data Analytics,37,25,67.57
+STU00388,Computer Networks,35,32,91.43
+STU00388,Database Management,46,38,82.61
+STU00388,Machine Learning,36,24,66.67
+STU00388,Operating Systems,38,19,50.0
+STU00389,Big Data Analytics,47,40,85.11
+STU00389,Computer Networks,46,25,54.35
+STU00389,Database Management,50,28,56.0
+STU00389,Machine Learning,48,38,79.17
+STU00389,Operating Systems,49,24,48.98
+STU00390,Big Data Analytics,44,37,84.09
+STU00390,Computer Networks,42,37,88.1
+STU00390,Database Management,43,26,60.47
+STU00390,Machine Learning,41,25,60.98
+STU00390,Operating Systems,47,41,87.23
+STU00391,Big Data Analytics,35,31,88.57
+STU00391,Computer Networks,48,26,54.17
+STU00391,Database Management,37,26,70.27
+STU00391,Machine Learning,35,28,80.0
+STU00391,Operating Systems,35,18,51.43
+STU00392,Big Data Analytics,50,41,82.0
+STU00392,Computer Networks,39,21,53.85
+STU00392,Database Management,45,39,86.67
+STU00392,Machine Learning,39,37,94.87
+STU00392,Operating Systems,39,20,51.28
+STU00393,Big Data Analytics,50,31,62.0
+STU00393,Computer Networks,45,43,95.56
+STU00393,Database Management,47,40,85.11
+STU00393,Machine Learning,42,38,90.48
+STU00393,Operating Systems,44,43,97.73
+STU00394,Big Data Analytics,48,39,81.25
+STU00394,Computer Networks,43,28,65.12
+STU00394,Database Management,45,42,93.33
+STU00394,Machine Learning,36,25,69.44
+STU00394,Operating Systems,39,30,76.92
+STU00395,Big Data Analytics,38,20,52.63
+STU00395,Computer Networks,45,42,93.33
+STU00395,Database Management,45,33,73.33
+STU00395,Machine Learning,35,26,74.29
+STU00395,Operating Systems,50,36,72.0
+STU00396,Big Data Analytics,50,47,94.0
+STU00396,Computer Networks,43,33,76.74
+STU00396,Database Management,40,29,72.5
+STU00396,Machine Learning,47,42,89.36
+STU00396,Operating Systems,37,23,62.16
+STU00397,Big Data Analytics,42,26,61.9
+STU00397,Computer Networks,41,30,73.17
+STU00397,Database Management,40,40,100.0
+STU00397,Machine Learning,42,32,76.19
+STU00397,Operating Systems,40,33,82.5
+STU00398,Big Data Analytics,50,46,92.0
+STU00398,Computer Networks,37,24,64.86
+STU00398,Database Management,40,21,52.5
+STU00398,Machine Learning,42,39,92.86
+STU00398,Operating Systems,40,28,70.0
+STU00399,Big Data Analytics,47,39,82.98
+STU00399,Computer Networks,35,26,74.29
+STU00399,Database Management,49,47,95.92
+STU00399,Machine Learning,48,24,50.0
+STU00399,Operating Systems,49,49,100.0
+STU00400,Big Data Analytics,38,22,57.89
+STU00400,Computer Networks,39,21,53.85
+STU00400,Database Management,42,35,83.33
+STU00400,Machine Learning,49,30,61.22
+STU00400,Operating Systems,41,28,68.29
+STU00401,Big Data Analytics,38,25,65.79
+STU00401,Computer Networks,48,39,81.25
+STU00401,Database Management,37,29,78.38
+STU00401,Machine Learning,42,41,97.62
+STU00401,Operating Systems,47,40,85.11
+STU00402,Big Data Analytics,36,30,83.33
+STU00402,Computer Networks,41,34,82.93
+STU00402,Database Management,49,26,53.06
+STU00402,Machine Learning,39,24,61.54
+STU00402,Operating Systems,44,23,52.27
+STU00403,Big Data Analytics,43,42,97.67
+STU00403,Computer Networks,44,37,84.09
+STU00403,Database Management,42,23,54.76
+STU00403,Machine Learning,43,25,58.14
+STU00403,Operating Systems,50,48,96.0
+STU00404,Big Data Analytics,37,34,91.89
+STU00404,Computer Networks,47,41,87.23
+STU00404,Database Management,49,28,57.14
+STU00404,Machine Learning,38,21,55.26
+STU00404,Operating Systems,44,35,79.55
+STU00405,Big Data Analytics,47,32,68.09
+STU00405,Computer Networks,43,29,67.44
+STU00405,Database Management,45,38,84.44
+STU00405,Machine Learning,36,22,61.11
+STU00405,Operating Systems,46,25,54.35
+STU00406,Big Data Analytics,35,32,91.43
+STU00406,Computer Networks,40,30,75.0
+STU00406,Database Management,41,30,73.17
+STU00406,Machine Learning,47,37,78.72
+STU00406,Operating Systems,48,37,77.08
+STU00407,Big Data Analytics,41,40,97.56
+STU00407,Computer Networks,37,30,81.08
+STU00407,Database Management,45,37,82.22
+STU00407,Machine Learning,35,33,94.29
+STU00407,Operating Systems,35,17,48.57
+STU00408,Big Data Analytics,39,26,66.67
+STU00408,Computer Networks,43,36,83.72
+STU00408,Database Management,38,27,71.05
+STU00408,Machine Learning,38,22,57.89
+STU00408,Operating Systems,42,40,95.24
+STU00409,Big Data Analytics,49,38,77.55
+STU00409,Computer Networks,37,30,81.08
+STU00409,Database Management,40,27,67.5
+STU00409,Machine Learning,42,35,83.33
+STU00409,Operating Systems,41,34,82.93
+STU00410,Big Data Analytics,41,21,51.22
+STU00410,Computer Networks,43,37,86.05
+STU00410,Database Management,35,18,51.43
+STU00410,Machine Learning,43,21,48.84
+STU00410,Operating Systems,40,33,82.5
+STU00411,Big Data Analytics,48,28,58.33
+STU00411,Computer Networks,38,35,92.11
+STU00411,Database Management,43,30,69.77
+STU00411,Machine Learning,50,42,84.0
+STU00411,Operating Systems,43,27,62.79
+STU00412,Big Data Analytics,44,34,77.27
+STU00412,Computer Networks,42,41,97.62
+STU00412,Database Management,46,36,78.26
+STU00412,Machine Learning,47,36,76.6
+STU00412,Operating Systems,47,47,100.0
+STU00413,Big Data Analytics,50,34,68.0
+STU00413,Computer Networks,41,22,53.66
+STU00413,Database Management,46,23,50.0
+STU00413,Machine Learning,43,40,93.02
+STU00413,Operating Systems,44,35,79.55
+STU00414,Big Data Analytics,40,31,77.5
+STU00414,Computer Networks,38,26,68.42
+STU00414,Database Management,45,45,100.0
+STU00414,Machine Learning,38,35,92.11
+STU00414,Operating Systems,44,35,79.55
+STU00415,Big Data Analytics,46,30,65.22
+STU00415,Computer Networks,39,31,79.49
+STU00415,Database Management,38,22,57.89
+STU00415,Machine Learning,36,21,58.33
+STU00415,Operating Systems,36,24,66.67
+STU00416,Big Data Analytics,44,22,50.0
+STU00416,Computer Networks,42,37,88.1
+STU00416,Database Management,44,39,88.64
+STU00416,Machine Learning,40,33,82.5
+STU00416,Operating Systems,50,44,88.0
+STU00417,Big Data Analytics,37,28,75.68
+STU00417,Computer Networks,37,19,51.35
+STU00417,Database Management,39,34,87.18
+STU00417,Machine Learning,38,19,50.0
+STU00417,Operating Systems,43,34,79.07
+STU00418,Big Data Analytics,48,45,93.75
+STU00418,Computer Networks,36,30,83.33
+STU00418,Database Management,44,36,81.82
+STU00418,Machine Learning,44,35,79.55
+STU00418,Operating Systems,38,26,68.42
+STU00419,Big Data Analytics,50,44,88.0
+STU00419,Computer Networks,38,21,55.26
+STU00419,Database Management,41,28,68.29
+STU00419,Machine Learning,36,35,97.22
+STU00419,Operating Systems,36,19,52.78
+STU00420,Big Data Analytics,40,32,80.0
+STU00420,Computer Networks,41,29,70.73
+STU00420,Database Management,50,48,96.0
+STU00420,Machine Learning,50,45,90.0
+STU00420,Operating Systems,37,25,67.57
+STU00421,Big Data Analytics,47,37,78.72
+STU00421,Computer Networks,48,25,52.08
+STU00421,Database Management,44,28,63.64
+STU00421,Machine Learning,38,31,81.58
+STU00421,Operating Systems,47,44,93.62
+STU00422,Big Data Analytics,50,39,78.0
+STU00422,Computer Networks,40,33,82.5
+STU00422,Database Management,41,26,63.41
+STU00422,Machine Learning,42,31,73.81
+STU00422,Operating Systems,45,23,51.11
+STU00423,Big Data Analytics,46,24,52.17
+STU00423,Computer Networks,36,29,80.56
+STU00423,Database Management,46,27,58.7
+STU00423,Machine Learning,41,36,87.8
+STU00423,Operating Systems,37,32,86.49
+STU00424,Big Data Analytics,49,46,93.88
+STU00424,Computer Networks,41,37,90.24
+STU00424,Database Management,41,32,78.05
+STU00424,Machine Learning,40,29,72.5
+STU00424,Operating Systems,45,35,77.78
+STU00425,Big Data Analytics,49,35,71.43
+STU00425,Computer Networks,39,31,79.49
+STU00425,Database Management,40,39,97.5
+STU00425,Machine Learning,50,41,82.0
+STU00425,Operating Systems,48,26,54.17
+STU00426,Big Data Analytics,49,26,53.06
+STU00426,Computer Networks,44,35,79.55
+STU00426,Database Management,46,40,86.96
+STU00426,Machine Learning,41,27,65.85
+STU00426,Operating Systems,48,40,83.33
+STU00427,Big Data Analytics,36,36,100.0
+STU00427,Computer Networks,41,22,53.66
+STU00427,Database Management,38,24,63.16
+STU00427,Machine Learning,44,27,61.36
+STU00427,Operating Systems,50,35,70.0
+STU00428,Big Data Analytics,44,25,56.82
+STU00428,Computer Networks,50,43,86.0
+STU00428,Database Management,46,44,95.65
+STU00428,Machine Learning,45,27,60.0
+STU00428,Operating Systems,38,31,81.58
+STU00429,Big Data Analytics,47,30,63.83
+STU00429,Computer Networks,50,43,86.0
+STU00429,Database Management,50,26,52.0
+STU00429,Machine Learning,48,29,60.42
+STU00429,Operating Systems,44,28,63.64
+STU00430,Big Data Analytics,46,34,73.91
+STU00430,Computer Networks,47,39,82.98
+STU00430,Database Management,36,25,69.44
+STU00430,Machine Learning,38,34,89.47
+STU00430,Operating Systems,36,23,63.89
+STU00431,Big Data Analytics,43,30,69.77
+STU00431,Computer Networks,43,38,88.37
+STU00431,Database Management,46,23,50.0
+STU00431,Machine Learning,50,46,92.0
+STU00431,Operating Systems,39,25,64.1
+STU00432,Big Data Analytics,42,29,69.05
+STU00432,Computer Networks,40,31,77.5
+STU00432,Database Management,42,40,95.24
+STU00432,Machine Learning,39,19,48.72
+STU00432,Operating Systems,36,30,83.33
+STU00433,Big Data Analytics,50,34,68.0
+STU00433,Computer Networks,39,23,58.97
+STU00433,Database Management,38,36,94.74
+STU00433,Machine Learning,40,34,85.0
+STU00433,Operating Systems,36,32,88.89
+STU00434,Big Data Analytics,42,33,78.57
+STU00434,Computer Networks,47,41,87.23
+STU00434,Database Management,46,37,80.43
+STU00434,Machine Learning,47,36,76.6
+STU00434,Operating Systems,41,30,73.17
+STU00435,Big Data Analytics,49,36,73.47
+STU00435,Computer Networks,37,23,62.16
+STU00435,Database Management,41,21,51.22
+STU00435,Machine Learning,39,19,48.72
+STU00435,Operating Systems,35,22,62.86
+STU00436,Big Data Analytics,37,30,81.08
+STU00436,Computer Networks,45,31,68.89
+STU00436,Database Management,44,39,88.64
+STU00436,Machine Learning,43,43,100.0
+STU00436,Operating Systems,49,30,61.22
+STU00437,Big Data Analytics,37,27,72.97
+STU00437,Computer Networks,35,21,60.0
+STU00437,Database Management,47,27,57.45
+STU00437,Machine Learning,49,26,53.06
+STU00437,Operating Systems,38,32,84.21
+STU00438,Big Data Analytics,43,22,51.16
+STU00438,Computer Networks,46,43,93.48
+STU00438,Database Management,35,30,85.71
+STU00438,Machine Learning,50,43,86.0
+STU00438,Operating Systems,37,34,91.89
+STU00439,Big Data Analytics,38,23,60.53
+STU00439,Computer Networks,47,40,85.11
+STU00439,Database Management,50,40,80.0
+STU00439,Machine Learning,35,30,85.71
+STU00439,Operating Systems,35,34,97.14
+STU00440,Big Data Analytics,45,37,82.22
+STU00440,Computer Networks,40,27,67.5
+STU00440,Database Management,43,22,51.16
+STU00440,Machine Learning,42,36,85.71
+STU00440,Operating Systems,35,22,62.86
+STU00441,Big Data Analytics,40,24,60.0
+STU00441,Computer Networks,41,35,85.37
+STU00441,Database Management,40,23,57.5
+STU00441,Machine Learning,38,32,84.21
+STU00441,Operating Systems,38,25,65.79
+STU00442,Big Data Analytics,45,41,91.11
+STU00442,Computer Networks,45,39,86.67
+STU00442,Database Management,41,26,63.41
+STU00442,Machine Learning,43,40,93.02
+STU00442,Operating Systems,35,21,60.0
+STU00443,Big Data Analytics,36,19,52.78
+STU00443,Computer Networks,46,46,100.0
+STU00443,Database Management,38,37,97.37
+STU00443,Machine Learning,38,19,50.0
+STU00443,Operating Systems,42,39,92.86
+STU00444,Big Data Analytics,45,24,53.33
+STU00444,Computer Networks,37,34,91.89
+STU00444,Database Management,39,32,82.05
+STU00444,Machine Learning,44,24,54.55
+STU00444,Operating Systems,41,27,65.85
+STU00445,Big Data Analytics,39,22,56.41
+STU00445,Computer Networks,41,22,53.66
+STU00445,Database Management,46,41,89.13
+STU00445,Machine Learning,39,20,51.28
+STU00445,Operating Systems,42,42,100.0
+STU00446,Big Data Analytics,42,29,69.05
+STU00446,Computer Networks,44,26,59.09
+STU00446,Database Management,43,26,60.47
+STU00446,Machine Learning,48,44,91.67
+STU00446,Operating Systems,39,34,87.18
+STU00447,Big Data Analytics,48,41,85.42
+STU00447,Computer Networks,39,31,79.49
+STU00447,Database Management,46,27,58.7
+STU00447,Machine Learning,45,29,64.44
+STU00447,Operating Systems,48,38,79.17
+STU00448,Big Data Analytics,45,29,64.44
+STU00448,Computer Networks,36,27,75.0
+STU00448,Database Management,38,34,89.47
+STU00448,Machine Learning,41,31,75.61
+STU00448,Operating Systems,42,24,57.14
+STU00449,Big Data Analytics,50,49,98.0
+STU00449,Computer Networks,35,18,51.43
+STU00449,Database Management,48,42,87.5
+STU00449,Machine Learning,38,37,97.37
+STU00449,Operating Systems,40,39,97.5
+STU00450,Big Data Analytics,43,30,69.77
+STU00450,Computer Networks,40,23,57.5
+STU00450,Database Management,48,47,97.92
+STU00450,Machine Learning,40,37,92.5
+STU00450,Operating Systems,48,27,56.25
+STU00451,Big Data Analytics,46,31,67.39
+STU00451,Computer Networks,44,22,50.0
+STU00451,Database Management,46,43,93.48
+STU00451,Machine Learning,49,44,89.8
+STU00451,Operating Systems,45,24,53.33
+STU00452,Big Data Analytics,45,39,86.67
+STU00452,Computer Networks,35,19,54.29
+STU00452,Database Management,50,30,60.0
+STU00452,Machine Learning,37,25,67.57
+STU00452,Operating Systems,48,25,52.08
+STU00453,Big Data Analytics,40,26,65.0
+STU00453,Computer Networks,39,28,71.79
+STU00453,Database Management,46,40,86.96
+STU00453,Machine Learning,42,29,69.05
+STU00453,Operating Systems,40,33,82.5
+STU00454,Big Data Analytics,44,32,72.73
+STU00454,Computer Networks,42,28,66.67
+STU00454,Database Management,49,28,57.14
+STU00454,Machine Learning,36,31,86.11
+STU00454,Operating Systems,39,20,51.28
+STU00455,Big Data Analytics,37,30,81.08
+STU00455,Computer Networks,37,29,78.38
+STU00455,Database Management,41,36,87.8
+STU00455,Machine Learning,41,20,48.78
+STU00455,Operating Systems,47,47,100.0
+STU00456,Big Data Analytics,49,36,73.47
+STU00456,Computer Networks,45,45,100.0
+STU00456,Database Management,37,27,72.97
+STU00456,Machine Learning,38,28,73.68
+STU00456,Operating Systems,38,25,65.79
+STU00457,Big Data Analytics,49,34,69.39
+STU00457,Computer Networks,43,36,83.72
+STU00457,Database Management,39,34,87.18
+STU00457,Machine Learning,47,32,68.09
+STU00457,Operating Systems,46,46,100.0
+STU00458,Big Data Analytics,49,41,83.67
+STU00458,Computer Networks,37,20,54.05
+STU00458,Database Management,41,35,85.37
+STU00458,Machine Learning,35,27,77.14
+STU00458,Operating Systems,41,27,65.85
+STU00459,Big Data Analytics,39,33,84.62
+STU00459,Computer Networks,47,44,93.62
+STU00459,Database Management,45,39,86.67
+STU00459,Machine Learning,46,41,89.13
+STU00459,Operating Systems,45,32,71.11
+STU00460,Big Data Analytics,48,24,50.0
+STU00460,Computer Networks,40,32,80.0
+STU00460,Database Management,35,34,97.14
+STU00460,Machine Learning,47,27,57.45
+STU00460,Operating Systems,42,41,97.62
+STU00461,Big Data Analytics,45,38,84.44
+STU00461,Computer Networks,47,47,100.0
+STU00461,Database Management,50,47,94.0
+STU00461,Machine Learning,45,22,48.89
+STU00461,Operating Systems,45,35,77.78
+STU00462,Big Data Analytics,37,23,62.16
+STU00462,Computer Networks,46,27,58.7
+STU00462,Database Management,48,42,87.5
+STU00462,Machine Learning,48,34,70.83
+STU00462,Operating Systems,35,33,94.29
+STU00463,Big Data Analytics,46,35,76.09
+STU00463,Computer Networks,49,26,53.06
+STU00463,Database Management,45,36,80.0
+STU00463,Machine Learning,45,41,91.11
+STU00463,Operating Systems,47,28,59.57
+STU00464,Big Data Analytics,46,27,58.7
+STU00464,Computer Networks,40,35,87.5
+STU00464,Database Management,46,24,52.17
+STU00464,Machine Learning,45,34,75.56
+STU00464,Operating Systems,42,25,59.52
+STU00465,Big Data Analytics,50,49,98.0
+STU00465,Computer Networks,37,22,59.46
+STU00465,Database Management,49,35,71.43
+STU00465,Machine Learning,49,35,71.43
+STU00465,Operating Systems,36,36,100.0
+STU00466,Big Data Analytics,48,43,89.58
+STU00466,Computer Networks,45,37,82.22
+STU00466,Database Management,49,30,61.22
+STU00466,Machine Learning,35,35,100.0
+STU00466,Operating Systems,44,29,65.91
+STU00467,Big Data Analytics,40,21,52.5
+STU00467,Computer Networks,41,37,90.24
+STU00467,Database Management,44,24,54.55
+STU00467,Machine Learning,40,38,95.0
+STU00467,Operating Systems,37,25,67.57
+STU00468,Big Data Analytics,42,24,57.14
+STU00468,Computer Networks,48,42,87.5
+STU00468,Database Management,35,24,68.57
+STU00468,Machine Learning,44,23,52.27
+STU00468,Operating Systems,45,33,73.33
+STU00469,Big Data Analytics,36,21,58.33
+STU00469,Computer Networks,46,46,100.0
+STU00469,Database Management,35,34,97.14
+STU00469,Machine Learning,36,36,100.0
+STU00469,Operating Systems,36,36,100.0
+STU00470,Big Data Analytics,47,44,93.62
+STU00470,Computer Networks,37,24,64.86
+STU00470,Database Management,50,30,60.0
+STU00470,Machine Learning,35,19,54.29
+STU00470,Operating Systems,35,22,62.86
+STU00471,Big Data Analytics,48,44,91.67
+STU00471,Computer Networks,36,19,52.78
+STU00471,Database Management,46,36,78.26
+STU00471,Machine Learning,40,39,97.5
+STU00471,Operating Systems,42,26,61.9
+STU00472,Big Data Analytics,47,28,59.57
+STU00472,Computer Networks,40,24,60.0
+STU00472,Database Management,49,42,85.71
+STU00472,Machine Learning,49,49,100.0
+STU00472,Operating Systems,40,34,85.0
+STU00473,Big Data Analytics,50,43,86.0
+STU00473,Computer Networks,36,25,69.44
+STU00473,Database Management,43,35,81.4
+STU00473,Machine Learning,45,34,75.56
+STU00473,Operating Systems,42,25,59.52
+STU00474,Big Data Analytics,38,33,86.84
+STU00474,Computer Networks,46,23,50.0
+STU00474,Database Management,43,22,51.16
+STU00474,Machine Learning,44,38,86.36
+STU00474,Operating Systems,50,44,88.0
+STU00475,Big Data Analytics,40,24,60.0
+STU00475,Computer Networks,43,40,93.02
+STU00475,Database Management,45,30,66.67
+STU00475,Machine Learning,50,32,64.0
+STU00475,Operating Systems,43,32,74.42
+STU00476,Big Data Analytics,45,45,100.0
+STU00476,Computer Networks,48,41,85.42
+STU00476,Database Management,36,32,88.89
+STU00476,Machine Learning,36,21,58.33
+STU00476,Operating Systems,35,17,48.57
+STU00477,Big Data Analytics,46,42,91.3
+STU00477,Computer Networks,42,30,71.43
+STU00477,Database Management,36,22,61.11
+STU00477,Machine Learning,38,29,76.32
+STU00477,Operating Systems,45,35,77.78
+STU00478,Big Data Analytics,41,23,56.1
+STU00478,Computer Networks,43,26,60.47
+STU00478,Database Management,42,27,64.29
+STU00478,Machine Learning,46,30,65.22
+STU00478,Operating Systems,42,40,95.24
+STU00479,Big Data Analytics,45,39,86.67
+STU00479,Computer Networks,38,25,65.79
+STU00479,Database Management,46,28,60.87
+STU00479,Machine Learning,49,46,93.88
+STU00479,Operating Systems,39,35,89.74
+STU00480,Big Data Analytics,44,43,97.73
+STU00480,Computer Networks,48,48,100.0
+STU00480,Database Management,47,44,93.62
+STU00480,Machine Learning,44,36,81.82
+STU00480,Operating Systems,40,20,50.0
+STU00481,Big Data Analytics,48,42,87.5
+STU00481,Computer Networks,42,24,57.14
+STU00481,Database Management,50,43,86.0
+STU00481,Machine Learning,49,27,55.1
+STU00481,Operating Systems,40,38,95.0
+STU00482,Big Data Analytics,38,19,50.0
+STU00482,Computer Networks,48,31,64.58
+STU00482,Database Management,42,31,73.81
+STU00482,Machine Learning,36,35,97.22
+STU00482,Operating Systems,50,25,50.0
+STU00483,Big Data Analytics,37,18,48.65
+STU00483,Computer Networks,44,30,68.18
+STU00483,Database Management,39,35,89.74
+STU00483,Machine Learning,47,38,80.85
+STU00483,Operating Systems,46,45,97.83
+STU00484,Big Data Analytics,50,38,76.0
+STU00484,Computer Networks,39,19,48.72
+STU00484,Database Management,42,27,64.29
+STU00484,Machine Learning,44,30,68.18
+STU00484,Operating Systems,38,32,84.21
+STU00485,Big Data Analytics,50,34,68.0
+STU00485,Computer Networks,44,34,77.27
+STU00485,Database Management,39,21,53.85
+STU00485,Machine Learning,36,24,66.67
+STU00485,Operating Systems,37,20,54.05
+STU00486,Big Data Analytics,36,29,80.56
+STU00486,Computer Networks,40,20,50.0
+STU00486,Database Management,35,30,85.71
+STU00486,Machine Learning,36,33,91.67
+STU00486,Operating Systems,42,30,71.43
+STU00487,Big Data Analytics,42,24,57.14
+STU00487,Computer Networks,50,31,62.0
+STU00487,Database Management,44,27,61.36
+STU00487,Machine Learning,43,30,69.77
+STU00487,Operating Systems,38,20,52.63
+STU00488,Big Data Analytics,37,25,67.57
+STU00488,Computer Networks,43,32,74.42
+STU00488,Database Management,44,33,75.0
+STU00488,Machine Learning,38,26,68.42
+STU00488,Operating Systems,45,35,77.78
+STU00489,Big Data Analytics,37,26,70.27
+STU00489,Computer Networks,47,24,51.06
+STU00489,Database Management,40,25,62.5
+STU00489,Machine Learning,36,20,55.56
+STU00489,Operating Systems,46,30,65.22
+STU00490,Big Data Analytics,40,21,52.5
+STU00490,Computer Networks,43,22,51.16
+STU00490,Database Management,39,31,79.49
+STU00490,Machine Learning,45,26,57.78
+STU00490,Operating Systems,38,38,100.0
+STU00491,Big Data Analytics,38,19,50.0
+STU00491,Computer Networks,49,27,55.1
+STU00491,Database Management,36,23,63.89
+STU00491,Machine Learning,38,26,68.42
+STU00491,Operating Systems,44,42,95.45
+STU00492,Big Data Analytics,40,25,62.5
+STU00492,Computer Networks,49,29,59.18
+STU00492,Database Management,42,29,69.05
+STU00492,Machine Learning,35,30,85.71
+STU00492,Operating Systems,40,32,80.0
+STU00493,Big Data Analytics,49,31,63.27
+STU00493,Computer Networks,35,18,51.43
+STU00493,Database Management,47,44,93.62
+STU00493,Machine Learning,49,48,97.96
+STU00493,Operating Systems,43,42,97.67
+STU00494,Big Data Analytics,44,37,84.09
+STU00494,Computer Networks,35,32,91.43
+STU00494,Database Management,48,31,64.58
+STU00494,Machine Learning,50,35,70.0
+STU00494,Operating Systems,46,25,54.35
+STU00495,Big Data Analytics,43,28,65.12
+STU00495,Computer Networks,43,30,69.77
+STU00495,Database Management,41,23,56.1
+STU00495,Machine Learning,43,22,51.16
+STU00495,Operating Systems,48,29,60.42
+STU00496,Big Data Analytics,43,35,81.4
+STU00496,Computer Networks,45,40,88.89
+STU00496,Database Management,46,30,65.22
+STU00496,Machine Learning,39,28,71.79
+STU00496,Operating Systems,44,35,79.55
+STU00497,Big Data Analytics,41,21,51.22
+STU00497,Computer Networks,47,46,97.87
+STU00497,Database Management,40,32,80.0
+STU00497,Machine Learning,43,43,100.0
+STU00497,Operating Systems,45,45,100.0
+STU00498,Big Data Analytics,39,22,56.41
+STU00498,Computer Networks,50,36,72.0
+STU00498,Database Management,38,34,89.47
+STU00498,Machine Learning,45,38,84.44
+STU00498,Operating Systems,50,49,98.0
+STU00499,Big Data Analytics,41,39,95.12
+STU00499,Computer Networks,49,24,48.98
+STU00499,Database Management,48,47,97.92
+STU00499,Machine Learning,39,26,66.67
+STU00499,Operating Systems,40,22,55.0
+STU00500,Big Data Analytics,39,33,84.62
+STU00500,Computer Networks,48,30,62.5
+STU00500,Database Management,49,42,85.71
+STU00500,Machine Learning,37,26,70.27
+STU00500,Operating Systems,45,32,71.11

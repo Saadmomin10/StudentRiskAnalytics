@@ -1,0 +1,1869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Student Risk Analytics</title>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+
+<style>
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg: #f1f5f9;
+    --card: #ffffff;
+    --text: #0f172a;
+    --muted: #64748b;
+    --border: #e2e8f0;
+    --sidebar: #0f172a;
+    --sidebar-hover: #1e293b;
+    --blue: #2563eb;
+    --red: #dc2626;
+    --orange: #d97706;
+    --green: #16a34a;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+}
+
+/* LAYOUT */
+
+.app {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 245px;
+    background: var(--sidebar);
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding: 25px 15px;
+}
+
+.logo {
+    padding: 0 12px 28px;
+}
+
+.logo h1 {
+    font-size: 21px;
+    line-height: 1.3;
+}
+
+.logo p {
+    color: #94a3b8;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.nav button {
+    width: 100%;
+    padding: 13px 15px;
+    margin-bottom: 5px;
+    border: 0;
+    border-radius: 8px;
+    background: transparent;
+    color: #cbd5e1;
+    text-align: left;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.nav button:hover,
+.nav button.active {
+    background: var(--sidebar-hover);
+    color: white;
+}
+
+.main {
+    margin-left: 245px;
+    width: calc(100% - 245px);
+}
+
+/* HEADER */
+
+.topbar {
+    background: white;
+    border-bottom: 1px solid var(--border);
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar h2 {
+    font-size: 23px;
+}
+
+.topbar p {
+    color: var(--muted);
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.connection {
+    padding: 9px 13px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.connection.ok {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.connection.error {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+/* CONTENT */
+
+.content {
+    padding: 30px;
+}
+
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
+
+/* CARDS */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 18px;
+    margin-bottom: 25px;
+}
+
+.card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 12px;
+}
+
+.card-value {
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.card-sub {
+    color: var(--muted);
+    font-size: 11px;
+    margin-top: 7px;
+}
+
+.red {
+    color: var(--red);
+}
+
+.orange {
+    color: var(--orange);
+}
+
+.green {
+    color: var(--green);
+}
+
+/* CHART GRID */
+
+.chart-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.chart-card {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 22px;
+    min-height: 390px;
+}
+
+.chart-card.full {
+    grid-column: 1 / -1;
+}
+
+.chart-title {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.chart-description {
+    color: var(--muted);
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.chart-container {
+    position: relative;
+    height: 300px;
+}
+
+/* TABLE */
+
+.toolbar {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.search {
+    flex: 1;
+}
+
+input,
+select {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 14px;
+    background: white;
+    font-size: 14px;
+}
+
+.table-card {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.table-header {
+    padding: 18px 20px;
+    border-bottom: 1px solid var(--border);
+    font-weight: bold;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 950px;
+}
+
+th {
+    background: #f8fafc;
+    color: #475569;
+    font-size: 12px;
+    text-align: left;
+    padding: 13px 15px;
+}
+
+td {
+    padding: 13px 15px;
+    border-top: 1px solid #f1f5f9;
+    font-size: 13px;
+}
+
+tr:hover td {
+    background: #f8fafc;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.badge-high {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.badge-medium {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.badge-low {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.view-btn {
+    border: 0;
+    background: var(--blue);
+    color: white;
+    padding: 7px 11px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.view-btn:hover {
+    opacity: .85;
+}
+
+/* INSIGHTS */
+
+.insight-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.insight {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 22px;
+}
+
+.insight h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.insight p {
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+/* PIPELINE */
+
+.pipeline {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.pipeline-step {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 17px;
+    background: #f8fafc;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+
+.pipeline-number {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: var(--blue);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.pipeline-step strong {
+    display: block;
+    font-size: 14px;
+}
+
+.pipeline-step span {
+    color: var(--muted);
+    font-size: 12px;
+}
+
+/* MODAL */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    inset: 0;
+    background: rgba(15,23,42,.65);
+    padding: 30px;
+    overflow-y: auto;
+}
+
+.modal.show {
+    display: block;
+}
+
+.modal-box {
+    max-width: 800px;
+    margin: 30px auto;
+    background: white;
+    border-radius: 14px;
+    padding: 28px;
+}
+
+.modal-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.close {
+    border: 0;
+    background: #f1f5f9;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.student-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.detail {
+    background: #f8fafc;
+    border-radius: 9px;
+    padding: 15px;
+}
+
+.detail-label {
+    color: var(--muted);
+    font-size: 11px;
+    margin-bottom: 6px;
+}
+
+.detail-value {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* LOADING */
+
+.loading {
+    padding: 30px;
+    text-align: center;
+    color: var(--muted);
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 1100px) {
+
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .insight-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 800px) {
+
+    .sidebar {
+        width: 70px;
+    }
+
+    .logo h1,
+    .logo p,
+    .nav button span {
+        display: none;
+    }
+
+    .main {
+        margin-left: 70px;
+        width: calc(100% - 70px);
+    }
+
+    .chart-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .chart-card.full {
+        grid-column: auto;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 550px) {
+
+    .content {
+        padding: 15px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .insight-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .student-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .toolbar {
+        flex-direction: column;
+    }
+
+    .topbar {
+        padding: 15px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="app">
+
+<!-- SIDEBAR -->
+
+<aside class="sidebar">
+
+    <div class="logo">
+        <h1>Student Risk<br>Analytics</h1>
+        <p>Academic Intelligence System</p>
+    </div>
+
+    <nav class="nav">
+
+        <button class="active" onclick="showSection('overview', this)">
+            📊 <span>Overview</span>
+        </button>
+
+        <button onclick="showSection('analytics', this)">
+            📈 <span>Analytics</span>
+        </button>
+
+        <button onclick="showSection('students', this)">
+            👨‍🎓 <span>At-Risk Students</span>
+        </button>
+
+        <button onclick="showSection('insights', this)">
+            💡 <span>Insights</span>
+        </button>
+
+        <button onclick="showSection('pipeline', this)">
+            ⚙️ <span>Data Pipeline</span>
+        </button>
+
+    </nav>
+
+</aside>
+
+
+<!-- MAIN -->
+
+<main class="main">
+
+    <header class="topbar">
+
+        <div>
+            <h2 id="pageTitle">Dashboard Overview</h2>
+            <p>Student performance and risk monitoring system</p>
+        </div>
+
+        <div id="connection" class="connection">
+            Connecting...
+        </div>
+
+    </header>
+
+
+    <div class="content">
+
+
+        <!-- OVERVIEW -->
+
+        <section id="overview" class="section active">
+
+            <div class="cards">
+
+                <div class="card">
+                    <div class="card-title">TOTAL STUDENTS</div>
+                    <div id="totalStudents" class="card-value">—</div>
+                    <div class="card-sub">Active student records</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">HIGH RISK</div>
+                    <div id="highRisk" class="card-value red">—</div>
+                    <div class="card-sub">Immediate attention</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">MEDIUM RISK</div>
+                    <div id="mediumRisk" class="card-value orange">—</div>
+                    <div class="card-sub">Needs monitoring</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">LOW RISK</div>
+                    <div id="lowRisk" class="card-value green">—</div>
+                    <div class="card-sub">Performing well</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">NEEDS ATTENTION</div>
+                    <div id="attentionRisk" class="card-value">—</div>
+                    <div class="card-sub">High + Medium risk</div>
+                </div>
+
+            </div>
+
+
+            <div class="chart-grid">
+
+                <div class="chart-card">
+
+                    <div class="chart-title">
+                        Risk Distribution
+                    </div>
+
+                    <div class="chart-description">
+                        Distribution of students across risk categories
+                    </div>
+
+                    <div class="chart-container">
+                        <canvas id="riskChart"></canvas>
+                    </div>
+
+                </div>
+
+
+                <div class="chart-card">
+
+                    <div class="chart-title">
+                        Average Study Hours by Risk
+                    </div>
+
+                    <div class="chart-description">
+                        Average daily study hours across risk groups
+                    </div>
+
+                    <div class="chart-container">
+                        <canvas id="studyChart"></canvas>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ANALYTICS -->
+
+        <section id="analytics" class="section">
+
+            <div class="chart-grid">
+
+                <div class="chart-card">
+                    <div class="chart-title">Previous GPA by Risk</div>
+                    <div class="chart-description">
+                        Average previous GPA for each risk category
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="gpaChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="chart-title">Attendance by Risk</div>
+                    <div class="chart-description">
+                        Average attendance percentage
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="attendanceChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="chart-title">Assignment Completion</div>
+                    <div class="chart-description">
+                        Average assignment completion percentage
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="assignmentChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="chart-title">Study Hours</div>
+                    <div class="chart-description">
+                        Average daily study hours
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="analyticsStudyChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-card full">
+                    <div class="chart-title">Distraction Hours</div>
+                    <div class="chart-description">
+                        Average total distraction hours by risk group
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="distractionChart"></canvas>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- STUDENTS -->
+
+        <section id="students" class="section">
+
+            <div class="toolbar">
+
+                <input
+                    id="search"
+                    class="search"
+                    type="text"
+                    placeholder="Search by Student ID..."
+                >
+
+                <select id="riskFilter">
+                    <option value="">All Risk Levels</option>
+                    <option value="High">High Risk</option>
+                    <option value="Medium">Medium Risk</option>
+                    <option value="Low">Low Risk</option>
+                </select>
+
+            </div>
+
+
+            <div class="table-card">
+
+                <div class="table-header">
+                    Student Risk Records
+                    <span id="studentCount"
+                          style="float:right;color:#64748b;font-size:12px;">
+                        0 students
+                    </span>
+                </div>
+
+                <div class="table-wrapper">
+
+                    <table>
+
+                        <thead>
+
+                            <tr>
+                                <th>Student ID</th>
+                                <th>Risk</th>
+                                <th>Attendance</th>
+                                <th>Assignment</th>
+                                <th>GPA</th>
+                                <th>Study / Day</th>
+                                <th>Distraction</th>
+                                <th>Action</th>
+                            </tr>
+
+                        </thead>
+
+                        <tbody id="studentTable">
+
+                            <tr>
+                                <td colspan="8" class="loading">
+                                    Loading students...
+                                </td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- INSIGHTS -->
+
+        <section id="insights" class="section">
+
+            <div class="insight-grid">
+
+                <div class="insight">
+                    <h3>📌 Risk Concentration</h3>
+                    <p>
+                        370 of 500 students are classified as High or Medium
+                        risk, representing 74% of the student population.
+                    </p>
+                </div>
+
+                <div class="insight">
+                    <h3>🎓 Previous GPA</h3>
+                    <p>
+                        Previous GPA shows a strong difference across risk
+                        groups, with Low-risk students averaging substantially
+                        higher GPA than High-risk students.
+                    </p>
+                </div>
+
+                <div class="insight">
+                    <h3>📚 Study Behavior</h3>
+                    <p>
+                        Average study hours increase from High-risk students
+                        to Medium-risk and then Low-risk students.
+                    </p>
+                </div>
+
+                <div class="insight">
+                    <h3>📅 Attendance</h3>
+                    <p>
+                        Attendance averages are relatively close across risk
+                        groups, showing that attendance alone is not enough
+                        to explain student risk.
+                    </p>
+                </div>
+
+                <div class="insight">
+                    <h3>📝 Assignments</h3>
+                    <p>
+                        Assignment completion provides useful information,
+                        but the risk classification is multidimensional.
+                    </p>
+                </div>
+
+                <div class="insight">
+                    <h3>🚨 Intervention</h3>
+                    <p>
+                        Students should be prioritized using a combination of
+                        academic performance, study behavior and engagement
+                        indicators.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PIPELINE -->
+
+        <section id="pipeline" class="section">
+
+            <div class="pipeline">
+
+                <div class="pipeline-step">
+                    <div class="pipeline-number">1</div>
+                    <div>
+                        <strong>Raw CSV Datasets</strong>
+                        <span>Students, attendance, assignments, marks, LMS and study behavior</span>
+                    </div>
+                </div>
+
+                <div class="pipeline-step">
+                    <div class="pipeline-number">2</div>
+                    <div>
+                        <strong>Python Data Processing</strong>
+                        <span>Cleaning, aggregation and feature engineering</span>
+                    </div>
+                </div>
+
+                <div class="pipeline-step">
+                    <div class="pipeline-number">3</div>
+                    <div>
+                        <strong>HDFS Storage</strong>
+                        <span>Distributed storage for processed datasets</span>
+                    </div>
+                </div>
+
+                <div class="pipeline-step">
+                    <div class="pipeline-number">4</div>
+                    <div>
+                        <strong>Hive External Tables</strong>
+                        <span>Structured analytical access to HDFS data</span>
+                    </div>
+                </div>
+
+                <div class="pipeline-step">
+                    <div class="pipeline-number">5</div>
+                    <div>
+                        <strong>Risk Analytics</strong>
+                        <span>Student-level academic and behavioral risk features</span>
+                    </div>
+                </div>
+
+                <div class="pipeline-step">
+                    <div class="pipeline-number">6</div>
+                    <div>
+                        <strong>Flask REST API</strong>
+                        <span>Backend API serving live analytical data</span>
+                    </div>
+                </div>
+
+                <div class="pipeline-step">
+                    <div class="pipeline-number">7</div>
+                    <div>
+                        <strong>Web Dashboard</strong>
+                        <span>Interactive visualization and student-level monitoring</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+</main>
+
+</div>
+
+
+<!-- STUDENT MODAL -->
+
+<div id="studentModal" class="modal">
+
+    <div class="modal-box">
+
+        <div class="modal-head">
+
+            <div>
+                <h2 id="studentTitle">Student Details</h2>
+                <p style="color:#64748b;font-size:12px;margin-top:5px;">
+                    Detailed academic and behavioral profile
+                </p>
+            </div>
+
+            <button class="close" onclick="closeStudent()">×</button>
+
+        </div>
+
+        <div id="studentDetails" class="student-grid"></div>
+
+    </div>
+
+</div>
+
+
+<script>
+
+"use strict";
+
+
+/* ================================
+   CONFIGURATION
+================================ */
+
+const API = "http://127.0.0.1:5000";
+
+
+/* ================================
+   GLOBAL STATE
+================================ */
+
+let summaryData = null;
+let riskDistributionData = null;
+let riskAnalysisData = null;
+
+const charts = {};
+
+
+/* ================================
+   API
+================================ */
+
+async function api(endpoint) {
+
+    const response = await fetch(API + endpoint);
+
+    if (!response.ok) {
+        throw new Error(
+            "API request failed: " +
+            response.status
+        );
+    }
+
+    return await response.json();
+}
+
+
+/* ================================
+   NAVIGATION
+================================ */
+
+function showSection(id, button) {
+
+    document.querySelectorAll(".section")
+        .forEach(section => {
+            section.classList.remove("active");
+        });
+
+    document.querySelectorAll(".nav button")
+        .forEach(btn => {
+            btn.classList.remove("active");
+        });
+
+    const section = document.getElementById(id);
+
+    if (!section) {
+        console.error("Section not found:", id);
+        return;
+    }
+
+    section.classList.add("active");
+
+    if (button) {
+        button.classList.add("active");
+    }
+
+    const titles = {
+        overview: "Dashboard Overview",
+        analytics: "Risk Analytics",
+        students: "At-Risk Students",
+        insights: "Analytical Insights",
+        pipeline: "Data Pipeline"
+    };
+
+    document.getElementById("pageTitle").textContent =
+        titles[id] || "Student Risk Analytics";
+
+
+    if (id === "analytics") {
+        renderAnalyticsCharts();
+    }
+
+    if (id === "students") {
+        loadStudents();
+    }
+
+}
+
+
+/* ================================
+   CONNECTION
+================================ */
+
+function setConnection(status, message) {
+
+    const element =
+        document.getElementById("connection");
+
+    element.textContent = message;
+
+    element.className = "connection " + status;
+}
+
+
+/* ================================
+   SUMMARY
+================================ */
+
+async function loadSummary() {
+
+    summaryData = await api("/api/summary");
+
+    document.getElementById("totalStudents").textContent =
+        summaryData.total_students;
+
+    document.getElementById("highRisk").textContent =
+        summaryData.high_risk;
+
+    document.getElementById("mediumRisk").textContent =
+        summaryData.medium_risk;
+
+    document.getElementById("lowRisk").textContent =
+        summaryData.low_risk;
+
+    document.getElementById("attentionRisk").textContent =
+        summaryData.high_medium_percentage + "%";
+}
+
+
+/* ================================
+   RISK DISTRIBUTION
+================================ */
+
+async function loadRiskDistribution() {
+
+    riskDistributionData =
+        await api("/api/risk-distribution");
+
+    renderRiskChart();
+}
+
+
+function renderRiskChart() {
+
+    if (!riskDistributionData) {
+        return;
+    }
+
+    const canvas =
+        document.getElementById("riskChart");
+
+    if (!canvas) {
+        return;
+    }
+
+    if (charts.risk) {
+        charts.risk.destroy();
+    }
+
+    charts.risk = new Chart(canvas, {
+
+        type: "doughnut",
+
+        data: {
+
+            labels: riskDistributionData.map(
+                item => item.risk
+            ),
+
+            datasets: [{
+
+                data: riskDistributionData.map(
+                    item => item.students
+                ),
+
+                borderWidth: 2
+
+            }]
+
+        },
+
+        options: {
+
+            responsive: true,
+
+            maintainAspectRatio: false,
+
+            plugins: {
+
+                legend: {
+                    position: "bottom"
+                },
+
+                tooltip: {
+
+                    callbacks: {
+
+                        label: function(context) {
+
+                            const item =
+                                riskDistributionData[
+                                    context.dataIndex
+                                ];
+
+                            return (
+                                item.risk +
+                                ": " +
+                                item.students +
+                                " students (" +
+                                item.percentage +
+                                "%)"
+                            );
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    });
+
+}
+
+
+/* ================================
+   RISK ANALYSIS
+================================ */
+
+async function loadRiskAnalysis() {
+
+    riskAnalysisData =
+        await api("/api/risk-analysis");
+
+}
+
+
+/* ================================
+   OVERVIEW STUDY CHART
+================================ */
+
+function renderStudyChart() {
+
+    if (!riskAnalysisData) {
+        return;
+    }
+
+    const canvas =
+        document.getElementById("studyChart");
+
+    if (!canvas) {
+        return;
+    }
+
+    if (charts.study) {
+        charts.study.destroy();
+    }
+
+    charts.study = new Chart(canvas, {
+
+        type: "bar",
+
+        data: {
+
+            labels: riskAnalysisData.map(
+                item => item.risk
+            ),
+
+            datasets: [{
+
+                label: "Study Hours / Day",
+
+                data: riskAnalysisData.map(
+                    item => Number(
+                        item.study_hours_per_day
+                    )
+                ),
+
+                borderWidth: 1
+
+            }]
+
+        },
+
+        options: {
+
+            responsive: true,
+
+            maintainAspectRatio: false,
+
+            scales: {
+
+                y: {
+
+                    beginAtZero: true,
+
+                    title: {
+                        display: true,
+                        text: "Hours / Day"
+                    }
+
+                }
+
+            },
+
+            plugins: {
+
+                legend: {
+                    display: true
+                }
+
+            }
+
+        }
+
+    });
+
+}
+
+
+/* ================================
+   ANALYTICS CHART HELPER
+================================ */
+
+function createBarChart(
+    canvasId,
+    chartKey,
+    label,
+    field,
+    yLabel
+) {
+
+    if (!riskAnalysisData) {
+        return;
+    }
+
+    const canvas =
+        document.getElementById(canvasId);
+
+    if (!canvas) {
+        console.error(
+            "Canvas missing:",
+            canvasId
+        );
+        return;
+    }
+
+    if (charts[chartKey]) {
+        charts[chartKey].destroy();
+    }
+
+    charts[chartKey] = new Chart(canvas, {
+
+        type: "bar",
+
+        data: {
+
+            labels: riskAnalysisData.map(
+                item => item.risk
+            ),
+
+            datasets: [{
+
+                label: label,
+
+                data: riskAnalysisData.map(
+                    item => Number(item[field])
+                ),
+
+                borderWidth: 1
+
+            }]
+
+        },
+
+        options: {
+
+            responsive: true,
+
+            maintainAspectRatio: false,
+
+            scales: {
+
+                y: {
+
+                    beginAtZero: true,
+
+                    title: {
+
+                        display: true,
+
+                        text: yLabel
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    });
+
+}
+
+
+/* ================================
+   ANALYTICS
+================================ */
+
+function renderAnalyticsCharts() {
+
+    if (!riskAnalysisData) {
+        return;
+    }
+
+    requestAnimationFrame(() => {
+
+        createBarChart(
+            "gpaChart",
+            "gpa",
+            "Previous GPA",
+            "gpa",
+            "GPA"
+        );
+
+        createBarChart(
+            "attendanceChart",
+            "attendance",
+            "Attendance %",
+            "attendance",
+            "Percentage"
+        );
+
+        createBarChart(
+            "assignmentChart",
+            "assignment",
+            "Assignment Completion %",
+            "assignment_completion",
+            "Percentage"
+        );
+
+        createBarChart(
+            "analyticsStudyChart",
+            "analyticsStudy",
+            "Study Hours / Day",
+            "study_hours_per_day",
+            "Hours / Day"
+        );
+
+        createBarChart(
+            "distractionChart",
+            "distraction",
+            "Distraction Hours",
+            "distraction_hours",
+            "Hours"
+        );
+
+    });
+
+}
+
+
+/* ================================
+   STUDENTS
+================================ */
+
+async function loadStudents() {
+
+    const search =
+        document.getElementById("search")
+            .value.trim();
+
+    const risk =
+        document.getElementById("riskFilter")
+            .value;
+
+    const params = new URLSearchParams();
+
+    params.set("limit", "500");
+
+    if (search) {
+        params.set("search", search);
+    }
+
+    if (risk) {
+        params.set("risk", risk);
+    }
+
+    const table =
+        document.getElementById("studentTable");
+
+    table.innerHTML = `
+        <tr>
+            <td colspan="8" class="loading">
+                Loading students...
+            </td>
+        </tr>
+    `;
+
+    try {
+
+        const result =
+            await api(
+                "/api/students?" +
+                params.toString()
+            );
+
+        renderStudents(result.students);
+
+        document.getElementById("studentCount")
+            .textContent =
+            result.count + " students";
+
+    } catch (error) {
+
+        console.error(error);
+
+        table.innerHTML = `
+            <tr>
+                <td colspan="8" class="loading">
+                    Unable to load students.
+                </td>
+            </tr>
+        `;
+
+    }
+
+}
+
+
+function renderStudents(students) {
+
+    const table =
+        document.getElementById("studentTable");
+
+    if (!students.length) {
+
+        table.innerHTML = `
+            <tr>
+                <td colspan="8" class="loading">
+                    No students found.
+                </td>
+            </tr>
+        `;
+
+        return;
+    }
+
+
+    table.innerHTML = students.map(student => {
+
+        const risk =
+            String(student.risk_level)
+                .toLowerCase();
+
+        return `
+
+            <tr>
+
+                <td>
+                    <strong>
+                        ${escapeHtml(student.student_id)}
+                    </strong>
+                </td>
+
+                <td>
+                    <span class="badge badge-${risk}">
+                        ${escapeHtml(student.risk_level)}
+                    </span>
+                </td>
+
+                <td>
+                    ${Number(
+                        student.avg_attendance
+                    ).toFixed(2)}%
+                </td>
+
+                <td>
+                    ${Number(
+                        student.assignment_completion_percentage
+                    ).toFixed(2)}%
+                </td>
+
+                <td>
+                    ${Number(
+                        student.previous_gpa
+                    ).toFixed(2)}
+                </td>
+
+                <td>
+                    ${Number(
+                        student.study_hours_per_day
+                    ).toFixed(2)}
+                </td>
+
+                <td>
+                    ${Number(
+                        student.total_distraction_hours
+                    ).toFixed(2)}
+                </td>
+
+                <td>
+
+                    <button
+                        class="view-btn"
+                        onclick="showStudent('${escapeHtml(student.student_id)}')"
+                    >
+                        View
+                    </button>
+
+                </td>
+
+            </tr>
+
+        `;
+
+    }).join("");
+
+}
+
+
+/* ================================
+   STUDENT DETAILS
+================================ */
+
+async function showStudent(studentId) {
+
+    try {
+
+        const student =
+            await api(
+                "/api/students/" +
+                encodeURIComponent(studentId)
+            );
+
+        document.getElementById("studentTitle")
+            .textContent =
+            "Student " + student.student_id;
+
+
+        const details = [
+
+            ["Risk Level", student.risk_level],
+
+            ["Attendance",
+             Number(student.avg_attendance).toFixed(2) + "%"],
+
+            ["Previous GPA",
+             Number(student.previous_gpa).toFixed(2)],
+
+            ["Internal Marks",
+             Number(student.avg_internal_marks).toFixed(2)],
+
+            ["Midterm Marks",
+             Number(student.avg_midterm_marks).toFixed(2)],
+
+            ["Final Exam Marks",
+             Number(student.avg_final_exam_marks).toFixed(2)],
+
+            ["Assignment Completion",
+             Number(
+                 student.assignment_completion_percentage
+             ).toFixed(2) + "%"],
+
+            ["Assignment Score",
+             Number(
+                 student.avg_assignment_score
+             ).toFixed(2)],
+
+            ["Study Hours / Day",
+             Number(
+                 student.study_hours_per_day
+             ).toFixed(2)],
+
+            ["Total Study Hours",
+             Number(
+                 student.total_study_hours
+             ).toFixed(2)],
+
+            ["Sleep Hours",
+             Number(
+                 student.total_sleep_hours
+             ).toFixed(2)],
+
+            ["Library Hours",
+             Number(
+                 student.total_library_hours
+             ).toFixed(2)],
+
+            ["Self Study Hours",
+             Number(
+                 student.total_self_study_hours
+             ).toFixed(2)],
+
+            ["Distraction Hours",
+             Number(
+                 student.total_distraction_hours
+             ).toFixed(2)],
+
+            ["Practice Questions",
+             Number(
+                 student.total_practice_questions
+             ).toFixed(0)],
+
+            ["LMS Logins",
+             Number(
+                 student.total_logins
+             ).toFixed(0)],
+
+            ["Video Minutes",
+             Number(
+                 student.total_video_minutes
+             ).toFixed(0)],
+
+            ["Resources Viewed",
+             Number(
+                 student.total_resources_viewed
+             ).toFixed(0)],
+
+            ["Quiz Attempts",
+             Number(
+                 student.total_quiz_attempts
+             ).toFixed(0)],
+
+            ["Forum Posts",
+             Number(
+                 student.total_forum_posts
+             ).toFixed(0)]
+
+        ];
+
+
+        document.getElementById("studentDetails")
+            .innerHTML = details.map(item => `
+
+                <div class="detail">
+
+                    <div class="detail-label">
+                        ${item[0]}
+                    </div>
+
+                    <div class="detail-value">
+                        ${item[1]}
+                    </div>
+
+                </div>
+
+            `).join("");
+
+
+        document.getElementById("studentModal")
+            .classList.add("show");
+
+    } catch (error) {
+
+        console.error(error);
+
+        alert(
+            "Unable to load student details."
+        );
+
+    }
+
+}
+
+
+function closeStudent() {
+
+    document.getElementById("studentModal")
+        .classList.remove("show");
+
+}
+
+
+/* ================================
+   SECURITY
+================================ */
+
+function escapeHtml(value) {
+
+    return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
+
+
+/* ================================
+   SEARCH
+================================ */
+
+let searchTimer;
+
+document.getElementById("search")
+    .addEventListener("input", function() {
+
+        clearTimeout(searchTimer);
+
+        searchTimer = setTimeout(
+            loadStudents,
+            250
+        );
+
+    });
+
+
+document.getElementById("riskFilter")
+    .addEventListener(
+        "change",
+        loadStudents
+    );
+
+
+/* ================================
+   CLOSE MODAL
+================================ */
+
+document.getElementById("studentModal")
+    .addEventListener("click", function(event) {
+
+        if (event.target === this) {
+            closeStudent();
+        }
+
+    });
+
+
+/* ================================
+   INITIALIZATION
+================================ */
+
+async function initialize() {
+
+    try {
+
+        setConnection(
+            "",
+            "Connecting to Flask..."
+        );
+
+        await Promise.all([
+
+            loadSummary(),
+
+            loadRiskDistribution(),
+
+            loadRiskAnalysis()
+
+        ]);
+
+        // Overview charts are visible immediately.
+        renderRiskChart();
+        renderStudyChart();
+
+        setConnection(
+            "ok",
+            "✓ Flask backend connected"
+        );
+
+    } catch (error) {
+
+        console.error(
+            "Dashboard initialization error:",
+            error
+        );
+
+        setConnection(
+            "error",
+            "✗ Flask connection failed"
+        );
+
+    }
+
+}
+
+
+/* START */
+
+initialize();
+
+</script>
+
+</body>
+</html>
